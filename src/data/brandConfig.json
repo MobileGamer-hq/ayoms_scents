@@ -1,0 +1,82 @@
+{
+  "brandName": "Ayom's Scents",
+  "tagline": "Confidence In Every Spray",
+  "phoneDisplay": "09055334786",
+  "whatsappNumber": "2349055334786",
+  "email": "ayotoluayomide@gmail.com",
+  "instagramHandle": "syk_ayo",
+  "instagramUrl": "https://instagram.com/syk_ayo",
+  "snapchatHandle": "Ayoms💜",
+  "snapchatUrl": "https://www.snapchat.com",
+  "telegramChannel": "https://t.me/ayomsscentss",
+  "telegramHandle": "@ayomsscentss",
+  "operatingHours": "Monday – Saturday, 9:00 AM – 8:00 PM (WAT)",
+  "dispatchRegions": "Lagos, Abuja, Port Harcourt & Nationwide Doorstep Delivery Across Nigeria",
+  "trustPillars": [
+    {
+      "id": "authenticity",
+      "title": "Guaranteed Authenticity",
+      "subtitle": "Batch-Verified & Certified",
+      "description": "Every flacon is individually batch-verified and sourced strictly from certified authorized distributors. Zero counterfeits, zero compromises.",
+      "icon": "ShieldCheck"
+    },
+    {
+      "id": "dispatch",
+      "title": "Direct Doorstep Dispatch",
+      "subtitle": "Insulated Climate Care",
+      "description": "Delicate perfume chemistry demands temperature-controlled protection. We utilize shock-resistant, insulated luxury packaging across Nigeria.",
+      "icon": "Truck"
+    },
+    {
+      "id": "advisory",
+      "title": "Personalized Olfactory Advisory",
+      "subtitle": "Bespoke Scent Matchmaking",
+      "description": "Looking for your signature fragrance? Connect directly with our private fragrance curator via WhatsApp for tailored scent profiling.",
+      "icon": "Sparkles"
+    }
+  ],
+  "remoteSteps": [
+    {
+      "step": "01",
+      "title": "Explore & Inspect Olfactory Dossier",
+      "description": "Browse our curated collection of rare extraits and eau de parfums. Inspect olfactory pyramids, notes breakdown, and longevity ratings."
+    },
+    {
+      "step": "02",
+      "title": "Instant WhatsApp Verification & Consultation",
+      "description": "Tap 'Order via WhatsApp' to verify live stock availability, bottle volume, and speak directly with our concierge."
+    },
+    {
+      "step": "03",
+      "title": "Secure Settlement & Tracked Dispatch",
+      "description": "Confirm order with verified electronic transfer and receive an itemized receipt with express doorstep tracking in 24–48 hours."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "How do I place an order since you operate exclusively online?",
+      "answer": "Simply tap the 'Order via WhatsApp' button on any perfume card or dossier. This generates a pre-formatted message directly to our official concierge line (09055334786). We will confirm stock immediately, provide settlement details, and arrange prompt doorstep delivery."
+    },
+    {
+      "question": "How do you guarantee that your fragrances are 100% authentic?",
+      "answer": "All our perfumes are imported directly from certified brand distributors across France, the UK, and the United States. Every bottle features a traceable batch code that you can inspect and verify against official brand registries."
+    },
+    {
+      "question": "What are your delivery timelines across Nigeria?",
+      "answer": "For clients in Lagos, delivery is typically same-day or within 24 hours. For Abuja, Port Harcourt, and other states nationwide, doorstep dispatch takes 48 to 72 hours via our vetted express logistics partners."
+    },
+    {
+      "question": "How are the perfumes protected against heat during transit?",
+      "answer": "Fragrance molecules are heat-sensitive. All Ayom's Scents shipments are wrapped in thermal insulation cushioning to safeguard perfume oils and flacons against temperature spikes and physical impact."
+    },
+    {
+      "question": "Can I request sample decants before committing to a full bottle?",
+      "answer": "Yes! We offer 5ml and 10ml travel atomizer decants for select niche and designer perfumes. Contact our WhatsApp concierge to curate a personalized discovery set."
+    },
+    {
+      "question": "What payment methods do you accept?",
+      "answer": "We accept secure instant bank transfers and online card payments. An itemized invoice and dispatch tracking number are shared immediately upon payment confirmation."
+    }
+  ],
+  "editorialQuote": "A fragrance is an invisible signature that announces your presence and lingers in memory long after you have departed."
+}

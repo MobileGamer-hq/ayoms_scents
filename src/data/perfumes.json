@@ -1,0 +1,460 @@
+[
+  {
+    "id": "ayom-01",
+    "name": "Grand Soir",
+    "house": "Maison Francis Kurkdjian",
+    "family": "Amber / Oriental",
+    "gender": "Unisex",
+    "concentration": "Eau de Parfum",
+    "price": "₦285,000",
+    "volume": "70ml",
+    "image": "https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?auto=format&fit=crop&q=80&w=800",
+    "description": "A dressy amber masterpiece cloaked in rich benzoin, vanilla, and warm tonka bean. Radiates warmth and undeniable regal sophistication.",
+    "badge": "Curator's Spotlight",
+    "isSpotlight": true,
+    "signatureNote": "Spanish Labdanum & Siam Benzoin",
+    "notes": {
+      "top": [
+        "Spanish Labdanum",
+        "Lavender"
+      ],
+      "heart": [
+        "Benzoin Siam",
+        "Amber Accord"
+      ],
+      "base": [
+        "Brazilian Tonka Bean",
+        "Madagascan Vanilla"
+      ]
+    },
+    "performance": {
+      "longevity": "10-12 Hours",
+      "sillage": "Enveloping"
+    },
+    "occasion": "Gala, Black Tie, Cold Evenings",
+    "season": "Autumn / Winter"
+  },
+  {
+    "id": "ayom-02",
+    "name": "Baccarat Rouge 540 Extrait",
+    "house": "Maison Francis Kurkdjian",
+    "family": "Amber / Oriental",
+    "gender": "Unisex",
+    "concentration": "Extrait de Parfum",
+    "price": "₦460,000",
+    "volume": "70ml",
+    "image": "https://images.unsplash.com/photo-1588405748880-12d1d2a59f75?auto=format&fit=crop&q=80&w=800",
+    "description": "The pinnacle of luminous luxury. Saffron and bitter almond blossom into Egyptian grandiflorum jasmine and sensual cedar ambergris.",
+    "badge": "Our #1 Signature",
+    "isSpotlight": true,
+    "signatureNote": "Red Saffron & Bitter Almond",
+    "notes": {
+      "top": [
+        "Bitter Almond",
+        "Grandiflorum Saffron"
+      ],
+      "heart": [
+        "Egyptian Jasmine",
+        "Cedarwood"
+      ],
+      "base": [
+        "Ambergris Accord",
+        "Musky Woody Notes"
+      ]
+    },
+    "performance": {
+      "longevity": "14+ Hours",
+      "sillage": "Colossal"
+    },
+    "occasion": "Red Carpet, High Profile Meetings, Evenings",
+    "season": "All Seasons"
+  },
+  {
+    "id": "ayom-03",
+    "name": "Delina Exclusif",
+    "house": "Parfums de Marly",
+    "family": "Floral",
+    "gender": "Pour Femme",
+    "concentration": "Extrait de Parfum",
+    "price": "₦320,000",
+    "volume": "75ml",
+    "image": "https://images.unsplash.com/photo-1547887537-6158d64c35b3?auto=format&fit=crop&q=80&w=800",
+    "description": "An alluring triumph of Turkish rose infused with velvety pear, lychee, amber, and an incandescent smoky incense veil.",
+    "badge": "Haute Femininity",
+    "isSpotlight": true,
+    "signatureNote": "Turkish Rose & Lychee Pear",
+    "notes": {
+      "top": [
+        "Lychee",
+        "Bergamot",
+        "Crisp Pear"
+      ],
+      "heart": [
+        "Turkish Rose",
+        "Incense",
+        "Oud"
+      ],
+      "base": [
+        "Vanilla Pod",
+        "Amber",
+        "Evernyl"
+      ]
+    },
+    "performance": {
+      "longevity": "12-14 Hours",
+      "sillage": "Strong Projection"
+    },
+    "occasion": "Weddings, VIP Dinners, Romantic Dates",
+    "season": "Spring / Autumn / All Year"
+  },
+  {
+    "id": "ayom-04",
+    "name": "Oud Wood",
+    "house": "Tom Ford",
+    "family": "Woody",
+    "gender": "Unisex",
+    "concentration": "Eau de Parfum",
+    "price": "₦295,000",
+    "volume": "100ml",
+    "image": "https://images.unsplash.com/photo-1523293182086-7651a899d37f?auto=format&fit=crop&q=80&w=800",
+    "description": "Rare, exotic oud wood blended with rosewood and cardamom gives way to a smoky blend of sandalwood, vetiver, and amber tonka bean.",
+    "badge": "Timeless Icon",
+    "isSpotlight": false,
+    "signatureNote": "Smoked Oud & Rosewood",
+    "notes": {
+      "top": [
+        "Rosewood",
+        "Cardamom",
+        "Chinese Pepper"
+      ],
+      "heart": [
+        "Smoky Oud Wood",
+        "Sandalwood",
+        "Vetiver"
+      ],
+      "base": [
+        "Tonka Bean",
+        "Vanilla",
+        "Amber"
+      ]
+    },
+    "performance": {
+      "longevity": "8-10 Hours",
+      "sillage": "Moderate & Sophisticated"
+    },
+    "occasion": "Executive Boardrooms, Formal Dinners",
+    "season": "Autumn / Winter"
+  },
+  {
+    "id": "ayom-05",
+    "name": "Aventus",
+    "house": "Creed",
+    "family": "Fresh",
+    "gender": "Pour Homme",
+    "concentration": "Eau de Parfum",
+    "price": "₦390,000",
+    "volume": "100ml",
+    "image": "https://images.unsplash.com/photo-1616949755610-8c9bbc08f138?auto=format&fit=crop&q=80&w=800",
+    "description": "Sensual, audacious, and contemporary. A celebratory blend of smoky birch, blackcurrant, Italian bergamot, and precious French oakmoss.",
+    "badge": "Power & Legacy",
+    "isSpotlight": false,
+    "signatureNote": "Smoky Birch & Blackcurrant",
+    "notes": {
+      "top": [
+        "Italian Bergamot",
+        "Blackcurrant",
+        "Apple",
+        "Pineapple"
+      ],
+      "heart": [
+        "Smoky Birch",
+        "Patchouli",
+        "Moroccan Jasmine",
+        "Rose"
+      ],
+      "base": [
+        "Musk",
+        "Oakmoss",
+        "Ambergris",
+        "Vanilla"
+      ]
+    },
+    "performance": {
+      "longevity": "9-11 Hours",
+      "sillage": "Commanding"
+    },
+    "occasion": "Signature Daily, High-Stakes Negotiations",
+    "season": "Spring / Summer / All Year"
+  },
+  {
+    "id": "ayom-06",
+    "name": "Angels' Share",
+    "house": "Kilian Paris",
+    "family": "Gourmand",
+    "gender": "Unisex",
+    "concentration": "Eau de Parfum",
+    "price": "₦310,000",
+    "volume": "50ml",
+    "image": "https://images.unsplash.com/photo-1594035910387-fea47794261f?auto=format&fit=crop&q=80&w=800",
+    "description": "Distilled like fine cognac. A rich amber liqueur infusion laced with cinnamon bark, praline sweetness, and aged oak wood barrel accords.",
+    "badge": "Opulent Gourmand",
+    "isSpotlight": false,
+    "signatureNote": "Cognac Oil & Cinnamon Bark",
+    "notes": {
+      "top": [
+        "Cognac Oil Essence"
+      ],
+      "heart": [
+        "Cinnamon Bark",
+        "Tonka Bean Absolute",
+        "Oak Wood"
+      ],
+      "base": [
+        "Praline Accord",
+        "Vanilla",
+        "Sandalwood"
+      ]
+    },
+    "performance": {
+      "longevity": "11-13 Hours",
+      "sillage": "Intoxicating & Warm"
+    },
+    "occasion": "Chilly Nights, Lounge Evenings, Speakeasies",
+    "season": "Autumn / Winter"
+  },
+  {
+    "id": "ayom-07",
+    "name": "Layton",
+    "house": "Parfums de Marly",
+    "family": "Woody",
+    "gender": "Pour Homme",
+    "concentration": "Eau de Parfum",
+    "price": "₦275,000",
+    "volume": "125ml",
+    "image": "https://images.unsplash.com/photo-1594913785162-e678ac0570b2?auto=format&fit=crop&q=80&w=800",
+    "description": "An intoxicating oriental and floral fragrance with intense olfactory signature: crisp apple, lavender, spiced vanilla, and noble woods.",
+    "badge": "Modern Gentleman",
+    "isSpotlight": false,
+    "signatureNote": "Crisp Apple & Bourbon Vanilla",
+    "notes": {
+      "top": [
+        "Bergamot",
+        "Lavender",
+        "Crisp Apple",
+        "Mandarin"
+      ],
+      "heart": [
+        "Violet",
+        "Jasmine",
+        "Geranium"
+      ],
+      "base": [
+        "Guaiac Wood",
+        "Patchouli",
+        "Sandalwood",
+        "Cardamom",
+        "Vanilla",
+        "Pepper"
+      ]
+    },
+    "performance": {
+      "longevity": "10-12 Hours",
+      "sillage": "Magnetic"
+    },
+    "occasion": "Date Nights, Special Celebrations, Evenings",
+    "season": "Autumn / Winter / Spring"
+  },
+  {
+    "id": "ayom-08",
+    "name": "Lost Cherry",
+    "house": "Tom Ford",
+    "family": "Gourmand",
+    "gender": "Unisex",
+    "concentration": "Eau de Parfum",
+    "price": "₦340,000",
+    "volume": "50ml",
+    "image": "https://images.unsplash.com/photo-1595425970377-c9703cf48b6d?auto=format&fit=crop&q=80&w=800",
+    "description": "A full-bodied journey into the once-forbidden. Black cherry ripe dripping in cherry liqueur, touches of bitter almond, and Peru balsam.",
+    "badge": "Seductive Sensation",
+    "isSpotlight": false,
+    "signatureNote": "Black Cherry Liqueur & Bitter Almond",
+    "notes": {
+      "top": [
+        "Black Cherry",
+        "Cherry Liqueur",
+        "Bitter Almond"
+      ],
+      "heart": [
+        "Griottine Syrup",
+        "Turkish Rose",
+        "Jasmine Sambac"
+      ],
+      "base": [
+        "Peru Balsam",
+        "Roasted Tonka",
+        "Sandalwood",
+        "Vetiver",
+        "Cedar"
+      ]
+    },
+    "performance": {
+      "longevity": "8-10 Hours",
+      "sillage": "Alluringly Close"
+    },
+    "occasion": "Cocktail Lounges, Romantic Rendezvous",
+    "season": "Autumn / Winter / Evening"
+  },
+  {
+    "id": "ayom-09",
+    "name": "Silver Mountain Water",
+    "house": "Creed",
+    "family": "Fresh",
+    "gender": "Unisex",
+    "concentration": "Eau de Parfum",
+    "price": "₦360,000",
+    "volume": "100ml",
+    "image": "https://images.unsplash.com/photo-1615397349754-cfa2066a298e?auto=format&fit=crop&q=80&w=800",
+    "description": "Inspired by the exhilarating crispness of alpine mountain air. Sparkles with green tea, blackcurrant, galbanum, and pure musk.",
+    "badge": "Pure Radiance",
+    "isSpotlight": false,
+    "signatureNote": "Green Tea & Crisp Blackcurrant",
+    "notes": {
+      "top": [
+        "Bergamot",
+        "Mandarin Orange"
+      ],
+      "heart": [
+        "Green Tea",
+        "Blackcurrant Bud"
+      ],
+      "base": [
+        "Musk",
+        "Galbanum",
+        "Sandalwood",
+        "Petitgrain"
+      ]
+    },
+    "performance": {
+      "longevity": "7-9 Hours",
+      "sillage": "Fresh & Crisp"
+    },
+    "occasion": "Sunny Days, Daytime Meetings, Resort Escapes",
+    "season": "Spring / Summer"
+  },
+  {
+    "id": "ayom-10",
+    "name": "Portrait of a Lady",
+    "house": "Frédéric Malle",
+    "family": "Floral",
+    "gender": "Pour Femme",
+    "concentration": "Eau de Parfum",
+    "price": "₦380,000",
+    "volume": "100ml",
+    "image": "https://images.unsplash.com/photo-1587017539504-67cfbddac569?auto=format&fit=crop&q=80&w=800",
+    "description": "An operatic symphony containing 400 Turkish roses per 100ml bottle. Cloaked in dark patchouli, frankincense, sandalwood, and raspberry.",
+    "badge": "Editorial Masterpiece",
+    "isSpotlight": false,
+    "signatureNote": "Turkish Rose & Dark Patchouli",
+    "notes": {
+      "top": [
+        "Rose",
+        "Clove",
+        "Raspberry",
+        "Blackcurrant",
+        "Cinnamon"
+      ],
+      "heart": [
+        "Patchouli Heart",
+        "Incense",
+        "Sandalwood"
+      ],
+      "base": [
+        "Musk",
+        "Benzoin",
+        "Amber"
+      ]
+    },
+    "performance": {
+      "longevity": "14+ Hours",
+      "sillage": "Grand Opera"
+    },
+    "occasion": "Art Galas, Black Tie Events, High Culture Evenings",
+    "season": "Autumn / Winter"
+  },
+  {
+    "id": "ayom-11",
+    "name": "Gris Charnel Extrait",
+    "house": "BDK Parfums",
+    "family": "Woody",
+    "gender": "Unisex",
+    "concentration": "Extrait de Parfum",
+    "price": "₦290,000",
+    "volume": "100ml",
+    "image": "https://images.unsplash.com/photo-1563178406-4cdc2923acbc?auto=format&fit=crop&q=80&w=800",
+    "description": "Rich fig, black tea, and bourbon vetiver amplified into an intense nocturnal concentration with patchouli and smoky tonka bean.",
+    "badge": "Parisian Niche",
+    "isSpotlight": false,
+    "signatureNote": "Black Tea & Smoked Fig",
+    "notes": {
+      "top": [
+        "Cardamom",
+        "Black Tea Extract",
+        "Fig Accord"
+      ],
+      "heart": [
+        "Iris Absolute",
+        "Bourbon Vetiver",
+        "Cistus"
+      ],
+      "base": [
+        "Indonesian Patchouli",
+        "Vanilla",
+        "Sandalwood",
+        "Cedar"
+      ]
+    },
+    "performance": {
+      "longevity": "12-14 Hours",
+      "sillage": "Velvety & Dense"
+    },
+    "occasion": "Intimate Dinners, Rain-Swept Afternoons",
+    "season": "Autumn / Winter / Spring"
+  },
+  {
+    "id": "ayom-12",
+    "name": "Tobacco Vanille",
+    "house": "Tom Ford",
+    "family": "Gourmand",
+    "gender": "Unisex",
+    "concentration": "Eau de Parfum",
+    "price": "₦320,000",
+    "volume": "100ml",
+    "image": "https://images.unsplash.com/photo-1583445013765-46c20c4a6772?auto=format&fit=crop&q=80&w=800",
+    "description": "Reminiscent of an exclusive English gentlemen’s club. Opulent aromatic tobacco leaf paired with rich spices, vanilla, and sweet wood sap.",
+    "badge": "Warm Opulence",
+    "isSpotlight": false,
+    "signatureNote": "Tobacco Leaf & Madagascan Vanilla",
+    "notes": {
+      "top": [
+        "Tobacco Leaf",
+        "Spicy Notes"
+      ],
+      "heart": [
+        "Vanilla Pod",
+        "Cacao",
+        "Tonka Bean",
+        "Tobacco Blossom"
+      ],
+      "base": [
+        "Dried Fruits Accord",
+        "Woody Notes"
+      ]
+    },
+    "performance": {
+      "longevity": "12-15 Hours",
+      "sillage": "Enchanting & Heavy"
+    },
+    "occasion": "Formal Gatherings, Winter Holidays, Night Out",
+    "season": "Winter / Late Autumn"
+  }
+]

@@ -1,0 +1,64 @@
+@import "tailwindcss";
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  @media (min-width: 768px) {
+    html {
+      scroll-snap-type: y proximity;
+    }
+  }
+  
+  :root {
+    --font-serif: 'Cormorant Garamond', 'Playfair Display', Georgia, serif;
+    --font-display: 'Playfair Display', 'Cormorant Garamond', Georgia, serif;
+    --font-sans: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  }
+}
+
+.font-serif-luxury {
+  font-family: 'Cormorant Garamond', 'Playfair Display', Georgia, serif;
+}
+
+.font-display-luxury {
+  font-family: 'Playfair Display', 'Cormorant Garamond', Georgia, serif;
+}
+
+.font-sans-luxury {
+  font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+}
+
+/* Editorial subtle shadows mimicking flat-lay photography */
+.editorial-shadow {
+  box-shadow: 0 16px 36px -12px rgba(28, 24, 20, 0.08), 0 2px 6px -1px rgba(28, 24, 20, 0.04);
+}
+
+.editorial-shadow-hover {
+  box-shadow: 0 30px 60px -15px rgba(28, 24, 20, 0.16), 0 0 0 1px rgba(197, 168, 128, 0.3);
+}
+
+.gold-glow {
+  box-shadow: 0 0 30px -4px rgba(197, 168, 128, 0.35);
+}
+
+.magenta-glow {
+  box-shadow: 0 0 30px -4px rgba(217, 70, 239, 0.28);
+}
+
+/* Custom delicate scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #f3ede4;
+}
+::-webkit-scrollbar-thumb {
+  background: #c5a880;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #9d8059;
+}
+
