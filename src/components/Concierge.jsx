@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { MessageCircle, ChevronDown, Sparkles, Truck, ShieldCheck, HelpCircle } from 'lucide-react';
+import { MessageCircle, ChevronDown, HelpCircle } from 'lucide-react';
 import { BRAND_CONFIG } from '../data/perfumesData';
 import { buildWhatsAppAdvisoryUrl } from '../utils/whatsapp';
 
@@ -38,19 +38,19 @@ export default function Concierge() {
   };
 
   return (
-    <section id="concierge" className="min-h-screen w-full flex flex-col justify-center py-20 md:py-28 bg-[#F5EFEB]/50 border-t border-[#E8E1D5] snap-start">
+    <section id="concierge" className="min-h-screen w-full flex flex-col justify-center py-20 md:py-28 bg-[#FBF0F3]/60 border-t border-[#F0DDE2] snap-start">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full">
         
         {/* Section Header */}
         <div className="text-center max-w-3xl mx-auto mb-16">
           <span className="text-[10px] uppercase font-sans-luxury tracking-[0.25em] text-[#C5A880] block mb-2 font-semibold">
-            Boutique Operations & Client Care
+            Easy Ordering & Fast Delivery
           </span>
           <h2 className="font-serif-luxury text-3xl sm:text-5xl text-[#181512] font-normal tracking-tight mb-4">
-            Digital Concierge & Ordering
+            How to Order & Support
           </h2>
           <p className="font-sans-luxury text-xs sm:text-sm text-[#5C5044] leading-relaxed font-light">
-            Ayom's Scents operates exclusively online with white-glove doorstep delivery across Lagos, Abuja, and all Nigerian states. Connect with us through any of our official channels.
+            Based in Covenant University (CU). We provide fast, direct delivery straight to your hall or room on campus. Reach out to us through any of our official channels.
           </p>
         </div>
 
@@ -58,7 +58,7 @@ export default function Concierge() {
         <div className="mb-20">
           <div className="text-center mb-8">
             <span className="text-xs uppercase font-sans-luxury tracking-[0.2em] text-[#9E8B75] font-medium">
-              Three Steps to Order
+              Three Simple Steps to Order
             </span>
           </div>
 
@@ -66,9 +66,9 @@ export default function Concierge() {
             {BRAND_CONFIG.remoteSteps.map((stepItem) => (
               <div
                 key={stepItem.step}
-                className="bg-white rounded-2xl p-8 border border-[#E8E1D5] editorial-shadow hover:editorial-shadow-hover transition-all duration-300 relative group"
+                className="bg-white/90 rounded-2xl p-8 border border-[#F0DDE2] editorial-shadow hover:editorial-shadow-hover transition-all duration-300 relative group"
               >
-                <div className="font-serif-luxury text-5xl font-light text-[#E8E1D5] group-hover:text-[#D4AF37] transition-colors mb-4">
+                <div className="font-serif-luxury text-5xl font-light text-[#F0DDE2] group-hover:text-[#D4AF37] transition-colors mb-4">
                   {stepItem.step}
                 </div>
 
@@ -99,10 +99,10 @@ export default function Concierge() {
               href={buildWhatsAppAdvisoryUrl()}
               target="_blank"
               rel="noopener noreferrer"
-              className="group bg-white rounded-2xl p-6 border border-[#E8E1D5] hover:border-[#D4AF37] transition-all duration-300 editorial-shadow flex flex-col justify-between"
+              className="group bg-white/90 rounded-2xl p-6 border border-[#F0DDE2] hover:border-[#D4AF37] transition-all duration-300 editorial-shadow flex flex-col justify-between"
             >
               <div>
-                <div className="w-11 h-11 rounded-xl bg-[#FAF7F2] border border-[#E8E1D5] text-[#8C6D46] flex items-center justify-center mb-4 group-hover:scale-105 transition-transform">
+                <div className="w-11 h-11 rounded-xl bg-[#FDF2F5] border border-[#F0DDE2] text-[#8C6D46] flex items-center justify-center mb-4 group-hover:scale-105 transition-transform">
                   <MessageCircle className="w-5 h-5" />
                 </div>
                 <span className="text-[10px] uppercase font-sans-luxury tracking-widest text-[#8C6D46] font-semibold block mb-1">
@@ -115,7 +115,7 @@ export default function Concierge() {
                   Fastest response for instant stock confirmation and dispatch details.
                 </p>
               </div>
-              <div className="pt-3 border-t border-[#F0EBE1] flex items-center justify-between text-xs font-medium text-[#8C6D46]">
+              <div className="pt-3 border-t border-[#F0DDE2] flex items-center justify-between text-xs font-medium text-[#8C6D46]">
                 <span>Message Now</span>
                 <span className="group-hover:translate-x-1 transition-transform">→</span>
               </div>
@@ -126,23 +126,23 @@ export default function Concierge() {
               href={BRAND_CONFIG.instagramUrl}
               target="_blank"
               rel="noopener noreferrer"
-              className="group bg-white rounded-2xl p-6 border border-[#E8E1D5] hover:border-[#D4AF37] transition-all duration-300 editorial-shadow flex flex-col justify-between"
+              className="group bg-white/90 rounded-2xl p-6 border border-[#F0DDE2] hover:border-[#D4AF37] transition-all duration-300 editorial-shadow flex flex-col justify-between"
             >
               <div>
-                <div className="w-11 h-11 rounded-xl bg-[#FAF7F2] border border-[#E8E1D5] text-[#8C6D46] flex items-center justify-center mb-4 group-hover:scale-105 transition-transform">
+                <div className="w-11 h-11 rounded-xl bg-[#FDF2F5] border border-[#F0DDE2] text-[#8C6D46] flex items-center justify-center mb-4 group-hover:scale-105 transition-transform">
                   <InstagramIcon className="w-5 h-5" />
                 </div>
                 <span className="text-[10px] uppercase font-sans-luxury tracking-widest text-[#8C6D46] font-semibold block mb-1">
                   Instagram
                 </span>
                 <h4 className="font-serif-luxury text-xl text-[#181512] font-medium mb-1">
-                  {BRAND_CONFIG.instagramHandle}
+                  @{BRAND_CONFIG.instagramHandle}
                 </h4>
                 <p className="text-xs text-[#5C5044] font-sans-luxury leading-relaxed font-light mb-4">
                   Visual previews of newly unboxed perfumes and customer reviews.
                 </p>
               </div>
-              <div className="pt-3 border-t border-[#F0EBE1] flex items-center justify-between text-xs font-medium text-[#8C6D46]">
+              <div className="pt-3 border-t border-[#F0DDE2] flex items-center justify-between text-xs font-medium text-[#8C6D46]">
                 <span>Visit Profile</span>
                 <span className="group-hover:translate-x-1 transition-transform">→</span>
               </div>
@@ -153,10 +153,10 @@ export default function Concierge() {
               href={BRAND_CONFIG.telegramChannel}
               target="_blank"
               rel="noopener noreferrer"
-              className="group bg-white rounded-2xl p-6 border border-[#E8E1D5] hover:border-[#D4AF37] transition-all duration-300 editorial-shadow flex flex-col justify-between"
+              className="group bg-white/90 rounded-2xl p-6 border border-[#F0DDE2] hover:border-[#D4AF37] transition-all duration-300 editorial-shadow flex flex-col justify-between"
             >
               <div>
-                <div className="w-11 h-11 rounded-xl bg-[#FAF7F2] border border-[#E8E1D5] text-[#8C6D46] flex items-center justify-center mb-4 group-hover:scale-105 transition-transform">
+                <div className="w-11 h-11 rounded-xl bg-[#FDF2F5] border border-[#F0DDE2] text-[#8C6D46] flex items-center justify-center mb-4 group-hover:scale-105 transition-transform">
                   <TelegramIcon className="w-5 h-5" />
                 </div>
                 <span className="text-[10px] uppercase font-sans-luxury tracking-widest text-[#8C6D46] font-semibold block mb-1">
@@ -169,16 +169,16 @@ export default function Concierge() {
                   Broadcasts, newly landed bottles, special drops, and stock updates.
                 </p>
               </div>
-              <div className="pt-3 border-t border-[#F0EBE1] flex items-center justify-between text-xs font-medium text-[#8C6D46]">
+              <div className="pt-3 border-t border-[#F0DDE2] flex items-center justify-between text-xs font-medium text-[#8C6D46]">
                 <span>Join Channel</span>
                 <span className="group-hover:translate-x-1 transition-transform">→</span>
               </div>
             </a>
 
             {/* Snapchat Touchpoint */}
-            <div className="bg-white rounded-2xl p-6 border border-[#E8E1D5] hover:border-[#D4AF37] transition-all duration-300 editorial-shadow flex flex-col justify-between">
+            <div className="bg-white/90 rounded-2xl p-6 border border-[#F0DDE2] hover:border-[#D4AF37] transition-all duration-300 editorial-shadow flex flex-col justify-between">
               <div>
-                <div className="w-11 h-11 rounded-xl bg-[#FAF7F2] border border-[#E8E1D5] text-[#8C6D46] flex items-center justify-center mb-4">
+                <div className="w-11 h-11 rounded-xl bg-[#FDF2F5] border border-[#F0DDE2] text-[#8C6D46] flex items-center justify-center mb-4">
                   <SnapchatIcon className="w-5 h-5" />
                 </div>
                 <span className="text-[10px] uppercase font-sans-luxury tracking-widest text-[#8C6D46] font-semibold block mb-1">
@@ -191,7 +191,7 @@ export default function Concierge() {
                   Behind the scenes, daily unboxing snaps, and packaging stories.
                 </p>
               </div>
-              <div className="pt-3 border-t border-[#F0EBE1] flex items-center justify-between text-xs font-medium text-[#8C6D46]">
+              <div className="pt-3 border-t border-[#F0DDE2] flex items-center justify-between text-xs font-medium text-[#8C6D46]">
                 <span>Add on Snap: {BRAND_CONFIG.snapchatHandle}</span>
               </div>
             </div>
@@ -207,7 +207,7 @@ export default function Concierge() {
               <span>Frequently Asked Questions</span>
             </div>
             <h3 className="font-serif-luxury text-2xl sm:text-3xl text-[#181512] font-normal">
-              Boutique & Delivery Inquiries
+              Common Questions & Delivery
             </h3>
           </div>
 
@@ -217,11 +217,11 @@ export default function Concierge() {
               return (
                 <div
                   key={faq.question}
-                  className="bg-white rounded-2xl border border-[#E8E1D5] overflow-hidden transition-all duration-200"
+                  className="bg-white/90 rounded-2xl border border-[#F0DDE2] overflow-hidden transition-all duration-200"
                 >
                   <button
                     onClick={() => toggleFaq(idx)}
-                    className="w-full p-5 sm:p-6 text-left flex items-center justify-between gap-4 hover:bg-[#FAF7F2] transition-colors"
+                    className="w-full p-5 sm:p-6 text-left flex items-center justify-between gap-4 hover:bg-[#FDF2F5] transition-colors"
                   >
                     <span className="font-serif-luxury text-lg sm:text-xl text-[#181512] font-medium">
                       {faq.question}
@@ -234,7 +234,7 @@ export default function Concierge() {
                   </button>
 
                   {isOpen && (
-                    <div className="px-5 pb-6 sm:px-6 pt-1 text-xs sm:text-sm font-sans-luxury text-[#5C5044] leading-relaxed font-light border-t border-[#F5EFEB]">
+                    <div className="px-5 pb-6 sm:px-6 pt-1 text-xs sm:text-sm font-sans-luxury text-[#5C5044] leading-relaxed font-light border-t border-[#F0DDE2]">
                       {faq.answer}
                     </div>
                   )}

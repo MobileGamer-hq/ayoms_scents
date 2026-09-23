@@ -28,7 +28,7 @@ export default function App() {
   const spotlightPerfumes = PERFUMES_DATA.filter((p) => p.isSpotlight).slice(0, 3);
 
   return (
-    <div className="min-h-screen font-sans-luxury bg-[#FAF7F2] text-[#181512]">
+    <div className="min-h-screen font-sans-luxury bg-[#FAF0F3] text-[#181512]">
       {/* Top Fixed Editorial Navbar */}
       <Navbar />
 

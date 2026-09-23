@@ -50,30 +50,30 @@ export default function ScentDossier({ perfume, isOpen, onClose }) {
       <div className="fixed inset-0 sm:inset-y-0 sm:left-auto sm:right-0 max-w-full flex sm:pl-10 w-full sm:w-auto">
         
         {/* Full-Screen on Mobile, Drawer Panel on Desktop */}
-        <div className="w-full sm:w-screen sm:max-w-xl bg-[#FAF7F2] border-l-0 sm:border-l border-[#E8E1D5] shadow-2xl flex flex-col justify-between overflow-y-auto transform transition-transform duration-500 ease-out h-full">
+        <div className="w-full sm:w-screen sm:max-w-xl bg-[#FAF0F3] border-l-0 sm:border-l border-[#F0DDE2] shadow-2xl flex flex-col justify-between overflow-y-auto transform transition-transform duration-500 ease-out h-full">
           
           {/* Drawer Sticky Header */}
-          <div className="sticky top-0 z-30 bg-[#FAF7F2] px-4 py-3.5 sm:px-6 sm:py-4 border-b border-[#E8E1D5] flex items-center justify-between shadow-xs">
+          <div className="sticky top-0 z-30 bg-[#FAF0F3] px-4 py-3.5 sm:px-6 sm:py-4 border-b border-[#F0DDE2] flex items-center justify-between shadow-xs">
             <div className="flex items-center gap-2">
               <span className="w-2 h-2 rounded-full bg-[#D4AF37]" />
               <span className="text-[10px] uppercase tracking-[0.25em] font-sans-luxury text-[#9E8B75] font-semibold">
-                Official Scent Dossier
+                Fragrance Details
               </span>
             </div>
 
             <div className="flex items-center gap-2">
               <button
                 onClick={handleShare}
-                title="Copy dossier summary"
+                title="Copy details"
                 className="p-1.5 text-[#7A6B5B] hover:text-[#181512] transition-colors"
               >
-                {copied ? <Check className="w-4 h-4 text-emerald-600" /> : <Share2 className="w-4 h-4" />}
+                {copied ? <Check className="w-4 h-4 text-[#8C6D46]" /> : <Share2 className="w-4 h-4" />}
               </button>
 
               <button
                 onClick={onClose}
                 className="p-1.5 text-[#181512] hover:text-black transition-colors"
-                aria-label="Close Dossier"
+                aria-label="Close Details"
               >
                 <X className="w-5 h-5" />
               </button>
@@ -85,14 +85,14 @@ export default function ScentDossier({ perfume, isOpen, onClose }) {
             
             {/* 1. Hero Imagery, House Name & Fragrance Title */}
             <div>
-              <div className="relative w-full aspect-[4/3] rounded-2xl bg-gradient-to-b from-white to-[#F2EDE4] p-6 flex items-center justify-center overflow-hidden border border-[#E8E1D5] mb-6 isolate">
+              <div className="relative w-full aspect-[4/3] rounded-2xl bg-gradient-to-b from-white to-[#FDF2F5] p-6 flex items-center justify-center overflow-hidden border border-[#F0DDE2] mb-6 isolate">
                 <div className="absolute bottom-6 left-1/2 -translate-x-1/2 w-1/2 h-6 bg-black/15 rounded-full blur-lg pointer-events-none" />
                 <img
                   src={perfume.image}
                   alt={perfume.name}
                   className="relative z-10 max-h-[82%] max-w-[82%] object-contain filter contrast-[1.02]"
                 />
-                <div className="absolute top-3 left-3 z-20 px-2.5 py-1 rounded-full bg-white/95 backdrop-blur-sm border border-[#E8E1D5] text-[9px] uppercase font-sans-luxury text-[#8C6D46] font-medium shadow-xs pointer-events-none">
+                <div className="absolute top-3 left-3 z-20 px-2.5 py-1 rounded-full bg-white/95 backdrop-blur-sm border border-[#F0DDE2] text-[9px] uppercase font-sans-luxury text-[#8C6D46] font-medium shadow-xs pointer-events-none">
                   {perfume.family}
                 </div>
                 <div className="absolute top-3 right-3 z-20 px-2.5 py-1 rounded-full bg-[#181512] text-white text-[9px] uppercase font-sans-luxury tracking-wider shadow-xs pointer-events-none">
@@ -100,7 +100,7 @@ export default function ScentDossier({ perfume, isOpen, onClose }) {
                 </div>
               </div>
 
-              <div className="border-b border-[#E8E1D5] pb-6">
+              <div className="border-b border-[#F0DDE2] pb-6">
                 <div className="flex items-center justify-between mb-1">
                   <span className="text-[11px] uppercase tracking-[0.2em] font-sans-luxury text-[#9E8B75] font-semibold">
                     {perfume.house}
@@ -116,7 +116,7 @@ export default function ScentDossier({ perfume, isOpen, onClose }) {
 
                 <div className="flex items-center justify-between">
                   <div className="inline-flex items-center gap-2">
-                    <span className="text-xs font-sans-luxury px-2.5 py-1 rounded-md bg-[#FAF7F2] border border-[#E8E1D5] text-[#5C5044]">
+                    <span className="text-xs font-sans-luxury px-2.5 py-1 rounded-md bg-[#FDF2F5] border border-[#F0DDE2] text-[#5C5044]">
                       {perfume.concentration}
                     </span>
                   </div>
@@ -136,24 +136,24 @@ export default function ScentDossier({ perfume, isOpen, onClose }) {
               <div className="flex items-center gap-2 mb-4">
                 <Layers className="w-4 h-4 text-[#D4AF37]" />
                 <h3 className="font-serif-luxury text-xl text-[#181512] font-medium">
-                  Olfactory Pyramid Breakdown
+                  Scent Notes Breakdown
                 </h3>
               </div>
 
               <div className="space-y-3">
                 
                 {/* Top Notes Tier */}
-                <div className="bg-white rounded-xl p-4 border border-[#E8E1D5] shadow-xs relative overflow-hidden">
+                <div className="bg-white rounded-xl p-4 border border-[#F0DDE2] shadow-xs relative overflow-hidden">
                   <div className="w-1 absolute left-0 top-0 bottom-0 bg-[#C5A880]" />
                   <div className="flex items-center justify-between mb-2">
                     <span className="text-[10px] uppercase tracking-wider font-sans-luxury text-[#C5A880] font-bold">
-                      Top Notes (Immediate Impression • 15 Mins)
+                      Top Notes (First Impression • 15 Mins)
                     </span>
                     <span className="text-[10px] font-sans-luxury text-[#9E8B75]">Stage 1</span>
                   </div>
                   <div className="flex flex-wrap gap-2">
                     {perfume.notes.top.map((note) => (
-                      <span key={note} className="text-xs font-sans-luxury px-2.5 py-1 rounded-md bg-[#FAF7F2] border border-[#EFE8DC] text-[#4A4036] font-medium">
+                      <span key={note} className="text-xs font-sans-luxury px-2.5 py-1 rounded-md bg-[#FDF2F5] border border-[#F0DDE2] text-[#4A4036] font-medium">
                         {note}
                       </span>
                     ))}
@@ -161,17 +161,17 @@ export default function ScentDossier({ perfume, isOpen, onClose }) {
                 </div>
 
                 {/* Heart Notes Tier */}
-                <div className="bg-white rounded-xl p-4 border border-[#E8E1D5] shadow-xs relative overflow-hidden">
+                <div className="bg-white rounded-xl p-4 border border-[#F0DDE2] shadow-xs relative overflow-hidden">
                   <div className="w-1 absolute left-0 top-0 bottom-0 bg-[#C5A880]" />
                   <div className="flex items-center justify-between mb-2">
                     <span className="text-[10px] uppercase tracking-wider font-sans-luxury text-[#8C6D46] font-bold">
-                      Heart / Middle Notes (Core Personality • 2–4 Hours)
+                      Middle Notes (Heart of the Scent • 2–4 Hours)
                     </span>
                     <span className="text-[10px] font-sans-luxury text-[#9E8B75]">Stage 2</span>
                   </div>
                   <div className="flex flex-wrap gap-2">
                     {perfume.notes.heart.map((note) => (
-                      <span key={note} className="text-xs font-sans-luxury px-2.5 py-1 rounded-md bg-[#FAF7F2] border border-[#EFE8DC] text-[#4A4036] font-medium">
+                      <span key={note} className="text-xs font-sans-luxury px-2.5 py-1 rounded-md bg-[#FDF2F5] border border-[#F0DDE2] text-[#4A4036] font-medium">
                         {note}
                       </span>
                     ))}
@@ -179,17 +179,17 @@ export default function ScentDossier({ perfume, isOpen, onClose }) {
                 </div>
 
                 {/* Base Notes Tier */}
-                <div className="bg-white rounded-xl p-4 border border-[#E8E1D5] shadow-xs relative overflow-hidden">
+                <div className="bg-white rounded-xl p-4 border border-[#F0DDE2] shadow-xs relative overflow-hidden">
                   <div className="w-1 absolute left-0 top-0 bottom-0 bg-[#8C6D46]" />
                   <div className="flex items-center justify-between mb-2">
                     <span className="text-[10px] uppercase tracking-wider font-sans-luxury text-[#8C6D46] font-bold">
-                      Base Notes (Drydown Trail • 8+ Hours)
+                      Base Notes (Lasting Scent Trail • 8+ Hours)
                     </span>
                     <span className="text-[10px] font-sans-luxury text-[#9E8B75]">Stage 3</span>
                   </div>
                   <div className="flex flex-wrap gap-2">
                     {perfume.notes.base.map((note) => (
-                      <span key={note} className="text-xs font-sans-luxury px-2.5 py-1 rounded-md bg-[#FAF7F2] border border-[#EFE8DC] text-[#4A4036] font-medium">
+                      <span key={note} className="text-xs font-sans-luxury px-2.5 py-1 rounded-md bg-[#FDF2F5] border border-[#F0DDE2] text-[#4A4036] font-medium">
                         {note}
                       </span>
                     ))}
@@ -202,36 +202,36 @@ export default function ScentDossier({ perfume, isOpen, onClose }) {
             {/* 3. Performance Indicators: Longevity & Sillage */}
             <div>
               <h3 className="font-serif-luxury text-xl text-[#181512] font-medium mb-4">
-                Performance Evaluation
+                How It Performs
               </h3>
 
               <div className="grid grid-cols-2 gap-4">
-                <div className="bg-white rounded-xl p-4 border border-[#E8E1D5]">
+                <div className="bg-white rounded-xl p-4 border border-[#F0DDE2]">
                   <div className="flex items-center gap-2 text-[#C5A880] mb-1">
                     <Clock className="w-4 h-4" />
                     <span className="text-[10px] uppercase tracking-wider font-sans-luxury font-semibold text-[#9E8B75]">
-                      Longevity Rating
+                      How Long It Lasts
                     </span>
                   </div>
                   <span className="font-serif-luxury text-xl font-medium text-[#181512] block">
                     {perfume.performance.longevity}
                   </span>
-                  <div className="w-full bg-[#FAF7F2] h-1.5 rounded-full overflow-hidden mt-2">
+                  <div className="w-full bg-[#FDF2F5] h-1.5 rounded-full overflow-hidden mt-2">
                     <div className="bg-gradient-to-r from-[#D4AF37] to-[#8C6D46] h-full w-[90%]" />
                   </div>
                 </div>
 
-                <div className="bg-white rounded-xl p-4 border border-[#E8E1D5]">
+                <div className="bg-white rounded-xl p-4 border border-[#F0DDE2]">
                   <div className="flex items-center gap-2 text-[#C5A880] mb-1">
                     <Wind className="w-4 h-4" />
                     <span className="text-[10px] uppercase tracking-wider font-sans-luxury font-semibold text-[#9E8B75]">
-                      Sillage Projection
+                      Scent Trail & Projection
                     </span>
                   </div>
                   <span className="font-serif-luxury text-xl font-medium text-[#181512] block">
                     {perfume.performance.sillage}
                   </span>
-                  <div className="w-full bg-[#FAF7F2] h-1.5 rounded-full overflow-hidden mt-2">
+                  <div className="w-full bg-[#FDF2F5] h-1.5 rounded-full overflow-hidden mt-2">
                     <div className="bg-gradient-to-r from-[#D4AF37] to-[#8C6D46] h-full w-[85%]" />
                   </div>
                 </div>
@@ -239,12 +239,12 @@ export default function ScentDossier({ perfume, isOpen, onClose }) {
             </div>
 
             {/* 4. Best Season and Occasion Recommendations */}
-            <div className="bg-[#FAF7F2] rounded-2xl p-5 border border-[#E8E1D5] space-y-3">
+            <div className="bg-white/90 rounded-2xl p-5 border border-[#F0DDE2] space-y-3">
               <div className="flex items-start gap-3">
                 <Calendar className="w-4 h-4 text-[#8C6D46] shrink-0 mt-0.5" />
                 <div>
                   <span className="text-[10px] uppercase font-sans-luxury tracking-wider text-[#9E8B75] block font-semibold">
-                    Ideal Season Affinity
+                    Best Season
                   </span>
                   <span className="text-xs font-sans-luxury text-[#181512] font-medium">
                     {perfume.season || 'All Seasons / Climate Controlled'}
@@ -252,11 +252,11 @@ export default function ScentDossier({ perfume, isOpen, onClose }) {
                 </div>
               </div>
 
-              <div className="flex items-start gap-3 pt-3 border-t border-[#EFE8DC]">
+              <div className="flex items-start gap-3 pt-3 border-t border-[#F0DDE2]">
                 <Wine className="w-4 h-4 text-[#8C6D46] shrink-0 mt-0.5" />
                 <div>
                   <span className="text-[10px] uppercase font-sans-luxury tracking-wider text-[#9E8B75] block font-semibold">
-                    Recommended Occasion
+                    Best Occasion
                   </span>
                   <span className="text-xs font-sans-luxury text-[#181512] font-medium">
                     {perfume.occasion}
@@ -268,7 +268,7 @@ export default function ScentDossier({ perfume, isOpen, onClose }) {
           </div>
 
           {/* Drawer Sticky Footer with Dynamic WhatsApp Conversion Button */}
-          <div className="sticky bottom-0 z-30 bg-[#FAF7F2] px-4 py-3 sm:px-6 sm:py-5 border-t border-[#E8E1D5] shadow-lg space-y-2">
+          <div className="sticky bottom-0 z-30 bg-[#FAF0F3] px-4 py-3 sm:px-6 sm:py-5 border-t border-[#F0DDE2] shadow-lg space-y-2">
             <a
               href={whatsappUrl}
               target="_blank"

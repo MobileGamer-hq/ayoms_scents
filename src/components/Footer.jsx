@@ -1,5 +1,5 @@
 import React from 'react';
-import { MessageCircle, ArrowUp, ShieldCheck, Truck, Sparkles } from 'lucide-react';
+import { MessageCircle, ArrowUp } from 'lucide-react';
 import { BRAND_CONFIG } from '../data/perfumesData';
 import { buildWhatsAppAdvisoryUrl } from '../utils/whatsapp';
 
@@ -49,7 +49,7 @@ export default function Footer() {
               <img
                 src="/ayoms-logo.png"
                 alt="Ayom's Scents Official Logo"
-                className="w-10 h-10 rounded-full object-cover border border-[#D4AF37]/40 shadow-sm"
+                className="w-10 h-10 object-contain"
               />
               <div>
                 <span className="font-serif-luxury text-2xl font-normal tracking-wide block text-white">
@@ -62,44 +62,44 @@ export default function Footer() {
             </div>
 
             <p className="font-sans-luxury text-xs text-[#A89E90] leading-relaxed font-light max-w-sm">
-              Nigeria’s premier digital fragrance showcase and olfactory advisory. Curated authentic niche and designer perfumes delivered directly to your doorstep with white-glove climate care.
+              Your trusted online fragrance boutique based in Covenant University (CU). Curated 100% original niche and designer perfumes delivered directly to your hall or room on campus.
             </p>
 
             <div className="pt-2 flex items-center gap-3 text-xs text-[#C5A880] font-sans-luxury">
               <span className="w-2 h-2 rounded-full bg-[#C5A880]"></span>
-              <span>Online Boutique • Doorstep Dispatch Nationwide</span>
+              <span>Based in Covenant University (CU) • Campus Delivery to Halls</span>
             </div>
           </div>
 
           {/* Quick Navigation Links */}
           <div className="lg:col-span-3 space-y-3">
             <h4 className="text-[11px] uppercase tracking-[0.2em] font-sans-luxury text-[#C5A880] font-semibold">
-              Olfactory Navigation
+              Quick Links
             </h4>
             <ul className="space-y-2 text-xs font-sans-luxury text-[#A89E90]">
               <li>
                 <a href="#hero" className="hover:text-white transition-colors">
-                  Atelier & Spotlight
+                  Home & Top Picks
                 </a>
               </li>
               <li>
                 <a href="#catalog" className="hover:text-white transition-colors">
-                  Full Fragrance Catalog
+                  All Perfumes
                 </a>
               </li>
               <li>
                 <a href="#concierge" className="hover:text-white transition-colors">
-                  Remote Ordering Guide
+                  How to Order
                 </a>
               </li>
               <li>
                 <a href="#ethos" className="hover:text-white transition-colors">
-                  Brand Philosophy & Ethos
+                  Our Story
                 </a>
               </li>
               <li>
                 <a href="#concierge" className="hover:text-white transition-colors">
-                  Delivery & Transit FAQ
+                  Frequently Asked Questions
                 </a>
               </li>
             </ul>
@@ -108,7 +108,7 @@ export default function Footer() {
           {/* Direct Concierge Contact */}
           <div className="lg:col-span-4 space-y-4">
             <h4 className="text-[11px] uppercase tracking-[0.2em] font-sans-luxury text-[#C5A880] font-semibold">
-              Boutique Touchpoints
+              Contact Channels
             </h4>
 
             <div className="space-y-3 text-xs font-sans-luxury text-[#A89E90]">
@@ -122,7 +122,7 @@ export default function Footer() {
               <div className="flex items-center gap-2.5">
                 <InstagramIcon className="w-4 h-4 text-[#C5A880] shrink-0" />
                 <span>
-                  Instagram: <a href={BRAND_CONFIG.instagramUrl} target="_blank" rel="noopener noreferrer" className="text-white hover:text-[#C5A880] font-medium transition-colors">{BRAND_CONFIG.instagramHandle}</a>
+                  Instagram: <a href={BRAND_CONFIG.instagramUrl} target="_blank" rel="noopener noreferrer" className="text-white hover:text-[#C5A880] font-medium transition-colors">@{BRAND_CONFIG.instagramHandle}</a>
                 </span>
               </div>
 
@@ -150,7 +150,7 @@ export default function Footer() {
                 href={buildWhatsAppAdvisoryUrl()}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center gap-2 px-6 py-2.5 rounded-[8px] text-xs uppercase tracking-[0.2em] font-medium bg-white text-[#120F16] hover:bg-[#FAF7F2] transition-colors"
+                className="inline-flex items-center gap-2 px-6 py-2.5 rounded-[8px] text-xs uppercase tracking-[0.2em] font-medium bg-white text-[#120F16] hover:bg-[#FDF2F5] transition-colors"
               >
                 <span>Chat on WhatsApp</span>
               </a>
@@ -166,7 +166,7 @@ export default function Footer() {
           </p>
 
           <div className="flex items-center gap-6">
-            <span className="text-[11px]">Designed for Connoisseurs & Collectors</span>
+            <span className="text-[11px]">Delivering Across Covenant University (CU)</span>
             
             <button
               onClick={scrollToTop}

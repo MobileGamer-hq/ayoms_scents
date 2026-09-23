@@ -17,17 +17,17 @@ export default function Navbar() {
 
   const navLinks = [
     { label: 'Home', href: '#hero' },
-    { label: 'Curator\'s Spotlight', href: '#spotlight' },
-    { label: 'Fragrance Catalog', href: '#catalog' },
-    { label: 'Remote Ordering', href: '#concierge' },
-    { label: 'Brand Ethos', href: '#ethos' },
+    { label: 'Featured Scent', href: '#spotlight' },
+    { label: 'All Perfumes', href: '#catalog' },
+    { label: 'How to Order', href: '#concierge' },
+    { label: 'Our Story', href: '#ethos' },
   ];
 
   return (
     <header
       className={`fixed top-0 left-0 right-0 z-40 transition-all duration-300 ${
         isScrolled
-          ? 'bg-[#FAF7F2]/95 backdrop-blur-md border-b border-[#E8E1D5] py-3 shadow-xs'
+          ? 'bg-[#FAF0F3]/95 backdrop-blur-md border-b border-[#F0DDE2] py-3 shadow-xs'
           : 'bg-transparent py-5'
       }`}
     >
@@ -39,7 +39,7 @@ export default function Navbar() {
             <img
               src="/ayoms-logo.png"
               alt="Ayom's Scents Official Logo"
-              className="w-11 h-11 rounded-full object-cover shadow-sm group-hover:scale-105 transition-transform duration-300 border border-[#D4AF37]/30"
+              className="w-11 h-11 object-contain group-hover:scale-105 transition-transform duration-300"
             />
             <div>
               <span className="block font-serif-luxury text-xl sm:text-2xl font-semibold tracking-wide tracking-tight text-[#181512]">
@@ -79,14 +79,14 @@ export default function Navbar() {
 
         {/* Mobile Dropdown Menu */}
         {mobileMenuOpen && (
-          <div className="lg:hidden mt-4 pb-6 pt-2 border-t border-[#E8E1D5] bg-[#FAF7F2]/95 backdrop-blur-md rounded-2xl p-4 shadow-lg animate-in fade-in duration-200">
+          <div className="lg:hidden mt-4 pb-6 pt-2 border-t border-[#F0DDE2] bg-[#FAF0F3]/95 backdrop-blur-md rounded-2xl p-4 shadow-lg animate-in fade-in duration-200">
             <div className="flex flex-col space-y-3">
               {navLinks.map((link) => (
                 <a
                   key={link.label}
                   href={link.href}
                   onClick={() => setMobileMenuOpen(false)}
-                  className="text-base font-serif-luxury py-2 border-b border-[#EAE3D6] text-[#2C241B] hover:text-[#8C6D46] transition-colors"
+                  className="text-base font-serif-luxury py-2 border-b border-[#F0DDE2] text-[#2C241B] hover:text-[#8C6D46] transition-colors"
                 >
                   {link.label}
                 </a>
@@ -100,7 +100,7 @@ export default function Navbar() {
                   className="w-full flex items-center justify-center gap-2 py-3 px-4 rounded-[8px] text-xs font-medium uppercase tracking-wider bg-[#181512] text-white"
                 >
                   <MessageCircle className="w-4 h-4" />
-                  Chat Concierge ({BRAND_CONFIG.phoneDisplay})
+                  Chat on WhatsApp ({BRAND_CONFIG.phoneDisplay})
                 </a>
               </div>
             </div>

@@ -4,79 +4,79 @@
   "phoneDisplay": "09055334786",
   "whatsappNumber": "2349055334786",
   "email": "ayotoluayomide@gmail.com",
-  "instagramHandle": "syk_ayo",
-  "instagramUrl": "https://instagram.com/syk_ayo",
+  "instagramHandle": "syk__ayo",
+  "instagramUrl": "https://www.instagram.com/syk__ayo/",
   "snapchatHandle": "Ayoms💜",
   "snapchatUrl": "https://www.snapchat.com",
   "telegramChannel": "https://t.me/ayomsscentss",
   "telegramHandle": "@ayomsscentss",
   "operatingHours": "Monday – Saturday, 9:00 AM – 8:00 PM (WAT)",
-  "dispatchRegions": "Lagos, Abuja, Port Harcourt & Nationwide Doorstep Delivery Across Nigeria",
+  "dispatchRegions": "Covenant University (CU) Campus Delivery",
   "trustPillars": [
     {
       "id": "authenticity",
-      "title": "Guaranteed Authenticity",
-      "subtitle": "Batch-Verified & Certified",
-      "description": "Every flacon is individually batch-verified and sourced strictly from certified authorized distributors. Zero counterfeits, zero compromises.",
+      "title": "100% Original Perfumes",
+      "subtitle": "Batch-Verified & Authentic",
+      "description": "Every bottle is 100% genuine and verified. Sourced directly from certified brand distributors. Zero fakes, zero compromises.",
       "icon": "ShieldCheck"
     },
     {
       "id": "dispatch",
-      "title": "Direct Doorstep Dispatch",
-      "subtitle": "Insulated Climate Care",
-      "description": "Delicate perfume chemistry demands temperature-controlled protection. We utilize shock-resistant, insulated luxury packaging across Nigeria.",
+      "title": "Fast CU Campus Delivery",
+      "subtitle": "Delivered to Your Hall or Room",
+      "description": "Convenient, fast delivery directly to your hall of residence or room anywhere on Covenant University (CU) campus.",
       "icon": "Truck"
     },
     {
       "id": "advisory",
-      "title": "Personalized Olfactory Advisory",
-      "subtitle": "Bespoke Scent Matchmaking",
-      "description": "Looking for your signature fragrance? Connect directly with our private fragrance curator via WhatsApp for tailored scent profiling.",
-      "icon": "Sparkles"
+      "title": "Personalized Scent Advice",
+      "subtitle": "Find Your Perfect Match",
+      "description": "Not sure which perfume suits your style? Chat directly with us on WhatsApp for friendly, personalized fragrance recommendations.",
+      "icon": "MessageCircle"
     }
   ],
   "remoteSteps": [
     {
       "step": "01",
-      "title": "Explore & Inspect Olfactory Dossier",
-      "description": "Browse our curated collection of rare extraits and eau de parfums. Inspect olfactory pyramids, notes breakdown, and longevity ratings."
+      "title": "Browse Perfumes & View Scent Details",
+      "description": "Explore our curated collection of long-lasting niche and designer perfumes. Check scent notes, bottle sizes, and fragrance details."
     },
     {
       "step": "02",
-      "title": "Instant WhatsApp Verification & Consultation",
-      "description": "Tap 'Order via WhatsApp' to verify live stock availability, bottle volume, and speak directly with our concierge."
+      "title": "Chat & Order on WhatsApp",
+      "description": "Tap 'Order via WhatsApp' to confirm availability, ask questions, or request quick delivery to your CU hall or doorstep."
     },
     {
       "step": "03",
-      "title": "Secure Settlement & Tracked Dispatch",
-      "description": "Confirm order with verified electronic transfer and receive an itemized receipt with express doorstep tracking in 24–48 hours."
+      "title": "Easy Payment & Fast Delivery",
+      "description": "Pay easily via bank transfer and get your receipt with instant confirmation and fast delivery to your hands."
     }
   ],
   "faqs": [
     {
-      "question": "How do I place an order since you operate exclusively online?",
-      "answer": "Simply tap the 'Order via WhatsApp' button on any perfume card or dossier. This generates a pre-formatted message directly to our official concierge line (09055334786). We will confirm stock immediately, provide settlement details, and arrange prompt doorstep delivery."
+      "question": "How do I place an order?",
+      "answer": "Simply tap the 'Order via WhatsApp' button on any perfume card or details page. It opens a pre-filled chat with our WhatsApp line (09055334786). We will confirm stock immediately, share payment details, and deliver your order promptly."
     },
     {
-      "question": "How do you guarantee that your fragrances are 100% authentic?",
-      "answer": "All our perfumes are imported directly from certified brand distributors across France, the UK, and the United States. Every bottle features a traceable batch code that you can inspect and verify against official brand registries."
+      "question": "How do you guarantee your perfumes are 100% original?",
+      "answer": "All our fragrances are authentic and imported from certified brand distributors across France, the UK, and the US. Every perfume bottle has a traceable batch code that you can verify directly."
     },
     {
-      "question": "What are your delivery timelines across Nigeria?",
-      "answer": "For clients in Lagos, delivery is typically same-day or within 24 hours. For Abuja, Port Harcourt, and other states nationwide, doorstep dispatch takes 48 to 72 hours via our vetted express logistics partners."
+      "question": "How does delivery work in Covenant University (CU)?",
+      "answer": "We provide fast, convenient delivery directly to your hall of residence, room, or anywhere on the Covenant University (CU) campus. Once you order via WhatsApp, we coordinate directly with you for prompt hand-off."
     },
     {
-      "question": "How are the perfumes protected against heat during transit?",
-      "answer": "Fragrance molecules are heat-sensitive. All Ayom's Scents shipments are wrapped in thermal insulation cushioning to safeguard perfume oils and flacons against temperature spikes and physical impact."
+      "question": "How are the perfumes protected during delivery?",
+      "answer": "All perfumes are carefully cushioned and packaged in protective materials to prevent damage and keep the fragrance oils safe and intact."
     },
     {
-      "question": "Can I request sample decants before committing to a full bottle?",
-      "answer": "Yes! We offer 5ml and 10ml travel atomizer decants for select niche and designer perfumes. Contact our WhatsApp concierge to curate a personalized discovery set."
+      "question": "Can I get mini perfume samples (decants) before buying a full bottle?",
+      "answer": "Yes! We offer 5ml and 10ml travel sample sizes for select perfumes. Chat with us on WhatsApp to order your discovery samples."
     },
     {
       "question": "What payment methods do you accept?",
-      "answer": "We accept secure instant bank transfers and online card payments. An itemized invoice and dispatch tracking number are shared immediately upon payment confirmation."
+      "answer": "We accept instant bank transfers. Once confirmed, your receipt and delivery details are provided right away."
     }
   ],
-  "editorialQuote": "A fragrance is an invisible signature that announces your presence and lingers in memory long after you have departed."
+  "editorialQuote": "A great fragrance is your invisible signature. It boosts your confidence and leaves a memorable impression wherever you go."
 }

@@ -20,6 +20,6 @@ export function buildWhatsAppOrderUrl(perfumeName, house, volume = '') {
  */
 export function buildWhatsAppAdvisoryUrl() {
   const phone = BRAND_CONFIG.whatsappNumber || '2349055334786';
-  const message = `Hello Ayoms Scents, I would like to consult with your olfactory advisory for a personalized fragrance recommendation.`;
+  const message = `Hello Ayom's Scents, I would like to get a personalized perfume recommendation.`;
   return `https://wa.me/${phone}?text=${encodeURIComponent(message)}`;
 }

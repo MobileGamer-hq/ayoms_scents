@@ -1,5 +1,5 @@
 import React, { useState, useMemo } from 'react';
-import { Search, SlidersHorizontal, RotateCcw, Sparkles, Filter } from 'lucide-react';
+import { Search, SlidersHorizontal, RotateCcw, Filter } from 'lucide-react';
 import ProductCard from './ProductCard';
 import { SCENT_FAMILIES, PROFILE_FILTERS } from '../data/perfumesData';
 
@@ -71,15 +71,15 @@ export default function Catalog({ perfumes, onSelectPerfume }) {
         {/* Catalog Section Header */}
         <div className="text-center max-w-2xl mx-auto mb-12">
           <h2 className="font-serif-luxury text-3xl sm:text-5xl text-[#181512] font-normal tracking-tight mb-3">
-            The Fragrance Catalog
+            All Perfumes
           </h2>
           <p className="font-sans-luxury text-xs sm:text-sm text-[#5C5044] leading-relaxed font-light">
-            Explore authentic niche and designer perfumes. Select any bottle to inspect notes or order directly via WhatsApp.
+            Explore authentic niche and designer perfumes. Tap any perfume to view notes and details, or order directly via WhatsApp.
           </p>
         </div>
 
         {/* Search & Filter Controls Bar */}
-        <div className="bg-white/80 backdrop-blur-md rounded-3xl p-6 md:p-8 border border-[#E8E1D5] editorial-shadow mb-12 space-y-6">
+        <div className="bg-white/90 backdrop-blur-md rounded-3xl p-6 md:p-8 border border-[#F0DDE2] editorial-shadow mb-12 space-y-6">
           
           {/* Top Search Input & Sort Dropdown */}
           <div className="flex flex-col md:flex-row gap-4 items-center justify-between">
@@ -91,7 +91,7 @@ export default function Catalog({ perfumes, onSelectPerfume }) {
                 value={searchQuery}
                 onChange={(e) => setSearchQuery(e.target.value)}
                 placeholder="Search by perfume name, fragrance house, or raw notes (e.g., Bergamot, Vanilla, Oud)..."
-                className="w-full pl-11 pr-4 py-3 rounded-[8px] bg-[#FAF7F2] border border-[#E8E1D5] text-xs sm:text-sm text-[#181512] placeholder-[#9E8B75] focus:outline-none focus:border-[#D4AF37] focus:ring-1 focus:ring-[#D4AF37] transition-all font-sans-luxury"
+                className="w-full pl-11 pr-4 py-3 rounded-[8px] bg-[#FDF2F5] border border-[#F0DDE2] text-xs sm:text-sm text-[#181512] placeholder-[#9E8B75] focus:outline-none focus:border-[#D4AF37] focus:ring-1 focus:ring-[#D4AF37] transition-all font-sans-luxury"
               />
               {searchQuery && (
                 <button
@@ -111,9 +111,9 @@ export default function Catalog({ perfumes, onSelectPerfume }) {
               <select
                 value={sortBy}
                 onChange={(e) => setSortBy(e.target.value)}
-                className="px-4 py-2.5 rounded-[8px] bg-[#FAF7F2] border border-[#E8E1D5] text-xs font-sans-luxury text-[#181512] focus:outline-none focus:border-[#D4AF37] cursor-pointer"
+                className="px-4 py-2.5 rounded-[8px] bg-[#FDF2F5] border border-[#F0DDE2] text-xs font-sans-luxury text-[#181512] focus:outline-none focus:border-[#D4AF37] cursor-pointer"
               >
-                <option value="featured">Curator's Recommendation</option>
+                <option value="featured">Featured / Recommended</option>
                 <option value="price-asc">Price: Low to High</option>
                 <option value="price-desc">Price: High to Low</option>
                 <option value="name">Fragrance Name (A–Z)</option>
@@ -138,8 +138,8 @@ export default function Catalog({ perfumes, onSelectPerfume }) {
                     onClick={() => setSelectedFamily(family)}
                     className={`px-4 py-2 rounded-[8px] text-xs font-sans-luxury transition-all duration-300 ${
                       isActive
-                        ? 'bg-[#181512] text-[#FAF7F2] font-medium shadow-xs'
-                        : 'bg-[#FAF7F2] border border-[#E8E1D5] text-[#5C5044] hover:border-[#D4AF37] hover:text-[#181512]'
+                        ? 'bg-[#181512] text-white font-medium shadow-xs'
+                        : 'bg-[#FDF2F5] border border-[#F0DDE2] text-[#5C5044] hover:border-[#D4AF37] hover:text-[#181512]'
                     }`}
                   >
                     {family}
@@ -150,7 +150,7 @@ export default function Catalog({ perfumes, onSelectPerfume }) {
           </div>
 
           {/* Profile / Gender Filter Pills */}
-          <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between pt-4 border-t border-[#F0EBE1] gap-4">
+          <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between pt-4 border-t border-[#F0DDE2] gap-4">
             <div className="flex flex-wrap items-center gap-2">
               <span className="text-[10px] uppercase font-sans-luxury tracking-[0.2em] text-[#9E8B75] font-semibold mr-2">
                 Profile:
@@ -164,7 +164,7 @@ export default function Catalog({ perfumes, onSelectPerfume }) {
                     className={`px-3 py-1.5 rounded-[8px] text-xs font-sans-luxury transition-all duration-300 ${
                       isActive
                         ? 'bg-[#D4AF37] text-[#181512] font-semibold'
-                        : 'bg-white border border-[#E8E1D5] text-[#6E6050] hover:text-[#181512]'
+                        : 'bg-white border border-[#F0DDE2] text-[#6E6050] hover:text-[#181512]'
                     }`}
                   >
                     {profile}
@@ -205,7 +205,7 @@ export default function Catalog({ perfumes, onSelectPerfume }) {
           </div>
         ) : (
           /* Empty State */
-          <div className="text-center py-16 px-6 bg-white/60 backdrop-blur-sm rounded-2xl border border-[#E8E1D5] max-w-md mx-auto">
+          <div className="text-center py-16 px-6 bg-white/60 backdrop-blur-sm rounded-2xl border border-[#F0DDE2] max-w-md mx-auto">
             <h3 className="font-serif-luxury text-2xl text-[#181512] mb-2 font-normal">
               No Perfumes Found
             </h3>
@@ -214,7 +214,7 @@ export default function Catalog({ perfumes, onSelectPerfume }) {
             </p>
             <button
               onClick={handleResetFilters}
-              className="px-6 py-2.5 rounded-[8px] text-xs uppercase tracking-[0.2em] font-medium bg-[#181512] text-[#FAF7F2] hover:bg-black transition-colors"
+              className="px-6 py-2.5 rounded-[8px] text-xs uppercase tracking-[0.2em] font-medium bg-[#181512] text-white hover:bg-black transition-colors"
             >
               Reset All Filters
             </button>

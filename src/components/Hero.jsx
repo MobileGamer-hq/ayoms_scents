@@ -1,5 +1,5 @@
 import React from 'react';
-import { ArrowDown, MessageCircle, Compass, ShieldCheck } from 'lucide-react';
+import { ArrowDown } from 'lucide-react';
 import { BRAND_CONFIG } from '../data/perfumesData';
 import { buildWhatsAppAdvisoryUrl } from '../utils/whatsapp';
 
@@ -23,7 +23,7 @@ export default function Hero({ onSelectPerfume, featuredPerfumes }) {
           </h1>
 
           <p className="font-sans-luxury text-xs sm:text-sm text-[#5A5044] max-w-lg mx-auto leading-relaxed font-light mb-5">
-            Curated niche and designer perfumes, delivered straight to your doorstep across Nigeria.
+            Curated niche and designer perfumes, delivered straight to your hall or room in CU (Covenant University).
           </p>
 
           {/* Minimal Editorial Action Buttons */}
@@ -32,7 +32,7 @@ export default function Hero({ onSelectPerfume, featuredPerfumes }) {
               href="#catalog"
               className="px-7 py-2.5 rounded-[8px] text-xs uppercase tracking-[0.2em] font-sans-luxury font-medium bg-[#181512] text-white hover:bg-black transition-all duration-300"
             >
-              Explore Catalog
+              Browse All Perfumes
             </a>
 
             <a
@@ -50,15 +50,15 @@ export default function Hero({ onSelectPerfume, featuredPerfumes }) {
         <div className="mt-6 relative">
           
           {/* Subtle decorative background frame */}
-          <div className="absolute inset-0 rounded-3xl border border-[#E3DACB] bg-gradient-to-b from-[#F5EFEB]/50 to-[#EFE7DC]/30 pointer-events-none -z-10" />
+          <div className="absolute inset-0 rounded-3xl border border-[#F0DDE2] bg-gradient-to-b from-white/60 to-[#FDF2F5]/60 pointer-events-none -z-10" />
 
           <div className="p-4 sm:p-6 lg:p-7">
             
             {/* Editorial Spread Header */}
-            <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between border-b border-[#E3DACB] pb-5 mb-10 gap-2">
+            <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between border-b border-[#F0DDE2] pb-5 mb-10 gap-2">
               <div>
                 <span className="text-[10px] uppercase font-sans-luxury tracking-[0.25em] text-[#9E8B75] block">
-                  Collection Highlights
+                  Top Picks
                 </span>
                 <h3 className="font-serif-luxury text-2xl sm:text-3xl text-[#181512] font-normal">
                   Featured Fragrances
@@ -66,7 +66,7 @@ export default function Hero({ onSelectPerfume, featuredPerfumes }) {
               </div>
               <div className="flex items-center gap-2 text-xs text-[#7A6B5B] font-sans-luxury">
                 <span className="w-2 h-2 rounded-full bg-[#8C6D46] animate-pulse"></span>
-                <span>Verified Stock Ready For Dispatch</span>
+                <span>Verified Stock • Fast Delivery in CU</span>
               </div>
             </div>
 
@@ -76,20 +76,20 @@ export default function Hero({ onSelectPerfume, featuredPerfumes }) {
                 <div
                   key={perfume.id}
                   onClick={() => onSelectPerfume(perfume)}
-                  className="group cursor-pointer relative bg-white/70 backdrop-blur-sm rounded-2xl p-6 sm:p-7 border border-[#E8E1D5] hover:border-[#D4AF37] transition-all duration-500 editorial-shadow hover:editorial-shadow-hover hover:-translate-y-1"
+                  className="group cursor-pointer relative bg-white/85 backdrop-blur-sm rounded-2xl p-6 sm:p-7 border border-[#F0DDE2] hover:border-[#D4AF37] transition-all duration-500 editorial-shadow hover:editorial-shadow-hover hover:-translate-y-1"
                 >
                   {/* Editorial Tag / Badge */}
                   <div className="flex items-center justify-between mb-4">
                     <span className="text-[9px] uppercase tracking-[0.22em] font-sans-luxury text-[#9E8B75] font-semibold">
                       {perfume.badge || `Curation No. 0${idx + 1}`}
                     </span>
-                    <span className="text-[10px] tracking-wider px-2 py-0.5 rounded-full bg-[#FAF7F2] border border-[#E8E1D5] text-[#8C6D46]">
+                    <span className="text-[10px] tracking-wider px-2 py-0.5 rounded-full bg-[#FDF2F5] border border-[#F0DDE2] text-[#8C6D46]">
                       {perfume.family}
                     </span>
                   </div>
 
                   {/* Bottle Visual & Flat-Lay Vignette */}
-                  <div className="relative w-full aspect-[4/3] rounded-xl overflow-hidden mb-3 bg-gradient-to-b from-[#FAF7F2] to-[#F2EDE4] flex items-center justify-center p-3.5 border border-[#EAE3D6]/70">
+                  <div className="relative w-full aspect-[4/3] rounded-xl overflow-hidden mb-3 bg-gradient-to-b from-white to-[#FDF2F5] flex items-center justify-center p-3.5 border border-[#F0DDE2]">
                     {/* Soft natural drop shadow beneath flacon */}
                     <div className="absolute bottom-5 left-1/2 -translate-x-1/2 w-2/3 h-5 bg-black/10 rounded-full blur-md pointer-events-none" />
                     
@@ -101,7 +101,7 @@ export default function Hero({ onSelectPerfume, featuredPerfumes }) {
                     />
 
                     {/* Olfactory ingredient indicator chip */}
-                    <div className="absolute bottom-2 left-2.5 right-2.5 z-20 bg-white/95 backdrop-blur-md px-2.5 py-1 rounded-md border border-[#E8E1D5] text-center shadow-xs pointer-events-none">
+                    <div className="absolute bottom-2 left-2.5 right-2.5 z-20 bg-white/95 backdrop-blur-md px-2.5 py-1 rounded-md border border-[#F0DDE2] text-center shadow-xs pointer-events-none">
                       <span className="text-[9px] font-serif-luxury italic text-[#5C4F40] block truncate">
                         Key Notes: {perfume.signatureNote || perfume.notes.top.join(', ')}
                       </span>
@@ -120,12 +120,12 @@ export default function Hero({ onSelectPerfume, featuredPerfumes }) {
                       {perfume.description}
                     </p>
                     
-                    <div className="pt-2 border-t border-[#EFE8DC] flex items-center justify-between">
+                    <div className="pt-2 border-t border-[#F0DDE2] flex items-center justify-between">
                       <span className="font-serif-luxury text-base font-semibold text-[#181512]">
                         {perfume.price}
                       </span>
-                      <span className="text-[10px] font-sans-luxury tracking-wider text-[#9E8B75] group-hover:text-[#181512] group-hover:underline transition-all">
-                        View Dossier →
+                      <span className="text-[10px] font-sans-luxury tracking-wider text-[#9E8B75]">
+                        {perfume.volume}
                       </span>
                     </div>
                   </div>
@@ -140,7 +140,7 @@ export default function Hero({ onSelectPerfume, featuredPerfumes }) {
                 href="#catalog"
                 className="inline-flex items-center gap-2 text-xs uppercase tracking-[0.2em] font-sans-luxury text-[#7A6B5B] hover:text-[#8C6D46] transition-colors"
               >
-                <span>View Full Catalog</span>
+                <span>Browse All Perfumes</span>
                 <ArrowDown className="w-3.5 h-3.5 animate-bounce" />
               </a>
             </div>
