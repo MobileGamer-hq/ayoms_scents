@@ -3,6 +3,7 @@ import { ArrowDown, ExternalLink } from 'lucide-react';
 import { buildWhatsAppAdvisoryUrl } from '../utils/whatsapp';
 import { getProductImage, handleImageError } from '../utils/productImages';
 import { BRAND_CONFIG } from '../data/perfumesData';
+import { formatPerfumeTitle } from '../utils/formatters';
 
 export default function Hero({ onSelectPerfume, featuredPerfumes }) {
   return (
@@ -77,7 +78,7 @@ export default function Hero({ onSelectPerfume, featuredPerfumes }) {
                 <div
                   key={perfume.id}
                   onClick={() => onSelectPerfume(perfume)}
-                  className="group cursor-pointer relative bg-white/85 backdrop-blur-sm rounded-2xl p-6 sm:p-7 border border-[#F0DDE2] hover:border-[#D4AF37] transition-all duration-500 editorial-shadow hover:editorial-shadow-hover hover:-translate-y-1"
+                  className="group cursor-pointer relative bg-white/85 backdrop-blur-sm rounded-2xl p-6 sm:p-7 border border-[#F0DDE2] hover:border-[#D4AF37] transition-all duration-500 editorial-shadow hover:editorial-shadow-hover hover:-translate-y-1 min-w-0 overflow-hidden"
                 >
                   {/* Editorial Tag / Badge */}
                   <div className="flex items-center justify-between mb-4">
@@ -111,13 +112,25 @@ export default function Hero({ onSelectPerfume, featuredPerfumes }) {
                   </div>
 
                   {/* Perfume Editorial Typography */}
-                  <div className="text-center">
-                    <p className="text-[10px] uppercase tracking-[0.18em] font-sans-luxury text-[#8C7A68] mb-0.5 font-medium">
+                  <div className="text-center min-w-0">
+                    <p className="text-[10px] uppercase tracking-[0.18em] font-sans-luxury text-[#8C7A68] mb-0.5 font-medium truncate">
                       {perfume.house}
                     </p>
-                    <h4 className="font-serif-luxury text-xl sm:text-2xl text-[#181512] font-medium tracking-tight mb-1 group-hover:text-[#8C6D46] transition-colors">
-                      {perfume.name}
-                    </h4>
+                    {(() => {
+                      const { title, subtitle } = formatPerfumeTitle(perfume.name);
+                      return (
+                        <div className="mb-1 min-w-0">
+                          <h4 className="font-serif-luxury text-xl sm:text-2xl text-[#181512] font-medium tracking-tight group-hover:text-[#8C6D46] transition-colors break-words [overflow-wrap:anywhere]">
+                            {title}
+                          </h4>
+                          {subtitle && (
+                            <p className="text-[10px] font-sans-luxury text-[#8C6D46] mt-0.5 mb-1 font-medium break-words">
+                              {subtitle}
+                            </p>
+                          )}
+                        </div>
+                      );
+                    })()}
                     <p className="text-xs text-[#6E6050] font-sans-luxury line-clamp-2 leading-relaxed mb-2 font-light">
                       {perfume.description}
                     </p>

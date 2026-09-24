@@ -3,6 +3,7 @@ import { Clock, Wind, ChevronLeft, ChevronRight, ExternalLink } from 'lucide-rea
 import { buildWhatsAppOrderUrl } from '../utils/whatsapp';
 import { getProductImage, handleImageError } from '../utils/productImages';
 import { BRAND_CONFIG } from '../data/perfumesData';
+import { formatPerfumeTitle } from '../utils/formatters';
 
 export default function Spotlight({ spotlightPerfumes, onSelectPerfume }) {
   const [activeIdx, setActiveIdx] = useState(0);
@@ -88,13 +89,25 @@ export default function Spotlight({ spotlightPerfumes, onSelectPerfume }) {
             {/* Fragrance Dossier Information */}
             <div className="lg:col-span-7 flex flex-col justify-center">
               <div className="flex items-center justify-between mb-2">
-                <div>
+                <div className="min-w-0">
                   <span className="text-[11px] uppercase tracking-[0.22em] font-sans-luxury text-[#9E8B75] font-semibold block">
                     {perfume.house}
                   </span>
-                  <h3 className="font-serif-luxury text-3xl sm:text-4xl text-[#181512] font-normal tracking-tight mt-0.5 mb-2">
-                    {perfume.name}
-                  </h3>
+                  {(() => {
+                    const { title, subtitle } = formatPerfumeTitle(perfume.name);
+                    return (
+                      <div className="mt-0.5 mb-2 min-w-0">
+                        <h3 className="font-serif-luxury text-3xl sm:text-4xl text-[#181512] font-normal tracking-tight break-words [overflow-wrap:anywhere]">
+                          {title}
+                        </h3>
+                        {subtitle && (
+                          <p className="text-xs font-sans-luxury text-[#8C6D46] mt-1 font-medium break-words">
+                            {subtitle}
+                          </p>
+                        )}
+                      </div>
+                    );
+                  })()}
                 </div>
 
                 {/* Flacon Next/Prev Arrows */}

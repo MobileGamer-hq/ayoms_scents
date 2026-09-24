@@ -3,6 +3,7 @@ import { X, Clock, Wind, Calendar, Wine, Check, Share2, Layers, ExternalLink, Se
 import { buildWhatsAppOrderUrl } from '../utils/whatsapp';
 import { getProductImage, handleImageError } from '../utils/productImages';
 import { BRAND_CONFIG } from '../data/perfumesData';
+import { formatPerfumeTitle } from '../utils/formatters';
 
 export default function ScentDossier({ perfume, isOpen, onClose }) {
   const [copied, setCopied] = useState(false);
@@ -113,19 +114,38 @@ export default function ScentDossier({ perfume, isOpen, onClose }) {
                   </span>
                 </div>
 
-                <h2 className="font-serif-luxury text-3xl sm:text-4xl text-[#181512] font-normal tracking-tight mb-2">
-                  {perfume.name}
-                </h2>
+                {(() => {
+                  const { title, subtitle } = formatPerfumeTitle(perfume.name);
+                  return (
+                    <div className="mb-3 min-w-0">
+                      <h2 className="font-serif-luxury text-3xl sm:text-4xl text-[#181512] font-normal tracking-tight break-words [overflow-wrap:anywhere]">
+                        {title}
+                      </h2>
+                      {subtitle && (
+                        <p className="text-xs font-sans-luxury text-[#8C6D46] mt-1 font-medium break-words">
+                          {subtitle}
+                        </p>
+                      )}
+                    </div>
+                  );
+                })()}
 
-                <div className="flex items-center justify-between">
+                <div className="flex flex-wrap items-center justify-between gap-2">
                   <div className="inline-flex items-center gap-2">
                     <span className="text-xs font-sans-luxury px-2.5 py-1 rounded-md bg-[#FDF2F5] border border-[#F0DDE2] text-[#5C5044]">
                       {perfume.concentration}
                     </span>
                   </div>
-                  <span className="font-serif-luxury text-2xl font-semibold text-[#181512]">
-                    {perfume.price}
-                  </span>
+                  <a
+                    href={BRAND_CONFIG.telegramChannel}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    title="View prices on Telegram"
+                    className="inline-flex items-center gap-1 text-xs font-sans-luxury font-medium text-[#8C6D46] hover:text-[#181512] underline decoration-[#D4AF37]/50 underline-offset-2 transition-colors"
+                  >
+                    <span>Prices available on our Telegram</span>
+                    <ExternalLink className="w-3 h-3 text-[#C5A880]" />
+                  </a>
                 </div>
 
                 <p className="font-sans-luxury text-xs sm:text-sm text-[#5C5044] leading-relaxed font-light mt-4">

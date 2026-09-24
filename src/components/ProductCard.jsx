@@ -3,12 +3,15 @@ import { MessageCircle, ExternalLink } from 'lucide-react';
 import { buildWhatsAppOrderUrl } from '../utils/whatsapp';
 import { getProductImage, handleImageError } from '../utils/productImages';
 import { BRAND_CONFIG } from '../data/perfumesData';
+import { formatPerfumeTitle } from '../utils/formatters';
 
 export default function ProductCard({ perfume, onSelectPerfume }) {
+  const { title, subtitle } = formatPerfumeTitle(perfume.name);
+
   return (
     <div
       onClick={() => onSelectPerfume(perfume)}
-      className="group cursor-pointer flex flex-col justify-between bg-white/90 rounded-2xl p-5 sm:p-6 border border-[#F0DDE2] hover:border-[#D4AF37] transition-all duration-400 editorial-shadow hover:editorial-shadow-hover hover:-translate-y-1 relative"
+      className="group cursor-pointer flex flex-col justify-between bg-white/90 rounded-2xl p-5 sm:p-6 border border-[#F0DDE2] hover:border-[#D4AF37] transition-all duration-400 editorial-shadow hover:editorial-shadow-hover hover:-translate-y-1 relative min-w-0 overflow-hidden"
     >
       
       {/* Top Card Eyebrow */}
@@ -56,9 +59,16 @@ export default function ProductCard({ perfume, onSelectPerfume }) {
         </div>
 
         {/* Perfume Header & Notes Preview */}
-        <h3 className="font-serif-luxury text-xl sm:text-2xl text-[#181512] font-medium tracking-tight mb-2 group-hover:text-[#8C6D46] transition-colors leading-tight">
-          {perfume.name}
-        </h3>
+        <div className="mb-2 min-w-0">
+          <h3 className="font-serif-luxury text-xl sm:text-2xl text-[#181512] font-medium tracking-tight group-hover:text-[#8C6D46] transition-colors leading-tight break-words [overflow-wrap:anywhere]">
+            {title}
+          </h3>
+          {subtitle && (
+            <p className="text-[11px] font-sans-luxury text-[#8C6D46] mt-1 leading-snug break-words font-medium">
+              {subtitle}
+            </p>
+          )}
+        </div>
 
         {/* Top Notes Chips */}
         <div className="flex flex-wrap gap-1 mb-4">
