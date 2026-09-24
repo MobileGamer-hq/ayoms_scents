@@ -1,6 +1,8 @@
 import React from 'react';
-import { MessageCircle } from 'lucide-react';
+import { MessageCircle, ExternalLink } from 'lucide-react';
 import { buildWhatsAppOrderUrl } from '../utils/whatsapp';
+import { getProductImage, handleImageError } from '../utils/productImages';
+import { BRAND_CONFIG } from '../data/perfumesData';
 
 export default function ProductCard({ perfume, onSelectPerfume }) {
   return (
@@ -26,8 +28,9 @@ export default function ProductCard({ perfume, onSelectPerfume }) {
           <div className="absolute bottom-5 left-1/2 -translate-x-1/2 w-2/3 h-5 bg-black/10 rounded-full blur-md group-hover:scale-110 transition-transform duration-500 pointer-events-none" />
           
           <img
-            src={perfume.image}
+            src={getProductImage(perfume)}
             alt={perfume.name}
+            onError={handleImageError}
             className="relative z-10 max-h-[85%] max-w-[85%] object-contain filter contrast-[1.02] group-hover:scale-108 transition-transform duration-500 ease-out"
             loading="lazy"
           />
@@ -59,7 +62,7 @@ export default function ProductCard({ perfume, onSelectPerfume }) {
 
         {/* Top Notes Chips */}
         <div className="flex flex-wrap gap-1 mb-4">
-          {perfume.notes.top.slice(0, 3).map((note) => (
+          {(perfume.notes?.top || []).slice(0, 3).map((note) => (
             <span
               key={note}
               className="text-[10px] font-sans-luxury px-2 py-0.5 rounded bg-[#FDF2F5] border border-[#F0DDE2] text-[#6E6050]"
@@ -67,23 +70,31 @@ export default function ProductCard({ perfume, onSelectPerfume }) {
               {note}
             </span>
           ))}
-          {perfume.notes.top.length > 3 && (
+          {(perfume.notes?.top?.length || 0) > 3 && (
             <span className="text-[9px] font-sans-luxury text-[#9E8B75] self-center">
-              +{perfume.notes.top.length - 3}
+              +{(perfume.notes?.top?.length || 0) - 3}
             </span>
           )}
         </div>
       </div>
 
       {/* Card Footer: Price & Scent Dossier Action */}
-      <div className="pt-4 border-t border-[#F0DDE2] flex items-center justify-between mt-2">
-        <div>
+      <div className="pt-4 border-t border-[#F0DDE2] flex items-center justify-between gap-2 mt-2">
+        <div className="min-w-0 flex-1">
           <span className="text-[9px] uppercase font-sans-luxury text-[#9E8B75] block">
-            Price
+            Pricing
           </span>
-          <span className="font-serif-luxury text-lg sm:text-xl font-semibold text-[#181512]">
-            {perfume.price}
-          </span>
+          <a
+            href={BRAND_CONFIG.telegramChannel}
+            target="_blank"
+            rel="noopener noreferrer"
+            onClick={(e) => e.stopPropagation()}
+            title="View prices on Telegram"
+            className="inline-flex items-center gap-1 text-[11px] font-sans-luxury font-medium text-[#8C6D46] hover:text-[#181512] transition-colors leading-tight group/price"
+          >
+            <span className="underline decoration-[#D4AF37]/50 underline-offset-2">Prices available on our Telegram</span>
+            <ExternalLink className="w-3 h-3 text-[#C5A880] shrink-0 group-hover/price:translate-x-0.5 transition-transform" />
+          </a>
         </div>
 
         <div>

@@ -26,7 +26,7 @@ export default function TrustPillars() {
 
         {/* 3 Pillars Grid */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-          {BRAND_CONFIG.trustPillars.map((pillar, idx) => {
+          {BRAND_CONFIG.trustPillars.map((pillar) => {
             const IconComponent = iconMap[pillar.icon] || MessageCircle;
             return (
               <div

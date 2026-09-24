@@ -1,7 +1,8 @@
 import React from 'react';
-import { ArrowDown } from 'lucide-react';
-import { BRAND_CONFIG } from '../data/perfumesData';
+import { ArrowDown, ExternalLink } from 'lucide-react';
 import { buildWhatsAppAdvisoryUrl } from '../utils/whatsapp';
+import { getProductImage, handleImageError } from '../utils/productImages';
+import { BRAND_CONFIG } from '../data/perfumesData';
 
 export default function Hero({ onSelectPerfume, featuredPerfumes }) {
   return (
@@ -94,8 +95,9 @@ export default function Hero({ onSelectPerfume, featuredPerfumes }) {
                     <div className="absolute bottom-5 left-1/2 -translate-x-1/2 w-2/3 h-5 bg-black/10 rounded-full blur-md pointer-events-none" />
                     
                     <img
-                      src={perfume.image}
+                      src={getProductImage(perfume)}
                       alt={perfume.name}
+                      onError={handleImageError}
                       className="relative z-10 max-h-[82%] max-w-[82%] object-contain filter contrast-[1.03] group-hover:scale-105 transition-transform duration-700 ease-out"
                       loading="lazy"
                     />
@@ -120,11 +122,19 @@ export default function Hero({ onSelectPerfume, featuredPerfumes }) {
                       {perfume.description}
                     </p>
                     
-                    <div className="pt-2 border-t border-[#F0DDE2] flex items-center justify-between">
-                      <span className="font-serif-luxury text-base font-semibold text-[#181512]">
-                        {perfume.price}
-                      </span>
-                      <span className="text-[10px] font-sans-luxury tracking-wider text-[#9E8B75]">
+                    <div className="pt-2 border-t border-[#F0DDE2] flex items-center justify-between gap-2">
+                      <a
+                        href={BRAND_CONFIG.telegramChannel}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        onClick={(e) => e.stopPropagation()}
+                        title="View prices on Telegram"
+                        className="inline-flex items-center gap-1 text-[11px] font-sans-luxury font-medium text-[#8C6D46] hover:text-[#181512] transition-colors"
+                      >
+                        <span className="underline decoration-[#D4AF37]/50 underline-offset-2">Prices available on our Telegram</span>
+                        <ExternalLink className="w-2.5 h-2.5 text-[#C5A880] shrink-0" />
+                      </a>
+                      <span className="text-[10px] font-sans-luxury tracking-wider text-[#9E8B75] shrink-0">
                         {perfume.volume}
                       </span>
                     </div>

@@ -1,7 +1,7 @@
 import React, { useState, useMemo } from 'react';
-import { Search, SlidersHorizontal, RotateCcw, Filter } from 'lucide-react';
+import { Search, SlidersHorizontal, RotateCcw, Send, ExternalLink } from 'lucide-react';
 import ProductCard from './ProductCard';
-import { SCENT_FAMILIES, PROFILE_FILTERS } from '../data/perfumesData';
+import { SCENT_FAMILIES, PROFILE_FILTERS, BRAND_CONFIG } from '../data/perfumesData';
 
 export default function Catalog({ perfumes, onSelectPerfume }) {
   const [searchQuery, setSearchQuery] = useState('');
@@ -16,39 +16,45 @@ export default function Catalog({ perfumes, onSelectPerfume }) {
       const query = searchQuery.trim().toLowerCase();
       const matchSearch =
         query === '' ||
-        item.name.toLowerCase().includes(query) ||
-        item.house.toLowerCase().includes(query) ||
-        item.family.toLowerCase().includes(query) ||
-        item.description.toLowerCase().includes(query) ||
-        item.notes.top.some((n) => n.toLowerCase().includes(query)) ||
-        item.notes.heart.some((n) => n.toLowerCase().includes(query)) ||
-        item.notes.base.some((n) => n.toLowerCase().includes(query));
+        (item.name || '').toLowerCase().includes(query) ||
+        (item.house || '').toLowerCase().includes(query) ||
+        (item.family || '').toLowerCase().includes(query) ||
+        (item.concentration || '').toLowerCase().includes(query) ||
+        (item.description || '').toLowerCase().includes(query) ||
+        (item.notes?.top || []).some((n) => n.toLowerCase().includes(query)) ||
+        (item.notes?.heart || []).some((n) => n.toLowerCase().includes(query)) ||
+        (item.notes?.base || []).some((n) => n.toLowerCase().includes(query));
 
       // Family matching
+      const itemFam = (item.family || '').toLowerCase();
+      const selFam = selectedFamily.toLowerCase();
       const matchFamily =
-        selectedFamily === 'All' || item.family.toLowerCase().includes(selectedFamily.toLowerCase()) ||
-        (selectedFamily === 'Amber / Oriental' && (item.family.includes('Amber') || item.family.includes('Oriental')));
+        selectedFamily === 'All' ||
+        itemFam.includes(selFam) ||
+        (selFam.includes('amber') && (itemFam.includes('amber') || itemFam.includes('oriental'))) ||
+        (selFam.includes('fresh') && (itemFam.includes('fresh') || itemFam.includes('citrus') || itemFam.includes('aquatic') || itemFam.includes('clean'))) ||
+        (selFam.includes('woody') && (itemFam.includes('wood') || itemFam.includes('oud') || itemFam.includes('aromatic') || itemFam.includes('fougere'))) ||
+        (selFam.includes('floral') && itemFam.includes('flor')) ||
+        (selFam.includes('gourmand') && (itemFam.includes('gourmand') || itemFam.includes('sweet') || itemFam.includes('candy')));
 
       // Profile matching
+      const itemGen = (item.gender || '').toLowerCase();
+      const selProf = selectedProfile.toLowerCase();
       const matchProfile =
-        selectedProfile === 'All' || item.gender.toLowerCase() === selectedProfile.toLowerCase();
+        selectedProfile === 'All' ||
+        itemGen === selProf ||
+        (selectedProfile === 'Pour Femme' && (itemGen.includes('fem') || itemGen.includes('woman') || itemGen.includes('her'))) ||
+        (selectedProfile === 'Pour Homme' && (itemGen.includes('masc') || itemGen.includes('homme') || itemGen.includes('him') || itemGen.includes('men'))) ||
+        (selectedProfile === 'Unisex' && itemGen.includes('uni'));
 
       return matchSearch && matchFamily && matchProfile;
     });
 
-    // Helper to parse price string e.g. "₦285,000" to number
-    const parsePrice = (priceStr) => {
-      const clean = priceStr.replace(/[^\d]/g, '');
-      return parseInt(clean, 10) || 0;
-    };
-
     // Sorting
-    if (sortBy === 'price-asc') {
-      list.sort((a, b) => parsePrice(a.price) - parsePrice(b.price));
-    } else if (sortBy === 'price-desc') {
-      list.sort((a, b) => parsePrice(b.price) - parsePrice(a.price));
-    } else if (sortBy === 'name') {
+    if (sortBy === 'name') {
       list.sort((a, b) => a.name.localeCompare(b.name));
+    } else if (sortBy === 'house') {
+      list.sort((a, b) => (a.house || '').localeCompare(b.house || ''));
     }
 
     return list;
@@ -69,13 +75,28 @@ export default function Catalog({ perfumes, onSelectPerfume }) {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full">
         
         {/* Catalog Section Header */}
-        <div className="text-center max-w-2xl mx-auto mb-12">
+        <div className="text-center max-w-2xl mx-auto mb-6">
           <h2 className="font-serif-luxury text-3xl sm:text-5xl text-[#181512] font-normal tracking-tight mb-3">
             All Perfumes
           </h2>
-          <p className="font-sans-luxury text-xs sm:text-sm text-[#5C5044] leading-relaxed font-light">
+          <p className="font-sans-luxury text-xs sm:text-sm text-[#5C5044] leading-relaxed font-light mb-4">
             Explore authentic niche and designer perfumes. Tap any perfume to view notes and details, or order directly via WhatsApp.
           </p>
+
+          {/* Telegram Pricing Badge */}
+          <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-[#FDF2F5] border border-[#F0DDE2] text-[#6E5D4F] text-xs font-sans-luxury shadow-xs">
+            <Send className="w-3.5 h-3.5 text-[#C5A880] shrink-0" />
+            <span>Prices available on our Telegram:</span>
+            <a
+              href={BRAND_CONFIG.telegramChannel}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="font-medium text-[#181512] hover:text-[#8C6D46] underline underline-offset-2 transition-colors inline-flex items-center gap-1"
+            >
+              <span>{BRAND_CONFIG.telegramHandle}</span>
+              <ExternalLink className="w-3 h-3 text-[#9E8B75]" />
+            </a>
+          </div>
         </div>
 
         {/* Search & Filter Controls Bar */}
@@ -114,9 +135,8 @@ export default function Catalog({ perfumes, onSelectPerfume }) {
                 className="px-4 py-2.5 rounded-[8px] bg-[#FDF2F5] border border-[#F0DDE2] text-xs font-sans-luxury text-[#181512] focus:outline-none focus:border-[#D4AF37] cursor-pointer"
               >
                 <option value="featured">Featured / Recommended</option>
-                <option value="price-asc">Price: Low to High</option>
-                <option value="price-desc">Price: High to Low</option>
                 <option value="name">Fragrance Name (A–Z)</option>
+                <option value="house">Brand / House (A–Z)</option>
               </select>
             </div>
           </div>

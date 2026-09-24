@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from 'react';
-import { X, MessageCircle, Clock, Wind, Calendar, Wine, Check, Share2, Layers } from 'lucide-react';
+import { X, Clock, Wind, Calendar, Wine, Check, Share2, Layers, ExternalLink, Send } from 'lucide-react';
 import { buildWhatsAppOrderUrl } from '../utils/whatsapp';
+import { getProductImage, handleImageError } from '../utils/productImages';
+import { BRAND_CONFIG } from '../data/perfumesData';
 
 export default function ScentDossier({ perfume, isOpen, onClose }) {
   const [copied, setCopied] = useState(false);
@@ -27,7 +29,7 @@ export default function ScentDossier({ perfume, isOpen, onClose }) {
   if (!isOpen || !perfume) return null;
 
   const handleShare = () => {
-    const textToShare = `${perfume.name} by ${perfume.house} (${perfume.concentration}) - ${perfume.price} at Ayom's Scents.`;
+    const textToShare = `${perfume.name} by ${perfume.house} (${perfume.concentration}) - Prices available on Telegram (${BRAND_CONFIG.telegramChannel}) at Ayom's Scents.`;
     if (navigator.clipboard) {
       navigator.clipboard.writeText(textToShare);
       setCopied(true);
@@ -88,8 +90,9 @@ export default function ScentDossier({ perfume, isOpen, onClose }) {
               <div className="relative w-full aspect-[4/3] rounded-2xl bg-gradient-to-b from-white to-[#FDF2F5] p-6 flex items-center justify-center overflow-hidden border border-[#F0DDE2] mb-6 isolate">
                 <div className="absolute bottom-6 left-1/2 -translate-x-1/2 w-1/2 h-6 bg-black/15 rounded-full blur-lg pointer-events-none" />
                 <img
-                  src={perfume.image}
+                  src={getProductImage(perfume)}
                   alt={perfume.name}
+                  onError={handleImageError}
                   className="relative z-10 max-h-[82%] max-w-[82%] object-contain filter contrast-[1.02]"
                 />
                 <div className="absolute top-3 left-3 z-20 px-2.5 py-1 rounded-full bg-white/95 backdrop-blur-sm border border-[#F0DDE2] text-[9px] uppercase font-sans-luxury text-[#8C6D46] font-medium shadow-xs pointer-events-none">
@@ -152,7 +155,7 @@ export default function ScentDossier({ perfume, isOpen, onClose }) {
                     <span className="text-[10px] font-sans-luxury text-[#9E8B75]">Stage 1</span>
                   </div>
                   <div className="flex flex-wrap gap-2">
-                    {perfume.notes.top.map((note) => (
+                    {(perfume.notes?.top || []).map((note) => (
                       <span key={note} className="text-xs font-sans-luxury px-2.5 py-1 rounded-md bg-[#FDF2F5] border border-[#F0DDE2] text-[#4A4036] font-medium">
                         {note}
                       </span>
@@ -170,7 +173,7 @@ export default function ScentDossier({ perfume, isOpen, onClose }) {
                     <span className="text-[10px] font-sans-luxury text-[#9E8B75]">Stage 2</span>
                   </div>
                   <div className="flex flex-wrap gap-2">
-                    {perfume.notes.heart.map((note) => (
+                    {(perfume.notes?.heart || []).map((note) => (
                       <span key={note} className="text-xs font-sans-luxury px-2.5 py-1 rounded-md bg-[#FDF2F5] border border-[#F0DDE2] text-[#4A4036] font-medium">
                         {note}
                       </span>
@@ -188,7 +191,7 @@ export default function ScentDossier({ perfume, isOpen, onClose }) {
                     <span className="text-[10px] font-sans-luxury text-[#9E8B75]">Stage 3</span>
                   </div>
                   <div className="flex flex-wrap gap-2">
-                    {perfume.notes.base.map((note) => (
+                    {(perfume.notes?.base || []).map((note) => (
                       <span key={note} className="text-xs font-sans-luxury px-2.5 py-1 rounded-md bg-[#FDF2F5] border border-[#F0DDE2] text-[#4A4036] font-medium">
                         {note}
                       </span>
@@ -214,7 +217,7 @@ export default function ScentDossier({ perfume, isOpen, onClose }) {
                     </span>
                   </div>
                   <span className="font-serif-luxury text-xl font-medium text-[#181512] block">
-                    {perfume.performance.longevity}
+                    {perfume.performance?.longevity || '8-10 Hours'}
                   </span>
                   <div className="w-full bg-[#FDF2F5] h-1.5 rounded-full overflow-hidden mt-2">
                     <div className="bg-gradient-to-r from-[#D4AF37] to-[#8C6D46] h-full w-[90%]" />
@@ -229,7 +232,7 @@ export default function ScentDossier({ perfume, isOpen, onClose }) {
                     </span>
                   </div>
                   <span className="font-serif-luxury text-xl font-medium text-[#181512] block">
-                    {perfume.performance.sillage}
+                    {perfume.performance?.sillage || 'Moderate to Strong'}
                   </span>
                   <div className="w-full bg-[#FDF2F5] h-1.5 rounded-full overflow-hidden mt-2">
                     <div className="bg-gradient-to-r from-[#D4AF37] to-[#8C6D46] h-full w-[85%]" />
@@ -267,20 +270,31 @@ export default function ScentDossier({ perfume, isOpen, onClose }) {
 
           </div>
 
-          {/* Drawer Sticky Footer with Dynamic WhatsApp Conversion Button */}
-          <div className="sticky bottom-0 z-30 bg-[#FAF0F3] px-4 py-3 sm:px-6 sm:py-5 border-t border-[#F0DDE2] shadow-lg space-y-2">
+          {/* Drawer Sticky Footer with Telegram Prices & WhatsApp Conversion */}
+          <div className="sticky bottom-0 z-30 bg-[#FAF0F3] px-4 py-3 sm:px-6 sm:py-4 border-t border-[#F0DDE2] shadow-lg space-y-2.5">
+            <a
+              href={BRAND_CONFIG.telegramChannel}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="w-full py-2.5 px-4 rounded-[8px] text-xs font-sans-luxury font-medium text-center bg-white/90 text-[#6E5D4F] hover:text-[#181512] hover:bg-white hover:border-[#D4AF37] transition-all duration-300 flex items-center justify-center gap-2 border border-[#F0DDE2] shadow-xs"
+            >
+              <Send className="w-3.5 h-3.5 text-[#C5A880]" />
+              <span>Prices available on our Telegram ({BRAND_CONFIG.telegramHandle})</span>
+              <ExternalLink className="w-3 h-3 text-[#9E8B75] ml-0.5" />
+            </a>
+
             <a
               href={whatsappUrl}
               target="_blank"
               rel="noopener noreferrer"
               className="w-full py-3.5 px-6 rounded-[8px] text-xs uppercase tracking-[0.2em] font-sans-luxury font-medium text-center bg-[#181512] text-white hover:bg-black transition-all duration-300 block"
             >
-              Order via WhatsApp • {perfume.price}
+              Order via WhatsApp
             </a>
 
-            <div className="text-center pt-1">
+            <div className="text-center pt-0.5">
               <span className="text-[10px] font-sans-luxury text-[#9E8B75]">
-                Direct to 09055334786
+                Direct to 09055334786 • Fast Delivery in CU
               </span>
             </div>
           </div>

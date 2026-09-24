@@ -1,53 +1,1045 @@
 [
   {
-    "id": "ayom-01",
-    "name": "Grand Soir",
-    "house": "Maison Francis Kurkdjian",
+    "id": "P-001",
+    "name": "Ashantee (Red)",
+    "house": "Zandas",
     "family": "Amber / Oriental",
     "gender": "Unisex",
     "concentration": "Eau de Parfum",
-    "price": "₦285,000",
-    "volume": "70ml",
-    "image": "https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?auto=format&fit=crop&q=80&w=800",
-    "description": "A dressy amber masterpiece cloaked in rich benzoin, vanilla, and warm tonka bean. Radiates warmth and undeniable regal sophistication.",
-    "badge": "Curator's Spotlight",
+    "price": "Prices available on our Telegram",
+    "volume": "100ml",
+    "image": "/products/P-001.jpg",
+    "description": "A captivating, rich oriental blend with warm amber and festive spices that commands attention.",
+    "badge": "Campus Bestseller",
     "isSpotlight": true,
-    "signatureNote": "Spanish Labdanum & Siam Benzoin",
+    "signatureNote": "Warm Amber & Spiced Red Florals",
     "notes": {
       "top": [
-        "Spanish Labdanum",
-        "Lavender"
+        "Red Spices",
+        "Warm Cinnamon",
+        "Mandarin"
       ],
       "heart": [
-        "Benzoin Siam",
-        "Amber Accord"
+        "Amber Resin",
+        "Clove Blossom"
       ],
       "base": [
-        "Brazilian Tonka Bean",
-        "Madagascan Vanilla"
+        "Sandalwood",
+        "Sweet Benzoin"
       ]
     },
     "performance": {
-      "longevity": "10-12 Hours",
-      "sillage": "Enveloping"
+      "longevity": "8-12 Hours",
+      "sillage": "Moderate to Strong"
     },
-    "occasion": "Gala, Black Tie, Cold Evenings",
-    "season": "Autumn / Winter"
+    "occasion": "Daily Wear, Classes & Study Sessions",
+    "season": "All Year (Harmattan & Rain)"
   },
   {
-    "id": "ayom-02",
-    "name": "Baccarat Rouge 540 Extrait",
-    "house": "Maison Francis Kurkdjian",
+    "id": "P-002",
+    "name": "Ashantee Floral",
+    "house": "Zandas",
+    "family": "Floral",
+    "gender": "Unisex",
+    "concentration": "Eau de Parfum",
+    "price": "Prices available on our Telegram",
+    "volume": "100ml",
+    "image": "/products/P-002.jpg",
+    "description": "Delicate spring florals paired with soft musk for a fresh, uplifting daily campus fragrance.",
+    "badge": "Daily Favorite",
+    "isSpotlight": false,
+    "signatureNote": "White Lily & Fresh Peony",
+    "notes": {
+      "top": [
+        "White Lily",
+        "Freesia",
+        "Crisp Pear"
+      ],
+      "heart": [
+        "Peony Bloom",
+        "Pink Jasmine"
+      ],
+      "base": [
+        "White Musk",
+        "Cedarwood"
+      ]
+    },
+    "performance": {
+      "longevity": "8-12 Hours",
+      "sillage": "Moderate to Strong"
+    },
+    "occasion": "Lectures, Hall Chill & Weekend Outings",
+    "season": "All Year (Harmattan & Rain)"
+  },
+  {
+    "id": "P-003",
+    "name": "Ashantee Intense Elixir",
+    "house": "Zandas",
     "family": "Amber / Oriental",
     "gender": "Unisex",
-    "concentration": "Extrait de Parfum",
-    "price": "₦460,000",
-    "volume": "70ml",
-    "image": "https://images.unsplash.com/photo-1588405748880-12d1d2a59f75?auto=format&fit=crop&q=80&w=800",
-    "description": "The pinnacle of luminous luxury. Saffron and bitter almond blossom into Egyptian grandiflorum jasmine and sensual cedar ambergris.",
-    "badge": "Our #1 Signature",
+    "concentration": "Eau de Parfum",
+    "price": "Prices available on our Telegram",
+    "volume": "100ml",
+    "image": "/products/P-003.jpg",
+    "description": "An intensified elixir designed for long evening projection and magnetic warmth.",
+    "badge": "Evening Wear",
+    "isSpotlight": false,
+    "signatureNote": "Smoky Amber, Cinnamon & Tonka",
+    "notes": {
+      "top": [
+        "Dark Nutmeg",
+        "Bergamot",
+        "Saffron"
+      ],
+      "heart": [
+        "Smoky Amber",
+        "Balsam Fir"
+      ],
+      "base": [
+        "Tonka Bean",
+        "Precious Woods"
+      ]
+    },
+    "performance": {
+      "longevity": "8-12 Hours",
+      "sillage": "Moderate to Strong"
+    },
+    "occasion": "Daily Wear, Classes & Study Sessions",
+    "season": "All Year (Harmattan & Rain)"
+  },
+  {
+    "id": "P-004",
+    "name": "Ashantee Far Away",
+    "house": "Zandas",
+    "family": "Amber / Oriental",
+    "gender": "Unisex",
+    "concentration": "Eau de Parfum",
+    "price": "Prices available on our Telegram",
+    "volume": "25ml",
+    "image": "/products/P-004.jpg",
+    "description": "Pocket-sized luxury with dreamy vanilla and lush fruits, perfect for touch-ups between classes.",
+    "badge": "Pocket Perfume",
+    "isSpotlight": false,
+    "signatureNote": "Exotic Vanilla & Peach",
+    "notes": {
+      "top": [
+        "Juicy Peach",
+        "Freesia"
+      ],
+      "heart": [
+        "Exotic Jasmine",
+        "Osmanthus"
+      ],
+      "base": [
+        "Madagascar Vanilla",
+        "Amber"
+      ]
+    },
+    "performance": {
+      "longevity": "8-12 Hours",
+      "sillage": "Moderate to Strong"
+    },
+    "occasion": "Lectures, Hall Chill & Weekend Outings",
+    "season": "All Year (Harmattan & Rain)"
+  },
+  {
+    "id": "P-005",
+    "name": "Perfect Line",
+    "house": "Perfect Line",
+    "family": "Floral",
+    "gender": "Pour Femme",
+    "concentration": "Eau de Toilette",
+    "price": "Prices available on our Telegram",
+    "volume": "30ml/100ml",
+    "image": "/products/P-005.jpg",
+    "description": "A youthful, radiant fruity-floral that feels effortlessly graceful all day long.",
+    "badge": "Fruity Floral",
+    "isSpotlight": false,
+    "signatureNote": "Sweet Blossom & Juicy Berries",
+    "notes": {
+      "top": [
+        "Red Apple",
+        "Wild Berries"
+      ],
+      "heart": [
+        "Rose Water",
+        "Lily"
+      ],
+      "base": [
+        "Creamy Musk",
+        "Blonde Woods"
+      ]
+    },
+    "performance": {
+      "longevity": "8-12 Hours",
+      "sillage": "Moderate to Strong"
+    },
+    "occasion": "Lectures, Hall Chill & Weekend Outings",
+    "season": "All Year (Harmattan & Rain)"
+  },
+  {
+    "id": "P-006",
+    "name": "Touch (Green/Yellow/Pink/Blue Edition)",
+    "house": "Gandour",
+    "family": "Fresh",
+    "gender": "Unisex",
+    "concentration": "Concentrated Parfum",
+    "price": "Prices available on our Telegram",
+    "volume": "5ml",
+    "image": "/products/P-006.jpg",
+    "description": "Pure concentrated perfume oil with vivid citrus brilliance that fits right in your pocket.",
+    "badge": "Oil Concentrée",
+    "isSpotlight": false,
+    "signatureNote": "Crisp Citrus & Bergamot",
+    "notes": {
+      "top": [
+        "Sparkling Bergamot",
+        "Lemon Zest"
+      ],
+      "heart": [
+        "Neroli",
+        "Green Leaves"
+      ],
+      "base": [
+        "Clean Musk",
+        "Soft Cedar"
+      ]
+    },
+    "performance": {
+      "longevity": "8-12 Hours",
+      "sillage": "Moderate to Strong"
+    },
+    "occasion": "Daily Wear, Classes & Study Sessions",
+    "season": "All Year (Harmattan & Rain)"
+  },
+  {
+    "id": "P-007",
+    "name": "Touch Majestic Oud",
+    "house": "Gandour",
+    "family": "Amber / Oriental",
+    "gender": "Unisex",
+    "concentration": "Concentrated Parfum",
+    "price": "Prices available on our Telegram",
+    "volume": "5ml",
+    "image": "/products/P-007.jpg",
+    "description": "Opulent Arabian concentrated oud oil crafted for enduring, majestic sillage.",
+    "badge": "Pure Oud",
+    "isSpotlight": false,
+    "signatureNote": "Rich Arabian Oud & Smoked Woods",
+    "notes": {
+      "top": [
+        "Rich Agarwood",
+        "Spiced Cardamom"
+      ],
+      "heart": [
+        "Smoky Frankincense",
+        "Leather"
+      ],
+      "base": [
+        "Dark Amber",
+        "Cambodian Oud"
+      ]
+    },
+    "performance": {
+      "longevity": "8-12 Hours",
+      "sillage": "Moderate to Strong"
+    },
+    "occasion": "Daily Wear, Classes & Study Sessions",
+    "season": "All Year (Harmattan & Rain)"
+  },
+  {
+    "id": "P-008",
+    "name": "Balila",
+    "house": "Balila",
+    "family": "Floral",
+    "gender": "Unisex",
+    "concentration": "Eau de Toilette",
+    "price": "Prices available on our Telegram",
+    "volume": "120ml",
+    "image": "/products/P-008.jpg",
+    "description": "Generous 120ml bottle radiating cheerful floral freshness and dewy morning energy.",
+    "badge": "Great Value",
+    "isSpotlight": false,
+    "signatureNote": "Fruity Nectar & Spring Petals",
+    "notes": {
+      "top": [
+        "Sweet Orange",
+        "Melon"
+      ],
+      "heart": [
+        "Magnolia",
+        "Water Lily"
+      ],
+      "base": [
+        "Soft Sandalwood",
+        "Clean Amber"
+      ]
+    },
+    "performance": {
+      "longevity": "8-12 Hours",
+      "sillage": "Moderate to Strong"
+    },
+    "occasion": "Daily Wear, Classes & Study Sessions",
+    "season": "All Year (Harmattan & Rain)"
+  },
+  {
+    "id": "P-009",
+    "name": "One Love",
+    "house": "Paris Blue",
+    "family": "Floral",
+    "gender": "Unisex",
+    "concentration": "Eau de Toilette",
+    "price": "Prices available on our Telegram",
+    "volume": "100ml",
+    "image": "/products/P-009.jpg",
+    "description": "A romantic Parisian composition celebrating love, tenderness, and modern elegance.",
+    "badge": "Parisian Touch",
+    "isSpotlight": false,
+    "signatureNote": "Romantic Rose & Velvet Jasmine",
+    "notes": {
+      "top": [
+        "Damask Rose",
+        "Pink Pepper"
+      ],
+      "heart": [
+        "Velvet Jasmine",
+        "Orris"
+      ],
+      "base": [
+        "White Amber",
+        "Cashmeran"
+      ]
+    },
+    "performance": {
+      "longevity": "8-12 Hours",
+      "sillage": "Moderate to Strong"
+    },
+    "occasion": "Daily Wear, Classes & Study Sessions",
+    "season": "All Year (Harmattan & Rain)"
+  },
+  {
+    "id": "P-010",
+    "name": "Nivea Men Roll-On (Cool Kick/Deep/Dry Impact/Fresh Active)",
+    "house": "Beiersdorf AG",
+    "family": "Fresh",
+    "gender": "Pour Homme",
+    "concentration": "Anti-perspirant Roll-on",
+    "price": "Prices available on our Telegram",
+    "volume": "50ml",
+    "image": "/products/P-010.jpg",
+    "description": "Reliable 48-hour sweat and odor protection with an invigorating masculine freshness.",
+    "badge": "Daily Essential",
+    "isSpotlight": false,
+    "signatureNote": "Icy Menthol & Ocean Breeze",
+    "notes": {
+      "top": [
+        "Cool Mint",
+        "Icy Menthol"
+      ],
+      "heart": [
+        "Oceanic Accord",
+        "Ozone"
+      ],
+      "base": [
+        "Clean Cedar",
+        "Musk"
+      ]
+    },
+    "performance": {
+      "longevity": "24+ Hours",
+      "sillage": "Intimate & Clean"
+    },
+    "occasion": "Classes, Chapel & Campus Evening",
+    "season": "All Year (Harmattan & Rain)"
+  },
+  {
+    "id": "P-011",
+    "name": "Nivea Roll-On (Black&White/Silver Protect/Dry Comfort)",
+    "house": "Beiersdorf AG",
+    "family": "Fresh",
+    "gender": "Unisex",
+    "concentration": "Anti-perspirant Roll-on",
+    "price": "Prices available on our Telegram",
+    "volume": "50ml",
+    "image": "/products/P-011.jpg",
+    "description": "Zero white marks on black clothes, zero yellow stains on white shirts. The CU student holy grail.",
+    "badge": "No Stains",
+    "isSpotlight": false,
+    "signatureNote": "Crisp Clean Linen & Soft Musk",
+    "notes": {
+      "top": [
+        "Clean Linen",
+        "Aldehydes"
+      ],
+      "heart": [
+        "White Cotton",
+        "Lotus"
+      ],
+      "base": [
+        "Gentle Musk",
+        "Dry Amber"
+      ]
+    },
+    "performance": {
+      "longevity": "24+ Hours",
+      "sillage": "Intimate & Clean"
+    },
+    "occasion": "Daily Wear, Classes & Study Sessions",
+    "season": "All Year (Harmattan & Rain)"
+  },
+  {
+    "id": "P-012",
+    "name": "Karis Roll On - Allday Fresh",
+    "house": "Karis",
+    "family": "Fresh",
+    "gender": "Unisex",
+    "concentration": "Roll-on Deodorant",
+    "price": "Prices available on our Telegram",
+    "volume": "50ml",
+    "image": "/products/P-012.jpg",
+    "description": "Soothing, gentle underarm care designed for hot campus weather and non-stop active days.",
+    "badge": "Budget Friendly",
+    "isSpotlight": false,
+    "signatureNote": "Green Tea & Cool Aloe",
+    "notes": {
+      "top": [
+        "Green Tea",
+        "Aloe Vera"
+      ],
+      "heart": [
+        "Cucumber Water",
+        "Bamboo"
+      ],
+      "base": [
+        "Soft Musk",
+        "Clean Woods"
+      ]
+    },
+    "performance": {
+      "longevity": "24+ Hours",
+      "sillage": "Intimate & Clean"
+    },
+    "occasion": "Daily Wear, Classes & Study Sessions",
+    "season": "All Year (Harmattan & Rain)"
+  },
+  {
+    "id": "P-013",
+    "name": "Karis Allday Fresh Body Spray (Ethnics/Oasis/Breeze/etc)",
+    "house": "Karis",
+    "family": "Floral",
+    "gender": "Unisex",
+    "concentration": "Body Spray Deodorant",
+    "price": "Prices available on our Telegram",
+    "volume": "200ml",
+    "image": "/products/P-013.jpg",
+    "description": "A generous 200ml all-over body spray giving instant rejuvenation after class or gym.",
+    "badge": "All-Day Fresh",
+    "isSpotlight": false,
+    "signatureNote": "Fresh Marine Accord & Wild Citrus",
+    "notes": {
+      "top": [
+        "Wild Citrus",
+        "Crisp Apple"
+      ],
+      "heart": [
+        "Marine Breeze",
+        "Lily"
+      ],
+      "base": [
+        "Light Cedar",
+        "Musk"
+      ]
+    },
+    "performance": {
+      "longevity": "6-8 Hours",
+      "sillage": "Airy & Moderate"
+    },
+    "occasion": "Daily Wear, Classes & Study Sessions",
+    "season": "All Year (Harmattan & Rain)"
+  },
+  {
+    "id": "P-014",
+    "name": "Storm Elixir (Aura/Maverick/Inferno/Zeus/Athena/Noir/Hermes/Gaia/Mystique/Magic/Fusion)",
+    "house": "Storm",
+    "family": "Amber / Oriental",
+    "gender": "Unisex",
+    "concentration": "Perfumed Deodorant Body Spray",
+    "price": "Prices available on our Telegram",
+    "volume": "200ml",
+    "image": "/products/P-014.jpg",
+    "description": "Bold, intense deodorant body spray with high-impact fragrance diffusion.",
+    "badge": "High Intensity",
+    "isSpotlight": false,
+    "signatureNote": "Aromatic Cedar & Spiced Pepper",
+    "notes": {
+      "top": [
+        "Black Pepper",
+        "Bergamot"
+      ],
+      "heart": [
+        "Spiced Lavender",
+        "Sage"
+      ],
+      "base": [
+        "Aromatic Cedar",
+        "Smoked Vetiver"
+      ]
+    },
+    "performance": {
+      "longevity": "6-8 Hours",
+      "sillage": "Airy & Moderate"
+    },
+    "occasion": "Daily Wear, Classes & Study Sessions",
+    "season": "All Year (Harmattan & Rain)"
+  },
+  {
+    "id": "P-015",
+    "name": "The Chairman (Zandas box)",
+    "house": "Zandas",
+    "family": "Woody",
+    "gender": "Pour Homme",
+    "concentration": "Eau de Parfum",
+    "price": "Prices available on our Telegram",
+    "volume": "100ml",
+    "image": "/products/P-015.jpg",
+    "description": "A commanding fragrance built for leadership, poise, and dignified presence.",
+    "badge": "Executive Style",
+    "isSpotlight": false,
+    "signatureNote": "Executive Sandalwood & Rich Spices",
+    "notes": {
+      "top": [
+        "Grapefruit",
+        "Coriander",
+        "Basil"
+      ],
+      "heart": [
+        "Ginger",
+        "Warm Cardamom"
+      ],
+      "base": [
+        "Tobacco Accord",
+        "Sandalwood",
+        "Amber"
+      ]
+    },
+    "performance": {
+      "longevity": "8-12 Hours",
+      "sillage": "Moderate to Strong"
+    },
+    "occasion": "Classes, Chapel & Campus Evening",
+    "season": "All Year (Harmattan & Rain)"
+  },
+  {
+    "id": "P-016",
+    "name": "Riggs London Patrol",
+    "house": "Riggs London",
+    "family": "Woody",
+    "gender": "Pour Homme",
+    "concentration": "Eau de Parfum",
+    "price": "Prices available on our Telegram",
+    "volume": "100ml",
+    "image": "/products/P-016.jpg",
+    "description": "Sophisticated British barbershop elegance reimagined with rich modern spices.",
+    "badge": "British Classic",
+    "isSpotlight": false,
+    "signatureNote": "British Leather & Lavender Oakmoss",
+    "notes": {
+      "top": [
+        "French Lavender",
+        "Crisp Citrus"
+      ],
+      "heart": [
+        "Nutmeg",
+        "Geranium"
+      ],
+      "base": [
+        "English Oakmoss",
+        "Leather",
+        "Patchouli"
+      ]
+    },
+    "performance": {
+      "longevity": "8-12 Hours",
+      "sillage": "Moderate to Strong"
+    },
+    "occasion": "Classes, Chapel & Campus Evening",
+    "season": "All Year (Harmattan & Rain)"
+  },
+  {
+    "id": "P-017",
+    "name": "Confetti Body Spray (Cherie/Live/Coral/Maple/etc)",
+    "house": "Confetti London",
+    "family": "Floral",
+    "gender": "Pour Femme",
+    "concentration": "Perfumed Deodorant Body Spray",
+    "price": "Prices available on our Telegram",
+    "volume": "150ml",
+    "image": "/products/P-017.jpg",
+    "description": "Playful London glamour in a pocket spray that keeps you smelling delicious all day.",
+    "badge": "London Chic",
+    "isSpotlight": false,
+    "signatureNote": "Sweet Cherie & Coral Petals",
+    "notes": {
+      "top": [
+        "Sweet Cherie",
+        "Wild Strawberry"
+      ],
+      "heart": [
+        "Pink Coral Blossom",
+        "Peach"
+      ],
+      "base": [
+        "Cotton Candy",
+        "Soft Musk"
+      ]
+    },
+    "performance": {
+      "longevity": "6-8 Hours",
+      "sillage": "Airy & Moderate"
+    },
+    "occasion": "Lectures, Hall Chill & Weekend Outings",
+    "season": "All Year (Harmattan & Rain)"
+  },
+  {
+    "id": "P-018",
+    "name": "Confetti Fine Fragrance Mist (Sunshine&Cheer/Bare Kiss/Dear/Joy/You/etc)",
+    "house": "Confetti London",
+    "family": "Floral",
+    "gender": "Pour Femme",
+    "concentration": "Fine Fragrance Mist",
+    "price": "Prices available on our Telegram",
+    "volume": "236ml",
+    "image": "/products/P-018.jpg",
+    "description": "Luxurious 236ml fine fragrance body mist offering an airy, lingering aura of golden warmth.",
+    "badge": "Mist Luxury",
+    "isSpotlight": false,
+    "signatureNote": "Sunshine Citrus & Bare Kiss Vanilla",
+    "notes": {
+      "top": [
+        "Sparkling Mandarin",
+        "Solar Flowers"
+      ],
+      "heart": [
+        "Bare Kiss Vanilla",
+        "Peony"
+      ],
+      "base": [
+        "Cashmere Woods",
+        "Amber Sugar"
+      ]
+    },
+    "performance": {
+      "longevity": "5-7 Hours",
+      "sillage": "Airy & Moderate"
+    },
+    "occasion": "Lectures, Hall Chill & Weekend Outings",
+    "season": "All Year (Harmattan & Rain)"
+  },
+  {
+    "id": "P-019",
+    "name": "Confetti Chocolate",
+    "house": "Confetti London",
+    "family": "Gourmand",
+    "gender": "Pour Femme",
+    "concentration": "Perfumed Deodorant Body Spray",
+    "price": "Prices available on our Telegram",
+    "volume": "250ml",
+    "image": "/products/P-019.jpg",
+    "description": "Irresistibly decadent chocolate gourmand spray that smells like a gourmet patisserie.",
+    "badge": "Chocoholic",
+    "isSpotlight": false,
+    "signatureNote": "Rich Cocoa & Warm Vanilla Bean",
+    "notes": {
+      "top": [
+        "Dark Cocoa",
+        "Roasted Hazelnut"
+      ],
+      "heart": [
+        "Chocolate Truffle",
+        "Malted Milk"
+      ],
+      "base": [
+        "Warm Vanilla",
+        "Tonka"
+      ]
+    },
+    "performance": {
+      "longevity": "6-8 Hours",
+      "sillage": "Airy & Moderate"
+    },
+    "occasion": "Lectures, Hall Chill & Weekend Outings",
+    "season": "All Year (Harmattan & Rain)"
+  },
+  {
+    "id": "P-020",
+    "name": "Confetti Body Spray (Blush/Nude/Coral/Live/You/Wish)",
+    "house": "Confetti London",
+    "family": "Floral",
+    "gender": "Pour Femme",
+    "concentration": "Perfumed Deodorant Body Spray",
+    "price": "Prices available on our Telegram",
+    "volume": "250ml",
+    "image": "/products/P-020.jpg",
+    "description": "Sensual and understated, blending airy petals with comforting warm skin musk.",
+    "badge": "Everyday Glow",
+    "isSpotlight": false,
+    "signatureNote": "Blush Peony & Nude Amber",
+    "notes": {
+      "top": [
+        "Blush Rose",
+        "Apricot Nectar"
+      ],
+      "heart": [
+        "Nude Amber",
+        "Water Jasmine"
+      ],
+      "base": [
+        "Creamy Sandalwood",
+        "Skin Musk"
+      ]
+    },
+    "performance": {
+      "longevity": "6-8 Hours",
+      "sillage": "Airy & Moderate"
+    },
+    "occasion": "Lectures, Hall Chill & Weekend Outings",
+    "season": "All Year (Harmattan & Rain)"
+  },
+  {
+    "id": "P-021",
+    "name": "Creation Lamis Pure Black",
+    "house": "Creation Lamis",
+    "family": "Woody",
+    "gender": "Pour Homme",
+    "concentration": "Fragranced Body Spray",
+    "price": "Prices available on our Telegram",
+    "volume": "200ml",
+    "image": "/products/P-021.jpg",
+    "description": "Iconic masculine cult favorite with rich leathery undertones and dark woody intensity.",
+    "badge": "Cult Classic",
+    "isSpotlight": false,
+    "signatureNote": "Smoky Woods & Smoked Leather",
+    "notes": {
+      "top": [
+        "Bergamot",
+        "Lemon Peel"
+      ],
+      "heart": [
+        "Black Pepper",
+        "Smoked Leather"
+      ],
+      "base": [
+        "Cedarwood",
+        "Patchouli",
+        "Benzoin"
+      ]
+    },
+    "performance": {
+      "longevity": "6-8 Hours",
+      "sillage": "Airy & Moderate"
+    },
+    "occasion": "Classes, Chapel & Campus Evening",
+    "season": "All Year (Harmattan & Rain)"
+  },
+  {
+    "id": "P-022",
+    "name": "Suger Candy",
+    "house": "Suger Candy",
+    "family": "Gourmand",
+    "gender": "Pour Femme",
+    "concentration": "Eau de Parfum",
+    "price": "Prices available on our Telegram",
+    "volume": "100ml",
+    "image": "/products/P-022.jpg",
+    "description": "An ultra-sweet, nostalgic sugar dream that leaves a delicious, confectionery sillage.",
+    "badge": "Sweet Tooth",
+    "isSpotlight": false,
+    "signatureNote": "Spun Sugar & Pink Strawberry Glaze",
+    "notes": {
+      "top": [
+        "Cotton Candy",
+        "Sugar Glaze"
+      ],
+      "heart": [
+        "Marshmallow",
+        "Pink Strawberry"
+      ],
+      "base": [
+        "Madagascar Vanilla",
+        "Praline"
+      ]
+    },
+    "performance": {
+      "longevity": "8-12 Hours",
+      "sillage": "Moderate to Strong"
+    },
+    "occasion": "Lectures, Hall Chill & Weekend Outings",
+    "season": "All Year (Harmattan & Rain)"
+  },
+  {
+    "id": "P-023",
+    "name": "Aventos Blue For Him",
+    "house": "Solar Axis Energy Ltd.",
+    "family": "Fresh",
+    "gender": "Pour Homme",
+    "concentration": "Eau de Parfum",
+    "price": "Prices available on our Telegram",
+    "volume": "100ml",
+    "image": "/products/P-023.jpg",
+    "description": "A majestic fresh-woody masterpiece inspired by iconic kingpin scents. High projection and compliments.",
+    "badge": "Top Performer",
     "isSpotlight": true,
-    "signatureNote": "Red Saffron & Bitter Almond",
+    "signatureNote": "Smoky Pineapple & Birch Ambergris",
+    "notes": {
+      "top": [
+        "Smoky Pineapple",
+        "Crisp Apple",
+        "Bergamot"
+      ],
+      "heart": [
+        "Birch Bark",
+        "Moroccan Jasmine"
+      ],
+      "base": [
+        "Oakmoss",
+        "Ambergris",
+        "Musk"
+      ]
+    },
+    "performance": {
+      "longevity": "8-12 Hours",
+      "sillage": "Moderate to Strong"
+    },
+    "occasion": "Classes, Chapel & Campus Evening",
+    "season": "All Year (Harmattan & Rain)"
+  },
+  {
+    "id": "P-024",
+    "name": "Matador",
+    "house": "GDK (Gets De Bourgois)",
+    "family": "Woody",
+    "gender": "Pour Homme",
+    "concentration": "Eau de Toilette",
+    "price": "Prices available on our Telegram",
+    "volume": "100ml",
+    "image": "/products/P-024.jpg",
+    "description": "Traditional aromatic fougere crafted in Lagos with European finesse. Rugged, refined, and masculine.",
+    "badge": "Local Pride",
+    "isSpotlight": false,
+    "signatureNote": "Spanish Fougere, Lavender & Leather",
+    "notes": {
+      "top": [
+        "French Lavender",
+        "Rosemary",
+        "Artemisia"
+      ],
+      "heart": [
+        "Carnation",
+        "Cinnamon",
+        "Coriander"
+      ],
+      "base": [
+        "Leather",
+        "Oakmoss",
+        "Fir Balsam"
+      ]
+    },
+    "performance": {
+      "longevity": "8-12 Hours",
+      "sillage": "Moderate to Strong"
+    },
+    "occasion": "Classes, Chapel & Campus Evening",
+    "season": "All Year (Harmattan & Rain)"
+  },
+  {
+    "id": "P-025",
+    "name": "Explore",
+    "house": "Explore (Room of Smart Originals)",
+    "family": "Fresh",
+    "gender": "Unisex",
+    "concentration": "Perfumed Deodorant Body Spray",
+    "price": "Prices available on our Telegram",
+    "volume": "200ml",
+    "image": "/products/P-025.jpg",
+    "description": "Stay effortlessly cool under pressure. Delivers a surge of brisk mountain air with every blast.",
+    "badge": "Cool Touch",
+    "isSpotlight": false,
+    "signatureNote": "Crisp Mountain Breeze & Cool Mint",
+    "notes": {
+      "top": [
+        "Cool Mint",
+        "Crisp Ozone"
+      ],
+      "heart": [
+        "Lavender",
+        "Sage"
+      ],
+      "base": [
+        "Clear Cedar",
+        "Clean Musk"
+      ]
+    },
+    "performance": {
+      "longevity": "6-8 Hours",
+      "sillage": "Airy & Moderate"
+    },
+    "occasion": "Daily Wear, Classes & Study Sessions",
+    "season": "All Year (Harmattan & Rain)"
+  },
+  {
+    "id": "P-026",
+    "name": "Mousuf (Candy/Layali/Musk/Mango/Sexy/Ramadi)",
+    "house": "Mousuf",
+    "family": "Gourmand",
+    "gender": "Unisex",
+    "concentration": "Eau de Parfum",
+    "price": "Prices available on our Telegram",
+    "volume": "25ml/30ml/50ml",
+    "image": "/products/P-026.jpg",
+    "description": "Viral Dubai fragrance sensation blending rich chocolate, candied fruits, and smooth creamy oud.",
+    "badge": "Viral Sensation",
+    "isSpotlight": false,
+    "signatureNote": "Chocolaty Caramel & Arabian Oud",
+    "notes": {
+      "top": [
+        "Sweet Grape",
+        "Chocolate Truffle"
+      ],
+      "heart": [
+        "Caramel Swirl",
+        "Arabian Oud"
+      ],
+      "base": [
+        "Cashmere Musk",
+        "Amber"
+      ]
+    },
+    "performance": {
+      "longevity": "8-12 Hours",
+      "sillage": "Moderate to Strong"
+    },
+    "occasion": "Daily Wear, Classes & Study Sessions",
+    "season": "All Year (Harmattan & Rain)"
+  },
+  {
+    "id": "P-027",
+    "name": "Imperio Way (Flare/Parfum/Forever/Essence)",
+    "house": "Imperio",
+    "family": "Floral",
+    "gender": "Pour Femme",
+    "concentration": "Parfum",
+    "price": "Prices available on our Telegram",
+    "volume": "25ml",
+    "image": "/products/P-027.jpg",
+    "description": "Pocket luxury embodying modern feminine curiosity and joyful globe-trotting spirit.",
+    "badge": "Compact Parfum",
+    "isSpotlight": false,
+    "signatureNote": "Orange Blossom & Velvety Tuberose",
+    "notes": {
+      "top": [
+        "Orange Blossom",
+        "Calabrian Bergamot"
+      ],
+      "heart": [
+        "Indian Tuberose",
+        "White Jasmine"
+      ],
+      "base": [
+        "Bourbon Vanilla",
+        "White Musk"
+      ]
+    },
+    "performance": {
+      "longevity": "8-12 Hours",
+      "sillage": "Moderate to Strong"
+    },
+    "occasion": "Lectures, Hall Chill & Weekend Outings",
+    "season": "All Year (Harmattan & Rain)"
+  },
+  {
+    "id": "P-028",
+    "name": "Imperio My Way",
+    "house": "Genie Collection",
+    "family": "Floral",
+    "gender": "Pour Femme",
+    "concentration": "Eau de Parfum",
+    "price": "Prices available on our Telegram",
+    "volume": "25ml",
+    "image": "/products/P-028.jpg",
+    "description": "Accurate, long-wearing UAE travel recreation of radiant luxury designer white florals.",
+    "badge": "Designer Dupe",
+    "isSpotlight": false,
+    "signatureNote": "Bright Florals & Bourbon Vanilla",
+    "notes": {
+      "top": [
+        "Bergamot",
+        "Egyptian Orange Blossom"
+      ],
+      "heart": [
+        "Tuberose",
+        "Jasmine Grandiflorum"
+      ],
+      "base": [
+        "Cedarwood",
+        "Madagascar Vanilla"
+      ]
+    },
+    "performance": {
+      "longevity": "8-12 Hours",
+      "sillage": "Moderate to Strong"
+    },
+    "occasion": "Lectures, Hall Chill & Weekend Outings",
+    "season": "All Year (Harmattan & Rain)"
+  },
+  {
+    "id": "P-029",
+    "name": "Genie Collection Mukhallat (Traditional)",
+    "house": "Genie Collection",
+    "family": "Amber / Oriental",
+    "gender": "Unisex",
+    "concentration": "Eau de Parfum",
+    "price": "Prices available on our Telegram",
+    "volume": "25ml",
+    "image": "/products/P-029.jpg",
+    "description": "Authentic Gulf mukhallat formula in a handy 25ml spray bottle with remarkable longevity.",
+    "badge": "Oriental Blend",
+    "isSpotlight": false,
+    "signatureNote": "Traditional Amber, Oud & Taif Rose",
+    "notes": {
+      "top": [
+        "Taif Rose",
+        "Saffron"
+      ],
+      "heart": [
+        "Cambodian Oud",
+        "Honey Accord"
+      ],
+      "base": [
+        "Smoky Amber",
+        "Animalic Musk"
+      ]
+    },
+    "performance": {
+      "longevity": "8-12 Hours",
+      "sillage": "Moderate to Strong"
+    },
+    "occasion": "Daily Wear, Classes & Study Sessions",
+    "season": "All Year (Harmattan & Rain)"
+  },
+  {
+    "id": "P-030",
+    "name": "Genie Collection Bakhoorat Rouge 540 Extrait",
+    "house": "Genie Collection",
+    "family": "Amber / Oriental",
+    "gender": "Unisex",
+    "concentration": "Extrait",
+    "price": "Prices available on our Telegram",
+    "volume": "25ml",
+    "image": "/products/P-030.jpg",
+    "description": "The definitive pocket-sized Baccarat Rouge Extrait companion. Radiant, addictive crystal amber.",
+    "badge": "Signature Red",
+    "isSpotlight": true,
+    "signatureNote": "Red Saffron, Bitter Almond & Ambergris",
     "notes": {
       "top": [
         "Bitter Almond",
@@ -58,403 +1050,2242 @@
         "Cedarwood"
       ],
       "base": [
-        "Ambergris Accord",
-        "Musky Woody Notes"
+        "Ambergris",
+        "Woody Musk"
       ]
     },
     "performance": {
-      "longevity": "14+ Hours",
-      "sillage": "Colossal"
+      "longevity": "8-12 Hours",
+      "sillage": "Moderate to Strong"
     },
-    "occasion": "Red Carpet, High Profile Meetings, Evenings",
-    "season": "All Seasons"
+    "occasion": "Daily Wear, Classes & Study Sessions",
+    "season": "All Year (Harmattan & Rain)"
   },
   {
-    "id": "ayom-03",
-    "name": "Delina Exclusif",
-    "house": "Parfums de Marly",
-    "family": "Floral",
-    "gender": "Pour Femme",
-    "concentration": "Extrait de Parfum",
-    "price": "₦320,000",
-    "volume": "75ml",
-    "image": "https://images.unsplash.com/photo-1547887537-6158d64c35b3?auto=format&fit=crop&q=80&w=800",
-    "description": "An alluring triumph of Turkish rose infused with velvety pear, lychee, amber, and an incandescent smoky incense veil.",
-    "badge": "Haute Femininity",
-    "isSpotlight": true,
-    "signatureNote": "Turkish Rose & Lychee Pear",
+    "id": "P-031",
+    "name": "Genie Collection Parfum Sans Alcool",
+    "house": "Genie Collection",
+    "family": "Amber / Oriental",
+    "gender": "Unisex",
+    "concentration": "Alcohol-Free Perfume",
+    "price": "Prices available on our Telegram",
+    "volume": "8ml",
+    "image": "/products/P-031.jpg",
+    "description": "Gentle alcohol-free perfume formula that melts directly onto warm pulse points without drying skin.",
+    "badge": "Alcohol Free",
+    "isSpotlight": false,
+    "signatureNote": "Pure White Musk & Soft Golden Amber",
     "notes": {
       "top": [
-        "Lychee",
-        "Bergamot",
-        "Crisp Pear"
+        "Soft Aldehydes",
+        "White Rose"
       ],
       "heart": [
-        "Turkish Rose",
-        "Incense",
-        "Oud"
+        "Pure Musk",
+        "Orris Root"
       ],
       "base": [
-        "Vanilla Pod",
-        "Amber",
-        "Evernyl"
+        "Golden Amber",
+        "Sandalwood"
       ]
     },
     "performance": {
-      "longevity": "12-14 Hours",
-      "sillage": "Strong Projection"
+      "longevity": "8-12 Hours",
+      "sillage": "Moderate to Strong"
     },
-    "occasion": "Weddings, VIP Dinners, Romantic Dates",
-    "season": "Spring / Autumn / All Year"
+    "occasion": "Daily Wear, Classes & Study Sessions",
+    "season": "All Year (Harmattan & Rain)"
   },
   {
-    "id": "ayom-04",
-    "name": "Oud Wood",
-    "house": "Tom Ford",
-    "family": "Woody",
+    "id": "P-032",
+    "name": "Kaydi Body Mist (Pinky/Gelato/Pistachio/Vanilla/Candy/Juicy Crush)",
+    "house": "Kaydi",
+    "family": "Gourmand",
+    "gender": "Pour Femme",
+    "concentration": "Body Mist",
+    "price": "Prices available on our Telegram",
+    "volume": "100ml",
+    "image": "/products/P-032.jpg",
+    "description": "Decadent summer-ready gourmand mist that envelops you in warm nutty vanilla confection.",
+    "badge": "Trend Alert",
+    "isSpotlight": false,
+    "signatureNote": "Pistachio Gelato & Salted Caramel",
+    "notes": {
+      "top": [
+        "Pistachio Cream",
+        "Salted Caramel"
+      ],
+      "heart": [
+        "Heliotrope",
+        "Jasmine Petals"
+      ],
+      "base": [
+        "Vanilla Gelato",
+        "Sandalwood"
+      ]
+    },
+    "performance": {
+      "longevity": "5-7 Hours",
+      "sillage": "Airy & Moderate"
+    },
+    "occasion": "Lectures, Hall Chill & Weekend Outings",
+    "season": "All Year (Harmattan & Rain)"
+  },
+  {
+    "id": "P-033",
+    "name": "Kaly (various editions)",
+    "house": "Kaly",
+    "family": "Fresh",
     "gender": "Unisex",
     "concentration": "Eau de Parfum",
-    "price": "₦295,000",
+    "price": "Prices available on our Telegram",
     "volume": "100ml",
-    "image": "https://images.unsplash.com/photo-1523293182086-7651a899d37f?auto=format&fit=crop&q=80&w=800",
-    "description": "Rare, exotic oud wood blended with rosewood and cardamom gives way to a smoky blend of sandalwood, vetiver, and amber tonka bean.",
-    "badge": "Timeless Icon",
+    "image": "/products/P-033.jpg",
+    "description": "A reassuring, classic woody fragrance built for versatile day-to-night campus wear.",
+    "badge": "Versatile",
     "isSpotlight": false,
-    "signatureNote": "Smoked Oud & Rosewood",
+    "signatureNote": "Warm Spiced Woods & Golden Amber",
     "notes": {
       "top": [
-        "Rosewood",
+        "Nutmeg",
         "Cardamom",
-        "Chinese Pepper"
+        "Bergamot"
       ],
       "heart": [
-        "Smoky Oud Wood",
-        "Sandalwood",
-        "Vetiver"
+        "Cedarwood",
+        "Patchouli"
       ],
       "base": [
-        "Tonka Bean",
-        "Vanilla",
-        "Amber"
+        "Golden Amber",
+        "Oakmoss"
       ]
     },
     "performance": {
-      "longevity": "8-10 Hours",
-      "sillage": "Moderate & Sophisticated"
+      "longevity": "8-12 Hours",
+      "sillage": "Moderate to Strong"
     },
-    "occasion": "Executive Boardrooms, Formal Dinners",
-    "season": "Autumn / Winter"
+    "occasion": "Daily Wear, Classes & Study Sessions",
+    "season": "All Year (Harmattan & Rain)"
   },
   {
-    "id": "ayom-05",
-    "name": "Aventus",
-    "house": "Creed",
-    "family": "Fresh",
-    "gender": "Pour Homme",
+    "id": "P-034",
+    "name": "Kaly Floral Majesty",
+    "house": "Kaly",
+    "family": "Floral",
+    "gender": "Pour Femme",
     "concentration": "Eau de Parfum",
-    "price": "₦390,000",
-    "volume": "100ml",
-    "image": "https://images.unsplash.com/photo-1616949755610-8c9bbc08f138?auto=format&fit=crop&q=80&w=800",
-    "description": "Sensual, audacious, and contemporary. A celebratory blend of smoky birch, blackcurrant, Italian bergamot, and precious French oakmoss.",
-    "badge": "Power & Legacy",
+    "price": "Prices available on our Telegram",
+    "volume": "50ml",
+    "image": "/products/P-034.jpg",
+    "description": "Regal floral symphony radiating grace, purity, and long-lasting petal sillage.",
+    "badge": "Pure Elegance",
     "isSpotlight": false,
-    "signatureNote": "Smoky Birch & Blackcurrant",
+    "signatureNote": "Majestic Gardenia & Royal Jasmine",
     "notes": {
       "top": [
-        "Italian Bergamot",
+        "White Gardenia",
+        "Apple Blossom"
+      ],
+      "heart": [
+        "Royal Jasmine",
+        "Lily"
+      ],
+      "base": [
+        "White Musk",
+        "Smooth Cedar"
+      ]
+    },
+    "performance": {
+      "longevity": "8-12 Hours",
+      "sillage": "Moderate to Strong"
+    },
+    "occasion": "Lectures, Hall Chill & Weekend Outings",
+    "season": "All Year (Harmattan & Rain)"
+  },
+  {
+    "id": "P-035",
+    "name": "Emergency",
+    "house": "Emergency",
+    "family": "Fresh",
+    "gender": "Unisex",
+    "concentration": "Eau de Parfum",
+    "price": "Prices available on our Telegram",
+    "volume": "100ml",
+    "image": "/products/P-035.jpg",
+    "description": "When you need an immediate boost of sparkling freshness. Clean, crisp, and revitalizing.",
+    "badge": "Instant Fresh",
+    "isSpotlight": false,
+    "signatureNote": "Aquatic Splash & Cool Spearmint",
+    "notes": {
+      "top": [
+        "Crisp Marine Notes",
+        "Spearmint"
+      ],
+      "heart": [
+        "Green Citrus",
+        "Lavender"
+      ],
+      "base": [
+        "Driftwood",
+        "White Musk"
+      ]
+    },
+    "performance": {
+      "longevity": "8-12 Hours",
+      "sillage": "Moderate to Strong"
+    },
+    "occasion": "Daily Wear, Classes & Study Sessions",
+    "season": "All Year (Harmattan & Rain)"
+  },
+  {
+    "id": "P-036",
+    "name": "Be Tres (Mora/Vainilla/Coco/Melon)",
+    "house": "Hanna's Secret",
+    "family": "Gourmand",
+    "gender": "Unisex",
+    "concentration": "Perfume",
+    "price": "Prices available on our Telegram",
+    "volume": "100ml",
+    "image": "/products/P-036.jpg",
+    "description": "Tropical gourmand bliss bringing vacation sunshine right into your daily routine.",
+    "badge": "Tropical Sweet",
+    "isSpotlight": false,
+    "signatureNote": "Creamy Coconut Milk & Warm Vanilla",
+    "notes": {
+      "top": [
+        "Coconut Water",
+        "Sweet Melon"
+      ],
+      "heart": [
+        "Vanilla Orchid",
+        "Blackberry"
+      ],
+      "base": [
+        "Bourbon Vanilla",
+        "Sugar Cane"
+      ]
+    },
+    "performance": {
+      "longevity": "8-12 Hours",
+      "sillage": "Moderate to Strong"
+    },
+    "occasion": "Daily Wear, Classes & Study Sessions",
+    "season": "All Year (Harmattan & Rain)"
+  },
+  {
+    "id": "P-037",
+    "name": "Swiss Cologne Body Splash (Nice/Liberty)",
+    "house": "Swiss Cologne",
+    "family": "Floral",
+    "gender": "Pour Femme",
+    "concentration": "Body Splash",
+    "price": "Prices available on our Telegram",
+    "volume": "100ml",
+    "image": "/products/P-037.jpg",
+    "description": "Light, invigorating floral splash that refreshes skin after showers or long study sessions.",
+    "badge": "Splash & Go",
+    "isSpotlight": false,
+    "signatureNote": "Alpine Freesia & Fresh Dew",
+    "notes": {
+      "top": [
+        "Alpine Freesia",
+        "Morning Dew"
+      ],
+      "heart": [
+        "Green Pear",
+        "Lily of the Valley"
+      ],
+      "base": [
+        "Soft Musk",
+        "Blonde Wood"
+      ]
+    },
+    "performance": {
+      "longevity": "8-12 Hours",
+      "sillage": "Moderate to Strong"
+    },
+    "occasion": "Lectures, Hall Chill & Weekend Outings",
+    "season": "All Year (Harmattan & Rain)"
+  },
+  {
+    "id": "P-038",
+    "name": "L'uôdais Perfume Hair Care Essential Oil",
+    "house": "L'uôdais",
+    "family": "Floral",
+    "gender": "Unisex",
+    "concentration": "Hair Perfume Oil",
+    "price": "Prices available on our Telegram",
+    "volume": "80ml",
+    "image": "/products/P-038.jpg",
+    "description": "Dual-action perfumed hair serum that imparts brilliant shine while trailing divine floral scent.",
+    "badge": "Hair Perfume",
+    "isSpotlight": false,
+    "signatureNote": "Silky Moroccan Rose & Nourishing Argan",
+    "notes": {
+      "top": [
+        "Moroccan Rose",
+        "Citrus Blossom"
+      ],
+      "heart": [
+        "Golden Argan",
+        "Sweet Jasmine"
+      ],
+      "base": [
+        "Silk Proteins",
+        "Soft Amber"
+      ]
+    },
+    "performance": {
+      "longevity": "8-12 Hours",
+      "sillage": "Moderate to Strong"
+    },
+    "occasion": "Daily Wear, Classes & Study Sessions",
+    "season": "All Year (Harmattan & Rain)"
+  },
+  {
+    "id": "P-039",
+    "name": "Nike Woman Ultra Purple",
+    "house": "Nike (fragrance license, not Nike Inc. sportswear)",
+    "family": "Floral",
+    "gender": "Pour Femme",
+    "concentration": "Body Fragrance Deodorant",
+    "price": "Prices available on our Telegram",
+    "volume": "75ml",
+    "image": "/products/P-039.jpg",
+    "description": "Dynamic sporty-chic body spray with rich berry undertones for active, stylish campus days.",
+    "badge": "Sport Chic",
+    "isSpotlight": false,
+    "signatureNote": "Purple Plum & Violet Petals",
+    "notes": {
+      "top": [
+        "Purple Plum",
+        "Wild Raspberry"
+      ],
+      "heart": [
+        "Violet Petals",
+        "Pink Jasmine"
+      ],
+      "base": [
+        "Vanilla Bean",
+        "Patchouli"
+      ]
+    },
+    "performance": {
+      "longevity": "8-12 Hours",
+      "sillage": "Moderate to Strong"
+    },
+    "occasion": "Lectures, Hall Chill & Weekend Outings",
+    "season": "All Year (Harmattan & Rain)"
+  },
+  {
+    "id": "P-040",
+    "name": "Monogotas (Fresa/Vainilla/Coco/Mora)",
+    "house": "Monogotas",
+    "family": "Gourmand",
+    "gender": "Unisex",
+    "concentration": "Perfume Oil/Spray",
+    "price": "Prices available on our Telegram",
+    "volume": "100ml",
+    "image": "/products/P-040.jpg",
+    "description": "Single-drop potency of succulent fresh fruit syrups and decadent dessert creams.",
+    "badge": "Berry Delicious",
+    "isSpotlight": false,
+    "signatureNote": "Sweet Strawberry & Vanilla Cream",
+    "notes": {
+      "top": [
+        "Ripe Strawberry",
+        "Blackberry"
+      ],
+      "heart": [
+        "Coconut Flakes",
+        "Marshmallow"
+      ],
+      "base": [
+        "Vanilla Cream",
+        "Caramel"
+      ]
+    },
+    "performance": {
+      "longevity": "6-8 Hours",
+      "sillage": "Airy & Moderate"
+    },
+    "occasion": "Daily Wear, Classes & Study Sessions",
+    "season": "All Year (Harmattan & Rain)"
+  },
+  {
+    "id": "P-041",
+    "name": "24 Heures Deluxe Gold",
+    "house": "Deluxe",
+    "family": "Amber / Oriental",
+    "gender": "Unisex",
+    "concentration": "Eau de Parfum",
+    "price": "Prices available on our Telegram",
+    "volume": "100ml",
+    "image": "/products/P-041.jpg",
+    "description": "Formulated for non-stop round-the-clock endurance with golden amber radiance.",
+    "badge": "Long Lasting",
+    "isSpotlight": false,
+    "signatureNote": "24-Hour Amber, Saffron & Sandalwood",
+    "notes": {
+      "top": [
+        "Saffron Spices",
+        "Golden Mandarin"
+      ],
+      "heart": [
+        "Warm Oud",
+        "Ambergris Accord"
+      ],
+      "base": [
+        "French Labdanum",
+        "Smoked Sandalwood"
+      ]
+    },
+    "performance": {
+      "longevity": "8-12 Hours",
+      "sillage": "Moderate to Strong"
+    },
+    "occasion": "Daily Wear, Classes & Study Sessions",
+    "season": "All Year (Harmattan & Rain)"
+  },
+  {
+    "id": "P-042",
+    "name": "Big Boss",
+    "house": "Big Boss",
+    "family": "Woody",
+    "gender": "Pour Homme",
+    "concentration": "Eau de Parfum",
+    "price": "Prices available on our Telegram",
+    "volume": "100ml",
+    "image": "/products/P-042.jpg",
+    "description": "Assertive woody-spicy cologne designed to project power, focus, and unwavering ambition.",
+    "badge": "Alpha Signature",
+    "isSpotlight": false,
+    "signatureNote": "Bold Cedarwood, Pepper & Smoked Vetiver",
+    "notes": {
+      "top": [
+        "Crisp Apple",
+        "Cardamom"
+      ],
+      "heart": [
+        "Smoked Birch",
+        "Geranium"
+      ],
+      "base": [
+        "Vetiver Root",
+        "Cedar",
+        "Leather"
+      ]
+    },
+    "performance": {
+      "longevity": "8-12 Hours",
+      "sillage": "Moderate to Strong"
+    },
+    "occasion": "Classes, Chapel & Campus Evening",
+    "season": "All Year (Harmattan & Rain)"
+  },
+  {
+    "id": "P-043",
+    "name": "Berries Weekend (Pink Edition)",
+    "house": "Berries",
+    "family": "Fresh",
+    "gender": "Pour Femme",
+    "concentration": "Perfumed Spray",
+    "price": "Prices available on our Telegram",
+    "volume": "200ml",
+    "image": "https://images.unsplash.com/photo-1563178406-4cdc2923acbc?auto=format&fit=crop&q=80&w=800",
+    "description": "Cheerful weekend celebration in a bottle. Fruity, sparkling, and impossible not to love.",
+    "badge": "Weekend Vibe",
+    "isSpotlight": false,
+    "signatureNote": "Wild Raspberries & Sugared Pink Rose",
+    "notes": {
+      "top": [
+        "Pink Raspberry",
+        "Red Currant"
+      ],
+      "heart": [
+        "Sugared Rose Petals",
+        "Peach"
+      ],
+      "base": [
+        "Fluffy Vanilla",
+        "Cashmeran"
+      ]
+    },
+    "performance": {
+      "longevity": "6-8 Hours",
+      "sillage": "Airy & Moderate"
+    },
+    "occasion": "Lectures, Hall Chill & Weekend Outings",
+    "season": "All Year (Harmattan & Rain)"
+  },
+  {
+    "id": "P-044",
+    "name": "Pure Love",
+    "house": "Pure Love",
+    "family": "Floral",
+    "gender": "Pour Femme",
+    "concentration": "Perfumed Body Spray",
+    "price": "Prices available on our Telegram",
+    "volume": "200ml",
+    "image": "/products/P-044.jpg",
+    "description": "A soft floral caress that feels fresh out of the shower and gently comforts the senses.",
+    "badge": "Soft & Gentle",
+    "isSpotlight": false,
+    "signatureNote": "Tender Jasmine, Lily & White Musk",
+    "notes": {
+      "top": [
+        "White Lily",
+        "Crisp Melon"
+      ],
+      "heart": [
+        "Tender Jasmine",
+        "Sweet Peony"
+      ],
+      "base": [
+        "Powdery Musk",
+        "Blonde Woods"
+      ]
+    },
+    "performance": {
+      "longevity": "6-8 Hours",
+      "sillage": "Airy & Moderate"
+    },
+    "occasion": "Lectures, Hall Chill & Weekend Outings",
+    "season": "All Year (Harmattan & Rain)"
+  },
+  {
+    "id": "P-045",
+    "name": "Ophylia",
+    "house": "Ophylia",
+    "family": "Floral",
+    "gender": "Pour Femme",
+    "concentration": "Perfumed Spray",
+    "price": "Prices available on our Telegram",
+    "volume": "200ml",
+    "image": "/products/P-045.jpg",
+    "description": "Sensual goddess fragrance dupe featuring marine florals warmed with addictive salted vanilla.",
+    "badge": "Goddess Scent",
+    "isSpotlight": false,
+    "signatureNote": "Salted Vanilla, Water Jasmine & Ginger",
+    "notes": {
+      "top": [
+        "Green Mandarin",
+        "Ginger Blossom"
+      ],
+      "heart": [
+        "Water Jasmine",
+        "Salted Vanilla"
+      ],
+      "base": [
+        "Cashmere Wood",
+        "Ambergris"
+      ]
+    },
+    "performance": {
+      "longevity": "6-8 Hours",
+      "sillage": "Airy & Moderate"
+    },
+    "occasion": "Lectures, Hall Chill & Weekend Outings",
+    "season": "All Year (Harmattan & Rain)"
+  },
+  {
+    "id": "P-046",
+    "name": "Smart Collection No. 313",
+    "house": "Smart Collection",
+    "family": "Woody",
+    "gender": "Pour Homme",
+    "concentration": "Perfumed Body Spray",
+    "price": "Prices available on our Telegram",
+    "volume": "150ml",
+    "image": "/products/P-046.jpg",
+    "description": "The definitive body spray adaptation of the legendary smoky pineapple king.",
+    "badge": "Aventus Style",
+    "isSpotlight": false,
+    "signatureNote": "Smoky Birch, Pineapple & Blackcurrant",
+    "notes": {
+      "top": [
+        "Bergamot",
         "Blackcurrant",
-        "Apple",
         "Pineapple"
       ],
       "heart": [
-        "Smoky Birch",
-        "Patchouli",
-        "Moroccan Jasmine",
-        "Rose"
+        "Birch Woods",
+        "Patchouli"
       ],
       "base": [
         "Musk",
         "Oakmoss",
-        "Ambergris",
         "Vanilla"
       ]
     },
     "performance": {
-      "longevity": "9-11 Hours",
-      "sillage": "Commanding"
+      "longevity": "6-8 Hours",
+      "sillage": "Airy & Moderate"
     },
-    "occasion": "Signature Daily, High-Stakes Negotiations",
-    "season": "Spring / Summer / All Year"
+    "occasion": "Classes, Chapel & Campus Evening",
+    "season": "All Year (Harmattan & Rain)"
   },
   {
-    "id": "ayom-06",
-    "name": "Angels' Share",
-    "house": "Kilian Paris",
-    "family": "Gourmand",
-    "gender": "Unisex",
-    "concentration": "Eau de Parfum",
-    "price": "₦310,000",
-    "volume": "50ml",
-    "image": "https://images.unsplash.com/photo-1594035910387-fea47794261f?auto=format&fit=crop&q=80&w=800",
-    "description": "Distilled like fine cognac. A rich amber liqueur infusion laced with cinnamon bark, praline sweetness, and aged oak wood barrel accords.",
-    "badge": "Opulent Gourmand",
+    "id": "P-047",
+    "name": "Smart Collection No. 262 (Limited Edition)",
+    "house": "Smart Collection",
+    "family": "Woody",
+    "gender": "Pour Homme",
+    "concentration": "Perfumed Body Spray",
+    "price": "Prices available on our Telegram",
+    "volume": "150ml",
+    "image": "/products/P-047.jpg",
+    "description": "Flashy, golden party-ready spray loaded with warm spices and seductive sweet leather.",
+    "badge": "Party Favorite",
     "isSpotlight": false,
-    "signatureNote": "Cognac Oil & Cinnamon Bark",
+    "signatureNote": "Blood Mandarin, Cinnamon & Leather",
     "notes": {
       "top": [
-        "Cognac Oil Essence"
+        "Blood Mandarin",
+        "Frosted Grapefruit"
       ],
       "heart": [
-        "Cinnamon Bark",
-        "Tonka Bean Absolute",
-        "Oak Wood"
+        "Spicy Cinnamon",
+        "Rose Petals"
       ],
       "base": [
-        "Praline Accord",
-        "Vanilla",
+        "Warm Leather",
+        "Amberketal"
+      ]
+    },
+    "performance": {
+      "longevity": "6-8 Hours",
+      "sillage": "Airy & Moderate"
+    },
+    "occasion": "Classes, Chapel & Campus Evening",
+    "season": "All Year (Harmattan & Rain)"
+  },
+  {
+    "id": "P-048",
+    "name": "Ginger Eclaire",
+    "house": "Ginger Eclaire",
+    "family": "Floral",
+    "gender": "Pour Femme",
+    "concentration": "Perfumed Deodorant Body Spray",
+    "price": "Prices available on our Telegram",
+    "volume": "200ml",
+    "image": "https://images.unsplash.com/photo-1608248597359-561331776518?auto=format&fit=crop&q=80&w=800",
+    "description": "Warm, spicy-sweet pastry notes that smell cozy, gourmet, and unmistakably charming.",
+    "badge": "Warm Bakery",
+    "isSpotlight": false,
+    "signatureNote": "Candied Ginger, Warm Pastry & Cream",
+    "notes": {
+      "top": [
+        "Candied Ginger",
+        "Sweet Lemon"
+      ],
+      "heart": [
+        "Baked Choux Pastry",
+        "Nutmeg"
+      ],
+      "base": [
+        "Vanilla Cream",
+        "Molasses"
+      ]
+    },
+    "performance": {
+      "longevity": "6-8 Hours",
+      "sillage": "Airy & Moderate"
+    },
+    "occasion": "Lectures, Hall Chill & Weekend Outings",
+    "season": "All Year (Harmattan & Rain)"
+  },
+  {
+    "id": "P-049",
+    "name": "Yara 44",
+    "house": "Malaysia Designs",
+    "family": "Fresh",
+    "gender": "Unisex",
+    "concentration": "Body Spray Cologne",
+    "price": "Prices available on our Telegram",
+    "volume": "120ml",
+    "image": "https://images.unsplash.com/photo-1571781926291-c477ebfd024b?auto=format&fit=crop&q=80&w=800",
+    "description": "Light, uplifting body spray cologne inspired by Dubai's sweet creamy floral profiles.",
+    "badge": "Sweet Air",
+    "isSpotlight": false,
+    "signatureNote": "Fresh Bergamot & Tropical Orchid",
+    "notes": {
+      "top": [
+        "Crisp Tangerine",
+        "Heliotrope"
+      ],
+      "heart": [
+        "Orchid",
+        "Tropical Fruits"
+      ],
+      "base": [
+        "Vanilla Musk",
         "Sandalwood"
       ]
     },
     "performance": {
-      "longevity": "11-13 Hours",
-      "sillage": "Intoxicating & Warm"
+      "longevity": "6-8 Hours",
+      "sillage": "Airy & Moderate"
     },
-    "occasion": "Chilly Nights, Lounge Evenings, Speakeasies",
-    "season": "Autumn / Winter"
+    "occasion": "Daily Wear, Classes & Study Sessions",
+    "season": "All Year (Harmattan & Rain)"
   },
   {
-    "id": "ayom-07",
-    "name": "Layton",
-    "house": "Parfums de Marly",
+    "id": "P-050",
+    "name": "Challenge",
+    "house": "Malaysia Designs",
     "family": "Woody",
-    "gender": "Pour Homme",
-    "concentration": "Eau de Parfum",
-    "price": "₦275,000",
-    "volume": "125ml",
-    "image": "https://images.unsplash.com/photo-1594913785162-e678ac0570b2?auto=format&fit=crop&q=80&w=800",
-    "description": "An intoxicating oriental and floral fragrance with intense signature scent: crisp apple, lavender, spiced vanilla, and noble woods.",
-    "badge": "Modern Gentleman",
+    "gender": "Unisex",
+    "concentration": "Body Spray Cologne",
+    "price": "Prices available on our Telegram",
+    "volume": "120ml",
+    "image": "https://images.unsplash.com/photo-1612817288484-6f916006741a?auto=format&fit=crop&q=80&w=800",
+    "description": "High-octane masculine energy in a splash spray built for active training and hustle.",
+    "badge": "Active Life",
     "isSpotlight": false,
-    "signatureNote": "Crisp Apple & Bourbon Vanilla",
+    "signatureNote": "Sporty Cedarwood, Nutmeg & Mint",
     "notes": {
       "top": [
-        "Bergamot",
-        "Lavender",
-        "Crisp Apple",
-        "Mandarin"
+        "Cool Peppermint",
+        "Lemon"
       ],
       "heart": [
-        "Violet",
-        "Jasmine",
-        "Geranium"
+        "Nutmeg",
+        "Crushed Geranium"
       ],
       "base": [
-        "Guaiac Wood",
-        "Patchouli",
-        "Sandalwood",
-        "Cardamom",
-        "Vanilla",
-        "Pepper"
+        "Sporty Cedar",
+        "Clean Musk"
       ]
     },
     "performance": {
-      "longevity": "10-12 Hours",
-      "sillage": "Magnetic"
+      "longevity": "6-8 Hours",
+      "sillage": "Airy & Moderate"
     },
-    "occasion": "Date Nights, Special Celebrations, Evenings",
-    "season": "Autumn / Winter / Spring"
+    "occasion": "Daily Wear, Classes & Study Sessions",
+    "season": "All Year (Harmattan & Rain)"
   },
   {
-    "id": "ayom-08",
-    "name": "Lost Cherry",
-    "house": "Tom Ford",
+    "id": "P-051",
+    "name": "Suger LaLa",
+    "house": "Malaysia Designs",
     "family": "Gourmand",
     "gender": "Unisex",
-    "concentration": "Eau de Parfum",
-    "price": "₦340,000",
-    "volume": "50ml",
-    "image": "https://images.unsplash.com/photo-1595425970377-c9703cf48b6d?auto=format&fit=crop&q=80&w=800",
-    "description": "A full-bodied journey into the once-forbidden. Black cherry ripe dripping in cherry liqueur, touches of bitter almond, and Peru balsam.",
-    "badge": "Seductive Sensation",
+    "concentration": "Body Spray Cologne",
+    "price": "Prices available on our Telegram",
+    "volume": "120ml",
+    "image": "/products/P-051.jpg",
+    "description": "Fun, sweet, candy-coated body spray that brings an instant smile to everyone around.",
+    "badge": "Candy Rush",
     "isSpotlight": false,
-    "signatureNote": "Black Cherry Liqueur & Bitter Almond",
+    "signatureNote": "Pink Bubblegum & Vanilla Frosting",
     "notes": {
       "top": [
-        "Black Cherry",
-        "Cherry Liqueur",
-        "Bitter Almond"
+        "Pink Bubblegum",
+        "Sugar Cane"
       ],
       "heart": [
-        "Griottine Syrup",
-        "Turkish Rose",
-        "Jasmine Sambac"
+        "Strawberry Frosting",
+        "Marshmallow"
       ],
       "base": [
-        "Peru Balsam",
-        "Roasted Tonka",
-        "Sandalwood",
+        "Vanilla Glaze",
+        "Praline"
+      ]
+    },
+    "performance": {
+      "longevity": "6-8 Hours",
+      "sillage": "Airy & Moderate"
+    },
+    "occasion": "Daily Wear, Classes & Study Sessions",
+    "season": "All Year (Harmattan & Rain)"
+  },
+  {
+    "id": "P-052",
+    "name": "DooBai Original",
+    "house": "DooBai",
+    "family": "Fresh",
+    "gender": "Unisex",
+    "concentration": "Extreme Cologne",
+    "price": "Prices available on our Telegram",
+    "volume": "100ml",
+    "image": "https://images.unsplash.com/photo-1523293182086-7651a899d37f?auto=format&fit=crop&q=80&w=800",
+    "description": "Vibrant Mediterranean and Gulf citrus fusion engineered for extreme cooling power.",
+    "badge": "Extreme Cologne",
+    "isSpotlight": false,
+    "signatureNote": "Arabian Citrus, Neroli & Petitgrain",
+    "notes": {
+      "top": [
+        "Sunlit Neroli",
+        "Calabrian Bergamot"
+      ],
+      "heart": [
+        "Petitgrain",
+        "Orange Blossom"
+      ],
+      "base": [
+        "White Amber",
+        "Clean Cedar"
+      ]
+    },
+    "performance": {
+      "longevity": "8-12 Hours",
+      "sillage": "Moderate to Strong"
+    },
+    "occasion": "Daily Wear, Classes & Study Sessions",
+    "season": "All Year (Harmattan & Rain)"
+  },
+  {
+    "id": "P-053",
+    "name": "Confetti Amber Rose Fragrance Mist",
+    "house": "Confetti London",
+    "family": "Amber / Oriental",
+    "gender": "Pour Femme",
+    "concentration": "Fragrance Mist",
+    "price": "Prices available on our Telegram",
+    "volume": "250ml",
+    "image": "/products/P-053.jpg",
+    "description": "A lavish, full-bodied mist combining midnight roses with warm, radiant golden amber.",
+    "badge": "Velvet Rose",
+    "isSpotlight": false,
+    "signatureNote": "Velvet Damask Rose & Golden Amber",
+    "notes": {
+      "top": [
+        "Velvet Damask Rose",
+        "Plum"
+      ],
+      "heart": [
+        "Warm Golden Amber",
+        "Clove"
+      ],
+      "base": [
+        "Honeyed Woods",
+        "Bourbon Vanilla"
+      ]
+    },
+    "performance": {
+      "longevity": "5-7 Hours",
+      "sillage": "Airy & Moderate"
+    },
+    "occasion": "Lectures, Hall Chill & Weekend Outings",
+    "season": "All Year (Harmattan & Rain)"
+  },
+  {
+    "id": "P-054",
+    "name": "Aventos Blue For Him Fragrance Mist",
+    "house": "Solar Axis Energy Ltd.",
+    "family": "Fresh",
+    "gender": "Pour Homme",
+    "concentration": "Fragrance Mist",
+    "price": "Prices available on our Telegram",
+    "volume": "250ml",
+    "image": "/products/P-054.jpg",
+    "description": "Massive 250ml fragrance mist delivering the iconic Aventos Blue DNA in an all-day body spray.",
+    "badge": "Power Mist",
+    "isSpotlight": false,
+    "signatureNote": "Ocean Breeze & White Birch",
+    "notes": {
+      "top": [
+        "Crisp Green Apple",
+        "Bergamot"
+      ],
+      "heart": [
+        "Ocean Wave Accord",
+        "Birch"
+      ],
+      "base": [
+        "Ambergris",
+        "Clean Cedar"
+      ]
+    },
+    "performance": {
+      "longevity": "5-7 Hours",
+      "sillage": "Airy & Moderate"
+    },
+    "occasion": "Classes, Chapel & Campus Evening",
+    "season": "All Year (Harmattan & Rain)"
+  },
+  {
+    "id": "P-055",
+    "name": "Sexy Girl - Give A Thrill",
+    "house": "Hanna's Secret",
+    "family": "Floral",
+    "gender": "Pour Femme",
+    "concentration": "Eau de Parfum",
+    "price": "Prices available on our Telegram",
+    "volume": "50ml",
+    "image": "/products/P-055.jpg",
+    "description": "Flirty, energetic fruity-floral elixir crafted to turn heads and leave a glowing impression.",
+    "badge": "Flirty Scent",
+    "isSpotlight": false,
+    "signatureNote": "Passionfruit & Pink Peony Blossom",
+    "notes": {
+      "top": [
+        "Passionfruit",
+        "Pink Grapefruit"
+      ],
+      "heart": [
+        "Peony Blossom",
+        "Vanilla Orchid"
+      ],
+      "base": [
+        "Warm Amber",
+        "Sensual Musk"
+      ]
+    },
+    "performance": {
+      "longevity": "8-12 Hours",
+      "sillage": "Moderate to Strong"
+    },
+    "occasion": "Lectures, Hall Chill & Weekend Outings",
+    "season": "All Year (Harmattan & Rain)"
+  },
+  {
+    "id": "P-056",
+    "name": "Cuba Caballero",
+    "house": "A Parfums des Champs",
+    "family": "Woody",
+    "gender": "Pour Homme",
+    "concentration": "Eau de Parfum",
+    "price": "Prices available on our Telegram",
+    "volume": "100ml",
+    "image": "https://images.unsplash.com/photo-1595425970377-c9703cf48b6d?auto=format&fit=crop&q=80&w=800",
+    "description": "Rich French-crafted tobacco and leather fragrance inspired by Havana's gentleman clubs.",
+    "badge": "Gentleman's Choice",
+    "isSpotlight": false,
+    "signatureNote": "Cuban Tobacco, Leather & Dark Cedar",
+    "notes": {
+      "top": [
+        "Cuban Tobacco",
+        "Bergamot"
+      ],
+      "heart": [
+        "Spiced Leather",
+        "Black Pepper"
+      ],
+      "base": [
+        "Dark Cedar",
+        "Tonka Bean",
+        "Vetiver"
+      ]
+    },
+    "performance": {
+      "longevity": "8-12 Hours",
+      "sillage": "Moderate to Strong"
+    },
+    "occasion": "Classes, Chapel & Campus Evening",
+    "season": "All Year (Harmattan & Rain)"
+  },
+  {
+    "id": "P-057",
+    "name": "24K Rouge",
+    "house": "24K",
+    "family": "Amber / Oriental",
+    "gender": "Unisex",
+    "concentration": "Eau de Parfum",
+    "price": "Prices available on our Telegram",
+    "volume": "30ml/100ml",
+    "image": "/products/P-057.jpg",
+    "description": "Lustrous golden flacon containing an intoxicating blend of tart berries, saffron, and amber.",
+    "badge": "Golden Luxe",
+    "isSpotlight": false,
+    "signatureNote": "Red Currant & Amber Crystals",
+    "notes": {
+      "top": [
+        "Red Currant",
+        "Saffron Spices"
+      ],
+      "heart": [
+        "Jasmine Buds",
+        "Bitter Almond"
+      ],
+      "base": [
+        "Amber Crystals",
+        "Cedarwood"
+      ]
+    },
+    "performance": {
+      "longevity": "8-12 Hours",
+      "sillage": "Moderate to Strong"
+    },
+    "occasion": "Daily Wear, Classes & Study Sessions",
+    "season": "All Year (Harmattan & Rain)"
+  },
+  {
+    "id": "P-058",
+    "name": "Mousuf Candy",
+    "house": "Mousuf",
+    "family": "Gourmand",
+    "gender": "Pour Femme",
+    "concentration": "Eau de Parfum",
+    "price": "Prices available on our Telegram",
+    "volume": "50ml",
+    "image": "/products/P-058.jpg",
+    "description": "A sweeter, playful iteration of the legendary Mousuf base with added toffee and berry glaze.",
+    "badge": "Sweet Treats",
+    "isSpotlight": false,
+    "signatureNote": "Caramelized Toffee & Vanilla Musk",
+    "notes": {
+      "top": [
+        "Caramelized Sugar",
+        "Red Fruits"
+      ],
+      "heart": [
+        "Praline",
+        "Soft Jasmine"
+      ],
+      "base": [
+        "Creamy Vanilla",
+        "Sweet Oud"
+      ]
+    },
+    "performance": {
+      "longevity": "8-12 Hours",
+      "sillage": "Moderate to Strong"
+    },
+    "occasion": "Lectures, Hall Chill & Weekend Outings",
+    "season": "All Year (Harmattan & Rain)"
+  },
+  {
+    "id": "P-059",
+    "name": "Sensual Wood",
+    "house": "Sensual Wood",
+    "family": "Woody",
+    "gender": "Pour Homme",
+    "concentration": "Eau de Parfum",
+    "price": "Prices available on our Telegram",
+    "volume": "100ml",
+    "image": "https://images.unsplash.com/photo-1587017539504-67cfbddac569?auto=format&fit=crop&q=80&w=800",
+    "description": "Smooth, velvety woods with an intimate aura that draws people closer in close-quarters.",
+    "badge": "Date Night",
+    "isSpotlight": false,
+    "signatureNote": "Guaiac Wood & Cashmeran",
+    "notes": {
+      "top": [
+        "Cardamom",
+        "Pink Pepper"
+      ],
+      "heart": [
+        "Guaiac Wood",
+        "Cashmeran"
+      ],
+      "base": [
+        "Smoked Sandalwood",
+        "Amber"
+      ]
+    },
+    "performance": {
+      "longevity": "8-12 Hours",
+      "sillage": "Moderate to Strong"
+    },
+    "occasion": "Classes, Chapel & Campus Evening",
+    "season": "All Year (Harmattan & Rain)"
+  },
+  {
+    "id": "P-060",
+    "name": "Happiness",
+    "house": "Happiness (Sivop)",
+    "family": "Floral",
+    "gender": "Unisex",
+    "concentration": "Eau de Parfum",
+    "price": "Prices available on our Telegram",
+    "volume": "120ml",
+    "image": "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?auto=format&fit=crop&q=80&w=800",
+    "description": "Parisian sunshine encapsulated in a generous 120ml flacon. Uplifting, clean, and optimistic.",
+    "badge": "Pure Joy",
+    "isSpotlight": false,
+    "signatureNote": "Sunlit Citrus & Jasmine Sambac",
+    "notes": {
+      "top": [
+        "Sunlit Citrus",
+        "Orange Blossom"
+      ],
+      "heart": [
+        "Jasmine Sambac",
+        "Ylang-Ylang"
+      ],
+      "base": [
+        "Warm Amber",
+        "Clean Musk"
+      ]
+    },
+    "performance": {
+      "longevity": "8-12 Hours",
+      "sillage": "Moderate to Strong"
+    },
+    "occasion": "Daily Wear, Classes & Study Sessions",
+    "season": "All Year (Harmattan & Rain)"
+  },
+  {
+    "id": "P-061",
+    "name": "Sistelle",
+    "house": "Sivop",
+    "family": "Floral",
+    "gender": "Pour Femme",
+    "concentration": "Eau de Parfum",
+    "price": "Prices available on our Telegram",
+    "volume": "100ml",
+    "image": "https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?auto=format&fit=crop&q=80&w=800",
+    "description": "Classic French romance featuring velvety peach skin and freshly cut royal rose bouquets.",
+    "badge": "Paris Romance",
+    "isSpotlight": false,
+    "signatureNote": "Parisian Rose & Peach Nectar",
+    "notes": {
+      "top": [
+        "Peach Nectar",
+        "Red Apple"
+      ],
+      "heart": [
+        "Parisian Rose",
+        "Iris",
+        "Jasmine"
+      ],
+      "base": [
+        "White Musk",
+        "Cedarwood"
+      ]
+    },
+    "performance": {
+      "longevity": "8-12 Hours",
+      "sillage": "Moderate to Strong"
+    },
+    "occasion": "Lectures, Hall Chill & Weekend Outings",
+    "season": "All Year (Harmattan & Rain)"
+  },
+  {
+    "id": "P-062",
+    "name": "Red Diamond",
+    "house": "Red Diamond",
+    "family": "Amber / Oriental",
+    "gender": "Pour Femme",
+    "concentration": "Roll-On",
+    "price": "Prices available on our Telegram",
+    "volume": "24ml",
+    "image": "https://images.unsplash.com/photo-1556228720-195a672e8a03?auto=format&fit=crop&q=80&w=800",
+    "description": "Pocket-sized roll-on gem providing hours of rich, alcohol-free amber and berry warmth.",
+    "badge": "Pocket Gem",
+    "isSpotlight": false,
+    "signatureNote": "Ruby Amber & Red Berries",
+    "notes": {
+      "top": [
+        "Sweet Red Berries",
+        "Pomegranate"
+      ],
+      "heart": [
+        "Crimson Rose",
+        "Amber Resin"
+      ],
+      "base": [
+        "Warm Vanilla",
+        "Sandalwood"
+      ]
+    },
+    "performance": {
+      "longevity": "24+ Hours",
+      "sillage": "Intimate & Clean"
+    },
+    "occasion": "Lectures, Hall Chill & Weekend Outings",
+    "season": "All Year (Harmattan & Rain)"
+  },
+  {
+    "id": "P-063",
+    "name": "Mukhallat Roll-On",
+    "house": "Mukhallat",
+    "family": "Amber / Oriental",
+    "gender": "Unisex",
+    "concentration": "Roll-On",
+    "price": "Prices available on our Telegram",
+    "volume": "24ml",
+    "image": "https://images.unsplash.com/photo-1608248597359-561331776518?auto=format&fit=crop&q=80&w=800",
+    "description": "Traditional concentrated oil blend that clings intimately to skin and fabric all day long.",
+    "badge": "Traditional Oil",
+    "isSpotlight": false,
+    "signatureNote": "Blended Agarwood & Taif Rose",
+    "notes": {
+      "top": [
+        "Taif Rose Buds",
+        "Saffron"
+      ],
+      "heart": [
+        "Blended Agarwood (Oud)",
+        "Spice Accord"
+      ],
+      "base": [
+        "Precious Amber",
+        "Musk"
+      ]
+    },
+    "performance": {
+      "longevity": "24+ Hours",
+      "sillage": "Intimate & Clean"
+    },
+    "occasion": "Daily Wear, Classes & Study Sessions",
+    "season": "All Year (Harmattan & Rain)"
+  },
+  {
+    "id": "P-064",
+    "name": "Bozzs (White/Blue Bozzs)",
+    "house": "Lucas Parfum",
+    "family": "Woody",
+    "gender": "Pour Homme",
+    "concentration": "Eau de Parfum",
+    "price": "Prices available on our Telegram",
+    "volume": "100ml",
+    "image": "https://images.unsplash.com/photo-1594035910387-fea47794261f?auto=format&fit=crop&q=80&w=800",
+    "description": "Sharp, energetic designer-inspired fragrance for the sharpest young men on campus.",
+    "badge": "Sharp Dresser",
+    "isSpotlight": false,
+    "signatureNote": "Fresh Cardamom & Crisp Apple",
+    "notes": {
+      "top": [
+        "Cardamom",
+        "Green Apple",
+        "Grapefruit"
+      ],
+      "heart": [
+        "Sage",
+        "Geranium"
+      ],
+      "base": [
         "Vetiver",
+        "Fir Resin",
         "Cedar"
       ]
     },
     "performance": {
-      "longevity": "8-10 Hours",
-      "sillage": "Alluringly Close"
+      "longevity": "8-12 Hours",
+      "sillage": "Moderate to Strong"
     },
-    "occasion": "Cocktail Lounges, Romantic Rendezvous",
-    "season": "Autumn / Winter / Evening"
+    "occasion": "Classes, Chapel & Campus Evening",
+    "season": "All Year (Harmattan & Rain)"
   },
   {
-    "id": "ayom-09",
-    "name": "Silver Mountain Water",
-    "house": "Creed",
-    "family": "Fresh",
-    "gender": "Unisex",
-    "concentration": "Eau de Parfum",
-    "price": "₦360,000",
+    "id": "P-065",
+    "name": "UHF Paris Suger Pink Intense",
+    "house": "UHF Paris",
+    "family": "Gourmand",
+    "gender": "Pour Femme",
+    "concentration": "Designer Parfum",
+    "price": "Prices available on our Telegram",
     "volume": "100ml",
-    "image": "https://images.unsplash.com/photo-1615397349754-cfa2066a298e?auto=format&fit=crop&q=80&w=800",
-    "description": "Inspired by the exhilarating crispness of alpine mountain air. Opens with green tea, blackcurrant, galbanum, and pure musk.",
-    "badge": "Pure Radiance",
+    "image": "/products/P-065.jpg",
+    "description": "Maximum sweetness and confectionary delight with intense projection and staying power.",
+    "badge": "Pink Delight",
     "isSpotlight": false,
-    "signatureNote": "Green Tea & Crisp Blackcurrant",
+    "signatureNote": "Pink Marshmallow & Vanilla Glaze",
     "notes": {
       "top": [
-        "Bergamot",
-        "Mandarin Orange"
+        "Pink Marshmallow",
+        "Sweet Lemon"
       ],
       "heart": [
-        "Green Tea",
-        "Blackcurrant Bud"
+        "Spun Sugar",
+        "Candied Jasmine"
       ],
       "base": [
-        "Musk",
-        "Galbanum",
-        "Sandalwood",
-        "Petitgrain"
+        "Madagascar Vanilla",
+        "Tonka Bean"
       ]
     },
     "performance": {
-      "longevity": "7-9 Hours",
-      "sillage": "Fresh & Crisp"
+      "longevity": "8-12 Hours",
+      "sillage": "Moderate to Strong"
     },
-    "occasion": "Sunny Days, Daytime Meetings, Resort Escapes",
-    "season": "Spring / Summer"
+    "occasion": "Lectures, Hall Chill & Weekend Outings",
+    "season": "All Year (Harmattan & Rain)"
   },
   {
-    "id": "ayom-10",
-    "name": "Portrait of a Lady",
-    "house": "Frédéric Malle",
+    "id": "P-066",
+    "name": "Brosia Sugar White",
+    "house": "Brosia",
+    "family": "Gourmand",
+    "gender": "Pour Femme",
+    "concentration": "Designer Parfum",
+    "price": "Prices available on our Telegram",
+    "volume": "100ml",
+    "image": "/products/P-066.jpg",
+    "description": "Velvety white gourmand dream that smells like luxury French confectionery.",
+    "badge": "White Velvet",
+    "isSpotlight": false,
+    "signatureNote": "White Chocolate & Almond Cream",
+    "notes": {
+      "top": [
+        "White Chocolate",
+        "Coconut Cream"
+      ],
+      "heart": [
+        "Sweet Almond",
+        "Vanilla Blossom"
+      ],
+      "base": [
+        "Cashmeran",
+        "Praline"
+      ]
+    },
+    "performance": {
+      "longevity": "8-12 Hours",
+      "sillage": "Moderate to Strong"
+    },
+    "occasion": "Lectures, Hall Chill & Weekend Outings",
+    "season": "All Year (Harmattan & Rain)"
+  },
+  {
+    "id": "P-067",
+    "name": "Sugar Baby For Her",
+    "house": "Smart World",
+    "family": "Gourmand",
+    "gender": "Pour Femme",
+    "concentration": "Eau de Parfum",
+    "price": "Prices available on our Telegram",
+    "volume": "100ml",
+    "image": "/products/P-067.jpg",
+    "description": "Sweet, playful, and charming. The ultimate fragrance for girls who love sugary compliments.",
+    "badge": "Sweet Aura",
+    "isSpotlight": false,
+    "signatureNote": "Candied Sugar & Juicy Peach",
+    "notes": {
+      "top": [
+        "Juicy Peach",
+        "Wild Berries"
+      ],
+      "heart": [
+        "Candied Sugar",
+        "Rose Petals"
+      ],
+      "base": [
+        "Vanilla Cream",
+        "Soft Musk"
+      ]
+    },
+    "performance": {
+      "longevity": "8-12 Hours",
+      "sillage": "Moderate to Strong"
+    },
+    "occasion": "Lectures, Hall Chill & Weekend Outings",
+    "season": "All Year (Harmattan & Rain)"
+  },
+  {
+    "id": "P-068",
+    "name": "My Love",
+    "house": "My Love",
     "family": "Floral",
     "gender": "Pour Femme",
     "concentration": "Eau de Parfum",
-    "price": "₦380,000",
-    "volume": "100ml",
-    "image": "https://images.unsplash.com/photo-1587017539504-67cfbddac569?auto=format&fit=crop&q=80&w=800",
-    "description": "An operatic symphony containing 400 Turkish roses per 100ml bottle. Cloaked in dark patchouli, frankincense, sandalwood, and raspberry.",
-    "badge": "Editorial Masterpiece",
+    "price": "Prices available on our Telegram",
+    "volume": "30ml",
+    "image": "/products/P-068.jpg",
+    "description": "A delicate pocket perfume celebrating youth, affection, and effortless charm.",
+    "badge": "Affordable Gem",
     "isSpotlight": false,
-    "signatureNote": "Turkish Rose & Dark Patchouli",
+    "signatureNote": "Romantic Peony & Sweet Lychee",
     "notes": {
       "top": [
-        "Rose",
-        "Clove",
-        "Raspberry",
-        "Blackcurrant",
-        "Cinnamon"
+        "Sweet Lychee",
+        "Peony"
       ],
       "heart": [
-        "Patchouli Heart",
-        "Incense",
+        "Pink Rose",
+        "Magnolia"
+      ],
+      "base": [
+        "White Amber",
+        "Cedarwood"
+      ]
+    },
+    "performance": {
+      "longevity": "8-12 Hours",
+      "sillage": "Moderate to Strong"
+    },
+    "occasion": "Lectures, Hall Chill & Weekend Outings",
+    "season": "All Year (Harmattan & Rain)"
+  },
+  {
+    "id": "P-069",
+    "name": "Blue Fragrance Collections Bacarral",
+    "house": "Blue Fragrance Collections",
+    "family": "Amber / Oriental",
+    "gender": "Unisex",
+    "concentration": "Eau de Parfum",
+    "price": "Prices available on our Telegram",
+    "volume": "70ml",
+    "image": "https://images.unsplash.com/photo-1616949755610-8c9bbc08f138?auto=format&fit=crop&q=80&w=800",
+    "description": "A prestigious 70ml bottle echoing the luminous, airy sweetness of luxury crystal amber.",
+    "badge": "Crystal Amber",
+    "isSpotlight": false,
+    "signatureNote": "Luminous Saffron & Ambergris",
+    "notes": {
+      "top": [
+        "Blood Orange",
+        "Saffron"
+      ],
+      "heart": [
+        "Cedarwood",
+        "Jasmine Buds"
+      ],
+      "base": [
+        "Ambergris",
+        "Oakmoss"
+      ]
+    },
+    "performance": {
+      "longevity": "8-12 Hours",
+      "sillage": "Moderate to Strong"
+    },
+    "occasion": "Daily Wear, Classes & Study Sessions",
+    "season": "All Year (Harmattan & Rain)"
+  },
+  {
+    "id": "P-070",
+    "name": "Hanna's Secret Royal (Limited Edition)",
+    "house": "Hanna's Secret",
+    "family": "Amber / Oriental",
+    "gender": "Unisex",
+    "concentration": "Eau de Parfum",
+    "price": "Prices available on our Telegram",
+    "volume": "100ml",
+    "image": "/products/P-070.jpg",
+    "description": "A rich limited edition composition reflecting 20+ years of fine fragrance craftsmanship.",
+    "badge": "Royal Edition",
+    "isSpotlight": false,
+    "signatureNote": "Royal Agarwood & Smoked Resin",
+    "notes": {
+      "top": [
+        "Spiced Nutmeg",
+        "Bergamot"
+      ],
+      "heart": [
+        "Royal Agarwood",
+        "Smoked Resin"
+      ],
+      "base": [
+        "Rich Amber",
         "Sandalwood"
+      ]
+    },
+    "performance": {
+      "longevity": "8-12 Hours",
+      "sillage": "Moderate to Strong"
+    },
+    "occasion": "Daily Wear, Classes & Study Sessions",
+    "season": "All Year (Harmattan & Rain)"
+  },
+  {
+    "id": "P-071",
+    "name": "Confetti Sunshine & Cheer (Mist)",
+    "house": "Confetti London",
+    "family": "Fresh",
+    "gender": "Pour Femme",
+    "concentration": "Fine Fragrance Mist",
+    "price": "Prices available on our Telegram",
+    "volume": "236ml",
+    "image": "/products/P-071.jpg",
+    "description": "Bright and cheerful morning mist that wakes up your senses with vibrant citrus sparkles.",
+    "badge": "Sunshine Mist",
+    "isSpotlight": false,
+    "signatureNote": "Pink Grapefruit & Sunlit Lily",
+    "notes": {
+      "top": [
+        "Pink Grapefruit",
+        "Sunlit Lemon"
+      ],
+      "heart": [
+        "Water Lily",
+        "Nectarine"
       ],
       "base": [
         "Musk",
+        "Soft Amber"
+      ]
+    },
+    "performance": {
+      "longevity": "5-7 Hours",
+      "sillage": "Airy & Moderate"
+    },
+    "occasion": "Lectures, Hall Chill & Weekend Outings",
+    "season": "All Year (Harmattan & Rain)"
+  },
+  {
+    "id": "P-072",
+    "name": "Cotton Club (CC)",
+    "house": "Cotton Club",
+    "family": "Woody",
+    "gender": "Unisex",
+    "concentration": "Eau de Parfum",
+    "price": "Prices available on our Telegram",
+    "volume": "100ml",
+    "image": "https://images.unsplash.com/photo-1508746829417-e6f548d8d6ed?auto=format&fit=crop&q=80&w=800",
+    "description": "Smooth jazz-age sophistication featuring velvety tonka bean and dark polished woods.",
+    "badge": "Jazz Age",
+    "isSpotlight": false,
+    "signatureNote": "Smoked Tonka & Dark Sandalwood",
+    "notes": {
+      "top": [
+        "Black Pepper",
+        "Bergamot"
+      ],
+      "heart": [
+        "Smoked Tonka",
+        "Lavender"
+      ],
+      "base": [
+        "Dark Sandalwood",
+        "Amber"
+      ]
+    },
+    "performance": {
+      "longevity": "8-12 Hours",
+      "sillage": "Moderate to Strong"
+    },
+    "occasion": "Daily Wear, Classes & Study Sessions",
+    "season": "All Year (Harmattan & Rain)"
+  },
+  {
+    "id": "P-073",
+    "name": "Cybele Gold",
+    "house": "Cybele Cosmetics",
+    "family": "Amber / Oriental",
+    "gender": "Unisex",
+    "concentration": "Eau de Parfum",
+    "price": "Prices available on our Telegram",
+    "volume": "100ml",
+    "image": "https://images.unsplash.com/photo-1547887537-6158d64c35b3?auto=format&fit=crop&q=80&w=800",
+    "description": "Proudly manufactured in Lagos by pioneering perfumers. Rich, long-lasting golden amber.",
+    "badge": "Lagos Pioneer",
+    "isSpotlight": false,
+    "signatureNote": "Warm Amber & Golden Woods",
+    "notes": {
+      "top": [
+        "Warm Saffron",
+        "Orange Peel"
+      ],
+      "heart": [
+        "Spiced Amber",
+        "Coriander"
+      ],
+      "base": [
+        "Sandalwood",
+        "Benzoin Resin"
+      ]
+    },
+    "performance": {
+      "longevity": "8-12 Hours",
+      "sillage": "Moderate to Strong"
+    },
+    "occasion": "Daily Wear, Classes & Study Sessions",
+    "season": "All Year (Harmattan & Rain)"
+  },
+  {
+    "id": "P-074",
+    "name": "Cybele Caprece (Forever Yours)",
+    "house": "Cybele Cosmetics",
+    "family": "Floral",
+    "gender": "Pour Femme",
+    "concentration": "Eau de Parfum",
+    "price": "Prices available on our Telegram",
+    "volume": "100ml + 10ml free",
+    "image": "https://images.unsplash.com/photo-1585386959984-a4155224a1ad?auto=format&fit=crop&q=80&w=800",
+    "description": "Generous value pack (100ml + 10ml free pocket spray) with romantic, radiant floral notes.",
+    "badge": "Bonus Pack",
+    "isSpotlight": false,
+    "signatureNote": "Magnolia & Blossom Bouquet",
+    "notes": {
+      "top": [
+        "Dewy Blossom",
+        "Green Apple"
+      ],
+      "heart": [
+        "Magnolia",
+        "Rose Bouquet"
+      ],
+      "base": [
+        "White Musk",
+        "Cedar"
+      ]
+    },
+    "performance": {
+      "longevity": "8-12 Hours",
+      "sillage": "Moderate to Strong"
+    },
+    "occasion": "Lectures, Hall Chill & Weekend Outings",
+    "season": "All Year (Harmattan & Rain)"
+  },
+  {
+    "id": "P-075",
+    "name": "Fantasy",
+    "house": "Fantasy",
+    "family": "Floral",
+    "gender": "Pour Femme",
+    "concentration": "Eau de Parfum",
+    "price": "Prices available on our Telegram",
+    "volume": "100ml",
+    "image": "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?auto=format&fit=crop&q=80&w=800",
+    "description": "Enchanting fairy-tale fragrance weaving playful fruits into decadent sweet chocolate petals.",
+    "badge": "Fairy Tale",
+    "isSpotlight": false,
+    "signatureNote": "Sweet Kiwi & White Chocolate Orchid",
+    "notes": {
+      "top": [
+        "Red Lychee",
+        "Golden Quince",
+        "Kiwi"
+      ],
+      "heart": [
+        "Cupcake Accord",
+        "White Chocolate Orchid"
+      ],
+      "base": [
+        "Creamy Musk",
+        "Orris Root"
+      ]
+    },
+    "performance": {
+      "longevity": "8-12 Hours",
+      "sillage": "Moderate to Strong"
+    },
+    "occasion": "Lectures, Hall Chill & Weekend Outings",
+    "season": "All Year (Harmattan & Rain)"
+  },
+  {
+    "id": "P-076",
+    "name": "Cuba Original",
+    "house": "A Parfums des Champs",
+    "family": "Woody",
+    "gender": "Unisex",
+    "concentration": "Eau de Toilette",
+    "price": "Prices available on our Telegram",
+    "volume": "100ml",
+    "image": "https://images.unsplash.com/photo-1595425970377-c9703cf48b6d?auto=format&fit=crop&q=80&w=800",
+    "description": "Distinctive cigar-flacon design with French-blended tobacco leaves, herbs, and woody warmth.",
+    "badge": "French Iconic",
+    "isSpotlight": false,
+    "signatureNote": "Classic Cigar Tobacco & Lavender",
+    "notes": {
+      "top": [
+        "Lavender",
+        "Bergamot"
+      ],
+      "heart": [
+        "Aromatic Jasmine",
+        "Cigar Tobacco"
+      ],
+      "base": [
+        "Cedarwood",
+        "Vetiver",
+        "Oakmoss"
+      ]
+    },
+    "performance": {
+      "longevity": "8-12 Hours",
+      "sillage": "Moderate to Strong"
+    },
+    "occasion": "Daily Wear, Classes & Study Sessions",
+    "season": "All Year (Harmattan & Rain)"
+  },
+  {
+    "id": "P-077",
+    "name": "24K Pour Homme",
+    "house": "24K",
+    "family": "Woody",
+    "gender": "Pour Homme",
+    "concentration": "Eau de Parfum",
+    "price": "Prices available on our Telegram",
+    "volume": "100ml",
+    "image": "/products/P-077.jpg",
+    "description": "Sleek and self-assured masculine scent designed to elevate suits and smart casual wear.",
+    "badge": "Smart Casual",
+    "isSpotlight": false,
+    "signatureNote": "Cardamom, Leather & Sandalwood",
+    "notes": {
+      "top": [
+        "Cardamom",
+        "Grapefruit Zest"
+      ],
+      "heart": [
+        "Spiced Leather",
+        "Nutmeg"
+      ],
+      "base": [
+        "Cedarwood",
+        "Sandalwood",
+        "Amber"
+      ]
+    },
+    "performance": {
+      "longevity": "8-12 Hours",
+      "sillage": "Moderate to Strong"
+    },
+    "occasion": "Classes, Chapel & Campus Evening",
+    "season": "All Year (Harmattan & Rain)"
+  },
+  {
+    "id": "P-078",
+    "name": "24K Bleu Nuit",
+    "house": "24K",
+    "family": "Fresh",
+    "gender": "Pour Homme",
+    "concentration": "Eau de Parfum",
+    "price": "Prices available on our Telegram",
+    "volume": "30ml",
+    "image": "/products/P-078.jpg",
+    "description": "A compact 30ml nocturnal blue scent that transitions effortlessly from classes to night out.",
+    "badge": "Night Fresh",
+    "isSpotlight": false,
+    "signatureNote": "Midnight Lavender & Marine Woods",
+    "notes": {
+      "top": [
+        "Midnight Lavender",
+        "Lemon"
+      ],
+      "heart": [
+        "Marine Accord",
+        "Geranium"
+      ],
+      "base": [
+        "Driftwood",
+        "Clean Amber"
+      ]
+    },
+    "performance": {
+      "longevity": "8-12 Hours",
+      "sillage": "Moderate to Strong"
+    },
+    "occasion": "Classes, Chapel & Campus Evening",
+    "season": "All Year (Harmattan & Rain)"
+  },
+  {
+    "id": "P-079",
+    "name": "Boos (Lucas Parfum Violet/Perfume Selection)",
+    "house": "Lucas Parfum",
+    "family": "Woody",
+    "gender": "Pour Homme",
+    "concentration": "Eau de Parfum",
+    "price": "Prices available on our Telegram",
+    "volume": "100ml",
+    "image": "https://images.unsplash.com/photo-1594035910387-fea47794261f?auto=format&fit=crop&q=80&w=800",
+    "description": "Modern violet and spice fusion delivering crisp distinction and charismatic projection.",
+    "badge": "Modern Violet",
+    "isSpotlight": false,
+    "signatureNote": "Violet Leaves & Smoked Spices",
+    "notes": {
+      "top": [
+        "Violet Leaves",
+        "Pink Pepper"
+      ],
+      "heart": [
+        "Smoked Spices",
+        "Clary Sage"
+      ],
+      "base": [
+        "Amberwood",
+        "Cedar"
+      ]
+    },
+    "performance": {
+      "longevity": "8-12 Hours",
+      "sillage": "Moderate to Strong"
+    },
+    "occasion": "Classes, Chapel & Campus Evening",
+    "season": "All Year (Harmattan & Rain)"
+  },
+  {
+    "id": "P-080",
+    "name": "Blu",
+    "house": "By Different",
+    "family": "Fresh",
+    "gender": "Unisex",
+    "concentration": "Eau de Parfum",
+    "price": "Prices available on our Telegram",
+    "volume": "100ml",
+    "image": "https://images.unsplash.com/photo-1616949755610-8c9bbc08f138?auto=format&fit=crop&q=80&w=800",
+    "description": "Deep oceanic serenity capturing coastal winds and sun-drenched marine minerals.",
+    "badge": "Deep Ocean",
+    "isSpotlight": false,
+    "signatureNote": "Sea Salt & Mediterranean Citrus",
+    "notes": {
+      "top": [
+        "Sea Salt",
+        "Calabrian Bergamot"
+      ],
+      "heart": [
+        "Ocean Wave",
+        "Rosemary"
+      ],
+      "base": [
+        "Patchouli",
+        "Incense",
+        "Musk"
+      ]
+    },
+    "performance": {
+      "longevity": "8-12 Hours",
+      "sillage": "Moderate to Strong"
+    },
+    "occasion": "Daily Wear, Classes & Study Sessions",
+    "season": "All Year (Harmattan & Rain)"
+  },
+  {
+    "id": "P-081",
+    "name": "Oniro",
+    "house": "Oniro",
+    "family": "Floral",
+    "gender": "Pour Femme",
+    "concentration": "Eau de Parfum",
+    "price": "Prices available on our Telegram",
+    "volume": "100ml",
+    "image": "https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?auto=format&fit=crop&q=80&w=800",
+    "description": "Dreamy Greek-inspired white floral and musk fragrance that creates an unforgettable aura.",
+    "badge": "Dreamy Floral",
+    "isSpotlight": false,
+    "signatureNote": "Orange Blossom & Sensual White Musk",
+    "notes": {
+      "top": [
+        "Orange Blossom",
+        "Sweet Pear"
+      ],
+      "heart": [
+        "Sensual White Musk",
+        "Jasmine"
+      ],
+      "base": [
+        "Amber Crystals",
+        "Cedarwood"
+      ]
+    },
+    "performance": {
+      "longevity": "8-12 Hours",
+      "sillage": "Moderate to Strong"
+    },
+    "occasion": "Lectures, Hall Chill & Weekend Outings",
+    "season": "All Year (Harmattan & Rain)"
+  },
+  {
+    "id": "P-082",
+    "name": "Mayar",
+    "house": "Smart World",
+    "family": "Floral",
+    "gender": "Unisex",
+    "concentration": "Eau de Parfum",
+    "price": "Prices available on our Telegram",
+    "volume": "100ml",
+    "image": "https://images.unsplash.com/photo-1541643600914-78b084683601?auto=format&fit=crop&q=80&w=800",
+    "description": "Vibrant and succulent floral-green composition with crisp tea and mouth-watering lychee.",
+    "badge": "Lychee Bloom",
+    "isSpotlight": false,
+    "signatureNote": "Green Tea, Lychee & White Rose",
+    "notes": {
+      "top": [
+        "Exotic Lychee",
+        "Raspberry"
+      ],
+      "heart": [
+        "White Damask Rose",
+        "Green Tea"
+      ],
+      "base": [
+        "Vanilla Pod",
+        "Clean Musk"
+      ]
+    },
+    "performance": {
+      "longevity": "8-12 Hours",
+      "sillage": "Moderate to Strong"
+    },
+    "occasion": "Daily Wear, Classes & Study Sessions",
+    "season": "All Year (Harmattan & Rain)"
+  },
+  {
+    "id": "P-083",
+    "name": "Elemental",
+    "house": "Zandas",
+    "family": "Woody",
+    "gender": "Unisex",
+    "concentration": "Eau de Parfum",
+    "price": "Prices available on our Telegram",
+    "volume": "100ml",
+    "image": "https://images.unsplash.com/photo-1615634260167-c8cdede054de?auto=format&fit=crop&q=80&w=800",
+    "description": "Rooted in nature's purest elements: rich vetiver earth, dark woods, and warm spices.",
+    "badge": "Earth & Wood",
+    "isSpotlight": false,
+    "signatureNote": "Earthy Vetiver & Crushed Cedar",
+    "notes": {
+      "top": [
+        "Crushed Black Pepper",
+        "Bergamot"
+      ],
+      "heart": [
+        "Earthy Vetiver",
+        "Nutmeg"
+      ],
+      "base": [
+        "Smoked Cedar",
+        "Patchouli"
+      ]
+    },
+    "performance": {
+      "longevity": "8-12 Hours",
+      "sillage": "Moderate to Strong"
+    },
+    "occasion": "Daily Wear, Classes & Study Sessions",
+    "season": "All Year (Harmattan & Rain)"
+  },
+  {
+    "id": "P-084",
+    "name": "136",
+    "house": "136",
+    "family": "Amber / Oriental",
+    "gender": "Unisex",
+    "concentration": "Eau de Parfum",
+    "price": "Prices available on our Telegram",
+    "volume": "100ml",
+    "image": "https://images.unsplash.com/photo-1587017539504-67cfbddac569?auto=format&fit=crop&q=80&w=800",
+    "description": "Mysterious numbered edition blending smoldering incense resins with rich dark woods.",
+    "badge": "Mystery Blend",
+    "isSpotlight": false,
+    "signatureNote": "Mystical Amber Resin & Smoked Woods",
+    "notes": {
+      "top": [
+        "Smoked Spices",
+        "Citrus Peel"
+      ],
+      "heart": [
+        "Mystical Amber Resin",
+        "Incense"
+      ],
+      "base": [
+        "Dark Sandalwood",
+        "Musk"
+      ]
+    },
+    "performance": {
+      "longevity": "8-12 Hours",
+      "sillage": "Moderate to Strong"
+    },
+    "occasion": "Daily Wear, Classes & Study Sessions",
+    "season": "All Year (Harmattan & Rain)"
+  },
+  {
+    "id": "P-085",
+    "name": "Hummer (Black/Blue editions)",
+    "house": "Hummer",
+    "family": "Woody",
+    "gender": "Pour Homme",
+    "concentration": "Eau de Toilette",
+    "price": "Prices available on our Telegram",
+    "volume": "100ml",
+    "image": "https://images.unsplash.com/photo-1523293182086-7651a899d37f?auto=format&fit=crop&q=80&w=800",
+    "description": "Rugged and unstoppable, built with aromatic leather, woods, and bold all-terrain freshness.",
+    "badge": "Rugged Style",
+    "isSpotlight": false,
+    "signatureNote": "Rugged Cardamom, Leather & Cypress",
+    "notes": {
+      "top": [
+        "Green Cypress",
+        "Cardamom",
+        "Mandarin"
+      ],
+      "heart": [
+        "Lotus Blossom",
+        "Pepper"
+      ],
+      "base": [
+        "Warm Leather",
+        "Amber",
+        "Patchouli"
+      ]
+    },
+    "performance": {
+      "longevity": "8-12 Hours",
+      "sillage": "Moderate to Strong"
+    },
+    "occasion": "Classes, Chapel & Campus Evening",
+    "season": "All Year (Harmattan & Rain)"
+  },
+  {
+    "id": "P-086",
+    "name": "Pink Dress",
+    "house": "Pink Dress",
+    "family": "Floral",
+    "gender": "Pour Femme",
+    "concentration": "Eau de Parfum",
+    "price": "Prices available on our Telegram",
+    "volume": "100ml",
+    "image": "https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?auto=format&fit=crop&q=80&w=800",
+    "description": "The scent equivalent of your favorite evening dress: chic, radiant, and utterly feminine.",
+    "badge": "Pink Glamour",
+    "isSpotlight": false,
+    "signatureNote": "Sweet Cherry Blossom & Raspberry",
+    "notes": {
+      "top": [
+        "Sweet Cherry Blossom",
+        "Raspberry"
+      ],
+      "heart": [
+        "Velvety Rose",
+        "Pink Peony"
+      ],
+      "base": [
+        "Fluffy Musk",
+        "Vanilla Cream"
+      ]
+    },
+    "performance": {
+      "longevity": "8-12 Hours",
+      "sillage": "Moderate to Strong"
+    },
+    "occasion": "Lectures, Hall Chill & Weekend Outings",
+    "season": "All Year (Harmattan & Rain)"
+  },
+  {
+    "id": "P-087",
+    "name": "Cyrus Chairman",
+    "house": "Cyrus",
+    "family": "Woody",
+    "gender": "Pour Homme",
+    "concentration": "Eau de Toilette",
+    "price": "Prices available on our Telegram",
+    "volume": "100ml",
+    "image": "/products/P-087.jpg",
+    "description": "Distinguished Parisian masculine formulation offering crisp citrus, spices, and cedar.",
+    "badge": "Parisian Executive",
+    "isSpotlight": false,
+    "signatureNote": "Parisian Cedar & Golden Spices",
+    "notes": {
+      "top": [
+        "Bergamot",
+        "Lemon Peel",
+        "Cardamom"
+      ],
+      "heart": [
+        "French Lavender",
+        "Nutmeg"
+      ],
+      "base": [
+        "Parisian Cedar",
+        "Vetiver",
+        "Amber"
+      ]
+    },
+    "performance": {
+      "longevity": "8-12 Hours",
+      "sillage": "Moderate to Strong"
+    },
+    "occasion": "Classes, Chapel & Campus Evening",
+    "season": "All Year (Harmattan & Rain)"
+  },
+  {
+    "id": "P-088",
+    "name": "L'Eau D'Issey Pour Homme Intense",
+    "house": "Shiseido (Issey Miyake license)",
+    "family": "Woody",
+    "gender": "Pour Homme",
+    "concentration": "Eau de Toilette",
+    "price": "Prices available on our Telegram",
+    "volume": "140ml",
+    "image": "https://images.unsplash.com/photo-1615634260167-c8cdede054de?auto=format&fit=crop&q=80&w=800",
+    "description": "An extraordinary masterclass in citrus and smoky incense. Clean, artistic, and breathtaking.",
+    "badge": "Masterpiece",
+    "isSpotlight": false,
+    "signatureNote": "Yuzu Citrus, Nutmeg & Smoked Incense",
+    "notes": {
+      "top": [
+        "Yuzu",
+        "Bergamot",
+        "Mandarin",
+        "Sweet Orange"
+      ],
+      "heart": [
+        "Nutmeg",
+        "Lotus",
+        "Cinnamon",
+        "Cardamom"
+      ],
+      "base": [
+        "Smoked Incense",
+        "Papyrus",
         "Benzoin",
         "Amber"
       ]
     },
     "performance": {
-      "longevity": "14+ Hours",
-      "sillage": "Grand Opera"
+      "longevity": "8-12 Hours",
+      "sillage": "Moderate to Strong"
     },
-    "occasion": "Art Galas, Black Tie Events, High Culture Evenings",
-    "season": "Autumn / Winter"
+    "occasion": "Classes, Chapel & Campus Evening",
+    "season": "All Year (Harmattan & Rain)"
   },
   {
-    "id": "ayom-11",
-    "name": "Gris Charnel Extrait",
-    "house": "BDK Parfums",
-    "family": "Woody",
-    "gender": "Unisex",
-    "concentration": "Extrait de Parfum",
-    "price": "₦290,000",
-    "volume": "100ml",
-    "image": "https://images.unsplash.com/photo-1563178406-4cdc2923acbc?auto=format&fit=crop&q=80&w=800",
-    "description": "Rich fig, black tea, and bourbon vetiver amplified into an intense nocturnal concentration with patchouli and smoky tonka bean.",
-    "badge": "Parisian Niche",
-    "isSpotlight": false,
-    "signatureNote": "Black Tea & Smoked Fig",
-    "notes": {
-      "top": [
-        "Cardamom",
-        "Black Tea Extract",
-        "Fig Accord"
-      ],
-      "heart": [
-        "Iris Absolute",
-        "Bourbon Vetiver",
-        "Cistus"
-      ],
-      "base": [
-        "Indonesian Patchouli",
-        "Vanilla",
-        "Sandalwood",
-        "Cedar"
-      ]
-    },
-    "performance": {
-      "longevity": "12-14 Hours",
-      "sillage": "Velvety & Dense"
-    },
-    "occasion": "Intimate Dinners, Rain-Swept Afternoons",
-    "season": "Autumn / Winter / Spring"
-  },
-  {
-    "id": "ayom-12",
-    "name": "Tobacco Vanille",
-    "house": "Tom Ford",
-    "family": "Gourmand",
-    "gender": "Unisex",
+    "id": "P-089",
+    "name": "Sexy Girl Give a Thrill",
+    "house": "Hanna's Secret",
+    "family": "Floral",
+    "gender": "Pour Femme",
     "concentration": "Eau de Parfum",
-    "price": "₦320,000",
+    "price": "Prices available on our Telegram",
     "volume": "100ml",
-    "image": "https://images.unsplash.com/photo-1583445013765-46c20c4a6772?auto=format&fit=crop&q=80&w=800",
-    "description": "Reminiscent of an exclusive English gentlemen’s club. Opulent aromatic tobacco leaf paired with rich spices, vanilla, and sweet wood sap.",
-    "badge": "Warm Opulence",
+    "image": "/products/P-089.jpg",
+    "description": "Sexy Girl Give a Thrill by Hanna's Secret. High-appeal daily campus scent offering radiant projection and signature presence.",
+    "badge": "Campus Favorite",
     "isSpotlight": false,
-    "signatureNote": "Tobacco Leaf & Madagascan Vanilla",
+    "signatureNote": "Floral/Fruity Notes",
     "notes": {
       "top": [
-        "Tobacco Leaf",
-        "Spicy Notes"
+        "Fresh Citrus",
+        "Pink Pepper"
       ],
       "heart": [
-        "Vanilla Pod",
-        "Cacao",
-        "Tonka Bean",
-        "Tobacco Blossom"
+        "Floral Bouquet",
+        "Warm Spices"
       ],
       "base": [
-        "Dried Fruits Accord",
-        "Woody Notes"
+        "Soft Musk",
+        "Cedarwood"
       ]
     },
     "performance": {
-      "longevity": "12-15 Hours",
-      "sillage": "Enchanting & Heavy"
+      "longevity": "8-12 Hours",
+      "sillage": "Moderate to Strong"
     },
-    "occasion": "Formal Gatherings, Winter Holidays, Night Out",
-    "season": "Winter / Late Autumn"
+    "occasion": "Lectures, Chapel & Weekend Hangouts",
+    "season": "All Year (Harmattan & Rain)"
+  },
+  {
+    "id": "P-090",
+    "name": "Romantic Love",
+    "house": "Império",
+    "family": "Floral",
+    "gender": "Pour Femme",
+    "concentration": "Fragrance Mist",
+    "price": "Prices available on our Telegram",
+    "volume": "200ml",
+    "image": "/products/P-090.jpg",
+    "description": "Romantic Love by Império. High-appeal daily campus scent offering radiant projection and signature presence.",
+    "badge": "Campus Favorite",
+    "isSpotlight": false,
+    "signatureNote": "Floral/Fruity Notes",
+    "notes": {
+      "top": [
+        "Fresh Citrus",
+        "Pink Pepper"
+      ],
+      "heart": [
+        "Floral Bouquet",
+        "Warm Spices"
+      ],
+      "base": [
+        "Soft Musk",
+        "Cedarwood"
+      ]
+    },
+    "performance": {
+      "longevity": "8-12 Hours",
+      "sillage": "Moderate to Strong"
+    },
+    "occasion": "Lectures, Chapel & Weekend Hangouts",
+    "season": "All Year (Harmattan & Rain)"
+  },
+  {
+    "id": "P-091",
+    "name": "Pure Love",
+    "house": "Pure Love",
+    "family": "Floral",
+    "gender": "Pour Femme",
+    "concentration": "Eau de Parfum",
+    "price": "Prices available on our Telegram",
+    "volume": "100ml",
+    "image": "/products/P-091.jpg",
+    "description": "Pure Love by Pure Love. High-appeal daily campus scent offering radiant projection and signature presence.",
+    "badge": "Campus Favorite",
+    "isSpotlight": false,
+    "signatureNote": "Floral/Fruity Notes",
+    "notes": {
+      "top": [
+        "Fresh Citrus",
+        "Pink Pepper"
+      ],
+      "heart": [
+        "Floral Bouquet",
+        "Warm Spices"
+      ],
+      "base": [
+        "Soft Musk",
+        "Cedarwood"
+      ]
+    },
+    "performance": {
+      "longevity": "8-12 Hours",
+      "sillage": "Moderate to Strong"
+    },
+    "occasion": "Lectures, Chapel & Weekend Hangouts",
+    "season": "All Year (Harmattan & Rain)"
+  },
+  {
+    "id": "P-092",
+    "name": "Pure Love Manifesta",
+    "house": "Pure Love",
+    "family": "Amber / Oriental",
+    "gender": "Pour Femme",
+    "concentration": "Perfumed Deodorant Body Spray",
+    "price": "Prices available on our Telegram",
+    "volume": "200ml",
+    "image": "/products/P-092.jpg",
+    "description": "Pure Love Manifesta by Pure Love. High-appeal daily campus scent offering radiant projection and signature presence.",
+    "badge": "Campus Favorite",
+    "isSpotlight": false,
+    "signatureNote": "Floral/Amber Notes",
+    "notes": {
+      "top": [
+        "Fresh Citrus",
+        "Pink Pepper"
+      ],
+      "heart": [
+        "Floral Bouquet",
+        "Warm Spices"
+      ],
+      "base": [
+        "Soft Musk",
+        "Cedarwood"
+      ]
+    },
+    "performance": {
+      "longevity": "8-12 Hours",
+      "sillage": "Moderate to Strong"
+    },
+    "occasion": "Lectures, Chapel & Weekend Hangouts",
+    "season": "All Year (Harmattan & Rain)"
+  },
+  {
+    "id": "P-093",
+    "name": "Pure Love (Pink)",
+    "house": "Pure Love",
+    "family": "Floral",
+    "gender": "Pour Femme",
+    "concentration": "Perfumed Deodorant Body Spray",
+    "price": "Prices available on our Telegram",
+    "volume": "200ml",
+    "image": "/products/P-093.jpg",
+    "description": "Pure Love (Pink) by Pure Love. High-appeal daily campus scent offering radiant projection and signature presence.",
+    "badge": "Campus Favorite",
+    "isSpotlight": false,
+    "signatureNote": "Floral/Fresh Notes",
+    "notes": {
+      "top": [
+        "Fresh Citrus",
+        "Pink Pepper"
+      ],
+      "heart": [
+        "Floral Bouquet",
+        "Warm Spices"
+      ],
+      "base": [
+        "Soft Musk",
+        "Cedarwood"
+      ]
+    },
+    "performance": {
+      "longevity": "8-12 Hours",
+      "sillage": "Moderate to Strong"
+    },
+    "occasion": "Lectures, Chapel & Weekend Hangouts",
+    "season": "All Year (Harmattan & Rain)"
   }
 ]

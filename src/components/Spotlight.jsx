@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
-import { Clock, Wind, ChevronLeft, ChevronRight } from 'lucide-react';
+import { Clock, Wind, ChevronLeft, ChevronRight, ExternalLink } from 'lucide-react';
 import { buildWhatsAppOrderUrl } from '../utils/whatsapp';
+import { getProductImage, handleImageError } from '../utils/productImages';
+import { BRAND_CONFIG } from '../data/perfumesData';
 
 export default function Spotlight({ spotlightPerfumes, onSelectPerfume }) {
   const [activeIdx, setActiveIdx] = useState(0);
@@ -65,8 +67,9 @@ export default function Spotlight({ spotlightPerfumes, onSelectPerfume }) {
 
                 <img
                   key={perfume.id}
-                  src={perfume.image}
+                  src={getProductImage(perfume)}
                   alt={perfume.name}
+                  onError={handleImageError}
                   className="relative z-10 max-h-[85%] max-w-[85%] object-contain filter contrast-[1.02] group-hover:scale-105 transition-transform duration-700 ease-out"
                 />
 
@@ -127,7 +130,7 @@ export default function Spotlight({ spotlightPerfumes, onSelectPerfume }) {
                     Top:
                   </span>
                   <div className="flex flex-wrap gap-1.5 flex-1">
-                    {perfume.notes.top.map((note) => (
+                    {(perfume.notes?.top || []).map((note) => (
                       <span key={note} className="text-xs font-sans-luxury px-2 py-0.5 rounded-md bg-white border border-[#F0DDE2] text-[#4A4036]">
                         {note}
                       </span>
@@ -140,7 +143,7 @@ export default function Spotlight({ spotlightPerfumes, onSelectPerfume }) {
                     Heart:
                   </span>
                   <div className="flex flex-wrap gap-1.5 flex-1">
-                    {perfume.notes.heart.map((note) => (
+                    {(perfume.notes?.heart || []).map((note) => (
                       <span key={note} className="text-xs font-sans-luxury px-2 py-0.5 rounded-md bg-white border border-[#F0DDE2] text-[#4A4036]">
                         {note}
                       </span>
@@ -153,7 +156,7 @@ export default function Spotlight({ spotlightPerfumes, onSelectPerfume }) {
                     Base:
                   </span>
                   <div className="flex flex-wrap gap-1.5 flex-1">
-                    {perfume.notes.base.map((note) => (
+                    {(perfume.notes?.base || []).map((note) => (
                       <span key={note} className="text-xs font-sans-luxury px-2 py-0.5 rounded-md bg-white border border-[#F0DDE2] text-[#4A4036]">
                         {note}
                       </span>
@@ -187,9 +190,16 @@ export default function Spotlight({ spotlightPerfumes, onSelectPerfume }) {
                   <span className="text-[9px] uppercase font-sans-luxury tracking-widest text-[#9E8B75] block">
                     Bottle Volume {perfume.volume}
                   </span>
-                  <span className="font-serif-luxury text-2xl sm:text-3xl font-semibold text-[#181512]">
-                    {perfume.price}
-                  </span>
+                  <a
+                    href={BRAND_CONFIG.telegramChannel}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    title="View prices on Telegram"
+                    className="inline-flex items-center gap-1.5 font-serif-luxury text-xl sm:text-2xl text-[#8C6D46] hover:text-[#181512] transition-colors mt-0.5"
+                  >
+                    <span className="underline decoration-[#D4AF37]/50 underline-offset-4">Prices available on our Telegram</span>
+                    <ExternalLink className="w-4 h-4 text-[#C5A880] shrink-0" />
+                  </a>
                 </div>
 
                 <div className="flex items-center gap-3">
