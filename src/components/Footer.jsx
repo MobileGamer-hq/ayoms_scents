@@ -145,14 +145,25 @@ export default function Footer() {
               </p>
             </div>
 
-            <div className="pt-2">
+            <div className="pt-2 flex flex-wrap gap-2.5">
               <a
                 href={buildWhatsAppAdvisoryUrl()}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center gap-2 px-6 py-2.5 rounded-[8px] text-xs uppercase tracking-[0.2em] font-medium bg-white text-[#120F16] hover:bg-[#FDF2F5] transition-colors"
+                className="inline-flex items-center gap-2 px-5 py-2.5 rounded-[8px] text-xs uppercase tracking-[0.16em] font-medium bg-white text-[#120F16] hover:bg-[#FDF2F5] transition-colors"
               >
-                <span>Chat on WhatsApp</span>
+                <MessageCircle className="w-3.5 h-3.5 text-[#8C6D46]" />
+                <span>Order on WhatsApp</span>
+              </a>
+
+              <a
+                href={BRAND_CONFIG.telegramChannel}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-2 px-5 py-2.5 rounded-[8px] text-xs uppercase tracking-[0.16em] font-medium bg-[#1F1A24] border border-[#3A3044] text-white hover:bg-[#2A2333] transition-colors"
+              >
+                <TelegramIcon className="w-3.5 h-3.5 text-[#C5A880]" />
+                <span>Order on Telegram</span>
               </a>
             </div>
           </div>

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Award, CheckCircle } from 'lucide-react';
+import { Award, CheckCircle, MessageCircle, Send } from 'lucide-react';
 import { BRAND_CONFIG } from '../data/perfumesData';
 import { buildWhatsAppAdvisoryUrl } from '../utils/whatsapp';
 
@@ -66,18 +66,29 @@ export default function BrandEthos() {
               </div>
               <div className="flex items-center gap-2.5 text-xs font-sans-luxury text-[#181512]">
                 <CheckCircle className="w-4 h-4 text-[#8C6D46] shrink-0" />
-                <span>Friendly, Personalized Advice on WhatsApp</span>
+                <span>Friendly Advice & Orders on WhatsApp or Telegram</span>
               </div>
             </div>
 
-            <div className="pt-4">
+            <div className="pt-4 flex flex-wrap items-center gap-3">
               <a
                 href={buildWhatsAppAdvisoryUrl()}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center gap-2 px-8 py-3 rounded-[8px] text-xs uppercase tracking-[0.2em] font-sans-luxury font-medium bg-[#181512] text-white hover:bg-black transition-all"
+                className="inline-flex items-center gap-2 px-6 py-2.5 rounded-[8px] text-xs uppercase tracking-[0.16em] font-sans-luxury font-medium bg-[#181512] text-white hover:bg-black transition-all"
               >
-                <span>Chat with Us for Scent Advice</span>
+                <MessageCircle className="w-3.5 h-3.5 text-[#C5A880]" />
+                <span>Order on WhatsApp</span>
+              </a>
+
+              <a
+                href={BRAND_CONFIG.telegramChannel}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-2 px-6 py-2.5 rounded-[8px] text-xs uppercase tracking-[0.16em] font-sans-luxury font-medium border border-[#8C6D46] bg-[#FDF2F5] text-[#8C6D46] hover:bg-[#8C6D46] hover:text-white transition-all"
+              >
+                <Send className="w-3.5 h-3.5" />
+                <span>Order on Telegram</span>
               </a>
             </div>
 

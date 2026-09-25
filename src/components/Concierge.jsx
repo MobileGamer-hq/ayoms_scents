@@ -116,7 +116,7 @@ export default function Concierge() {
                 </p>
               </div>
               <div className="pt-3 border-t border-[#F0DDE2] flex items-center justify-between text-xs font-medium text-[#8C6D46]">
-                <span>Message Now</span>
+                <span>Order on WhatsApp</span>
                 <span className="group-hover:translate-x-1 transition-transform">→</span>
               </div>
             </a>
@@ -166,11 +166,11 @@ export default function Concierge() {
                   Ayom's Scents
                 </h4>
                 <p className="text-xs text-[#5C5044] font-sans-luxury leading-relaxed font-light mb-4">
-                  Broadcasts, newly landed bottles, special drops, and stock updates.
+                  Official channel for prices, direct ordering, newly landed bottles, and stock updates.
                 </p>
               </div>
               <div className="pt-3 border-t border-[#F0DDE2] flex items-center justify-between text-xs font-medium text-[#8C6D46]">
-                <span>Join Channel</span>
+                <span>Order on Telegram</span>
                 <span className="group-hover:translate-x-1 transition-transform">→</span>
               </div>
             </a>

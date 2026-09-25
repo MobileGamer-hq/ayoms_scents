@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Clock, Wind, ChevronLeft, ChevronRight, ExternalLink } from 'lucide-react';
+import { Clock, Wind, ChevronLeft, ChevronRight, ExternalLink, MessageCircle, Send } from 'lucide-react';
 import { buildWhatsAppOrderUrl } from '../utils/whatsapp';
 import { getProductImage, handleImageError } from '../utils/productImages';
 import { BRAND_CONFIG } from '../data/perfumesData';
@@ -215,21 +215,32 @@ export default function Spotlight({ spotlightPerfumes, onSelectPerfume }) {
                   </a>
                 </div>
 
-                <div className="flex items-center gap-3">
+                <div className="flex flex-wrap items-center gap-2.5">
                   <button
                     onClick={() => onSelectPerfume(perfume)}
-                    className="px-5 py-2.5 rounded-[8px] text-xs font-medium uppercase tracking-[0.18em] border border-[#181512] text-[#181512] hover:bg-[#181512] hover:text-white transition-all duration-300 cursor-pointer"
+                    className="px-4 py-2.5 rounded-[8px] text-xs font-medium uppercase tracking-[0.16em] border border-[#181512] text-[#181512] hover:bg-[#181512] hover:text-white transition-all duration-300 cursor-pointer"
                   >
-                    View Scent Details
+                    View Details
                   </button>
 
                   <a
                     href={buildWhatsAppOrderUrl(perfume.name, perfume.house, perfume.volume)}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="px-5 py-2.5 rounded-[8px] text-xs font-medium uppercase tracking-[0.18em] bg-[#181512] text-white hover:bg-black transition-all duration-300"
+                    className="inline-flex items-center gap-1.5 px-4 py-2.5 rounded-[8px] text-xs font-medium uppercase tracking-[0.16em] bg-[#181512] text-white hover:bg-black transition-all duration-300"
                   >
-                    Order via WhatsApp
+                    <MessageCircle className="w-3.5 h-3.5 text-[#C5A880]" />
+                    <span>Order on WhatsApp</span>
+                  </a>
+
+                  <a
+                    href={BRAND_CONFIG.telegramChannel}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center gap-1.5 px-4 py-2.5 rounded-[8px] text-xs font-medium uppercase tracking-[0.16em] border border-[#8C6D46] bg-[#FDF2F5] text-[#8C6D46] hover:bg-[#8C6D46] hover:text-white transition-all duration-300"
+                  >
+                    <Send className="w-3.5 h-3.5" />
+                    <span>Order on Telegram</span>
                   </a>
                 </div>
               </div>

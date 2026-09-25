@@ -1,5 +1,5 @@
 import React from 'react';
-import { ArrowDown, ExternalLink } from 'lucide-react';
+import { ArrowDown, ExternalLink, MessageCircle, Send } from 'lucide-react';
 import { buildWhatsAppAdvisoryUrl } from '../utils/whatsapp';
 import { getProductImage, handleImageError } from '../utils/productImages';
 import { BRAND_CONFIG } from '../data/perfumesData';
@@ -29,10 +29,10 @@ export default function Hero({ onSelectPerfume, featuredPerfumes }) {
           </p>
 
           {/* Minimal Editorial Action Buttons */}
-          <div className="flex flex-wrap items-center justify-center gap-3">
+          <div className="flex flex-wrap items-center justify-center gap-2.5">
             <a
               href="#catalog"
-              className="px-7 py-2.5 rounded-[8px] text-xs uppercase tracking-[0.2em] font-sans-luxury font-medium bg-[#181512] text-white hover:bg-black transition-all duration-300"
+              className="px-6 py-2.5 rounded-[8px] text-xs uppercase tracking-[0.18em] font-sans-luxury font-medium bg-[#181512] text-white hover:bg-black transition-all duration-300"
             >
               Browse All Perfumes
             </a>
@@ -41,9 +41,20 @@ export default function Hero({ onSelectPerfume, featuredPerfumes }) {
               href={buildWhatsAppAdvisoryUrl()}
               target="_blank"
               rel="noopener noreferrer"
-              className="px-7 py-2.5 rounded-[8px] text-xs uppercase tracking-[0.2em] font-sans-luxury font-medium border border-[#181512] text-[#181512] hover:bg-[#181512] hover:text-white transition-all duration-300"
+              className="inline-flex items-center gap-1.5 px-5 py-2.5 rounded-[8px] text-xs uppercase tracking-[0.18em] font-sans-luxury font-medium border border-[#181512] text-[#181512] hover:bg-[#181512] hover:text-white transition-all duration-300"
             >
-              Order via WhatsApp
+              <MessageCircle className="w-3.5 h-3.5 text-[#8C6D46]" />
+              <span>Order on WhatsApp</span>
+            </a>
+
+            <a
+              href={BRAND_CONFIG.telegramChannel}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-1.5 px-5 py-2.5 rounded-[8px] text-xs uppercase tracking-[0.18em] font-sans-luxury font-medium border border-[#8C6D46] bg-[#FDF2F5] text-[#8C6D46] hover:bg-[#8C6D46] hover:text-white transition-all duration-300"
+            >
+              <Send className="w-3.5 h-3.5" />
+              <span>Order on Telegram</span>
             </a>
           </div>
         </div>

@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { MessageCircle, Menu, X } from 'lucide-react';
+import { MessageCircle, Send, Menu, X } from 'lucide-react';
 import { BRAND_CONFIG } from '../data/perfumesData';
 import { buildWhatsAppAdvisoryUrl } from '../utils/whatsapp';
 
@@ -51,19 +51,45 @@ export default function Navbar() {
             </div>
           </a>
 
-          {/* Desktop Navigation Links */}
-          <nav className="hidden lg:flex items-center gap-8 text-sm font-sans-luxury tracking-wide">
-            {navLinks.map((link) => (
+          {/* Desktop Navigation Links & Direct Order Links */}
+          <div className="hidden lg:flex items-center gap-7 text-sm font-sans-luxury tracking-wide">
+            <nav className="flex items-center gap-7">
+              {navLinks.map((link) => (
+                <a
+                  key={link.label}
+                  href={link.href}
+                  className="text-[#4A4036] hover:text-[#181512] transition-colors duration-200 relative group py-1"
+                >
+                  {link.label}
+                  <span className="absolute bottom-0 left-0 w-0 h-[1.5px] bg-[#D4AF37] transition-all duration-300 group-hover:w-full"></span>
+                </a>
+              ))}
+            </nav>
+
+            <div className="flex items-center gap-2 pl-3 border-l border-[#F0DDE2]">
               <a
-                key={link.label}
-                href={link.href}
-                className="text-[#4A4036] hover:text-[#181512] transition-colors duration-200 relative group py-1"
+                href={buildWhatsAppAdvisoryUrl()}
+                target="_blank"
+                rel="noopener noreferrer"
+                title="Order on WhatsApp"
+                className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-[7px] text-[11px] font-sans-luxury uppercase tracking-wider bg-[#181512] text-white hover:bg-black transition-colors"
               >
-                {link.label}
-                <span className="absolute bottom-0 left-0 w-0 h-[1.5px] bg-[#D4AF37] transition-all duration-300 group-hover:w-full"></span>
+                <MessageCircle className="w-3.5 h-3.5 text-[#C5A880]" />
+                <span>WhatsApp</span>
               </a>
-            ))}
-          </nav>
+
+              <a
+                href={BRAND_CONFIG.telegramChannel}
+                target="_blank"
+                rel="noopener noreferrer"
+                title="Order on Telegram Channel"
+                className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-[7px] text-[11px] font-sans-luxury uppercase tracking-wider bg-[#FDF2F5] text-[#8C6D46] border border-[#F0DDE2] hover:bg-[#F0DDE2] hover:text-[#181512] transition-colors"
+              >
+                <Send className="w-3.5 h-3.5" />
+                <span>Telegram</span>
+              </a>
+            </div>
+          </div>
 
           {/* Mobile Menu Toggle (Icon Only) */}
           <div className="lg:hidden flex items-center">
@@ -91,7 +117,7 @@ export default function Navbar() {
                   {link.label}
                 </a>
               ))}
-              <div className="pt-3">
+              <div className="pt-3 space-y-2">
                 <a
                   href={buildWhatsAppAdvisoryUrl()}
                   target="_blank"
@@ -99,8 +125,19 @@ export default function Navbar() {
                   onClick={() => setMobileMenuOpen(false)}
                   className="w-full flex items-center justify-center gap-2 py-3 px-4 rounded-[8px] text-xs font-medium uppercase tracking-wider bg-[#181512] text-white"
                 >
-                  <MessageCircle className="w-4 h-4" />
-                  Chat on WhatsApp ({BRAND_CONFIG.phoneDisplay})
+                  <MessageCircle className="w-4 h-4 text-[#C5A880]" />
+                  Order on WhatsApp ({BRAND_CONFIG.phoneDisplay})
+                </a>
+
+                <a
+                  href={BRAND_CONFIG.telegramChannel}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  onClick={() => setMobileMenuOpen(false)}
+                  className="w-full flex items-center justify-center gap-2 py-3 px-4 rounded-[8px] text-xs font-medium uppercase tracking-wider bg-[#FDF2F5] text-[#8C6D46] border border-[#F0DDE2]"
+                >
+                  <Send className="w-4 h-4" />
+                  Order on Telegram ({BRAND_CONFIG.telegramHandle})
                 </a>
               </div>
             </div>

@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { X, Clock, Wind, Calendar, Wine, Check, Share2, Layers, ExternalLink, Send } from 'lucide-react';
+import { X, Clock, Wind, Calendar, Wine, Check, Share2, Layers, ExternalLink, Send, MessageCircle } from 'lucide-react';
 import { buildWhatsAppOrderUrl } from '../utils/whatsapp';
 import { getProductImage, handleImageError } from '../utils/productImages';
 import { BRAND_CONFIG } from '../data/perfumesData';
@@ -290,31 +290,44 @@ export default function ScentDossier({ perfume, isOpen, onClose }) {
 
           </div>
 
-          {/* Drawer Sticky Footer with Telegram Prices & WhatsApp Conversion */}
+          {/* Drawer Sticky Footer with Telegram Prices & WhatsApp / Telegram Ordering */}
           <div className="sticky bottom-0 z-30 bg-[#FAF0F3] px-4 py-3 sm:px-6 sm:py-4 border-t border-[#F0DDE2] shadow-lg space-y-2.5">
             <a
               href={BRAND_CONFIG.telegramChannel}
               target="_blank"
               rel="noopener noreferrer"
-              className="w-full py-2.5 px-4 rounded-[8px] text-xs font-sans-luxury font-medium text-center bg-white/90 text-[#6E5D4F] hover:text-[#181512] hover:bg-white hover:border-[#D4AF37] transition-all duration-300 flex items-center justify-center gap-2 border border-[#F0DDE2] shadow-xs"
+              className="w-full py-2 px-4 rounded-[8px] text-xs font-sans-luxury font-medium text-center bg-white/90 text-[#6E5D4F] hover:text-[#181512] hover:bg-white hover:border-[#D4AF37] transition-all duration-300 flex items-center justify-center gap-2 border border-[#F0DDE2] shadow-xs"
             >
               <Send className="w-3.5 h-3.5 text-[#C5A880]" />
               <span>Prices available on our Telegram ({BRAND_CONFIG.telegramHandle})</span>
               <ExternalLink className="w-3 h-3 text-[#9E8B75] ml-0.5" />
             </a>
 
-            <a
-              href={whatsappUrl}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="w-full py-3.5 px-6 rounded-[8px] text-xs uppercase tracking-[0.2em] font-sans-luxury font-medium text-center bg-[#181512] text-white hover:bg-black transition-all duration-300 block"
-            >
-              Order via WhatsApp
-            </a>
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
+              <a
+                href={whatsappUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="py-3 px-4 rounded-[8px] text-xs uppercase tracking-[0.16em] font-sans-luxury font-medium text-center bg-[#181512] text-white hover:bg-black transition-all duration-300 flex items-center justify-center gap-2"
+              >
+                <MessageCircle className="w-4 h-4 text-[#C5A880]" />
+                <span>Order on WhatsApp</span>
+              </a>
+
+              <a
+                href={BRAND_CONFIG.telegramChannel}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="py-3 px-4 rounded-[8px] text-xs uppercase tracking-[0.16em] font-sans-luxury font-medium text-center bg-[#8C6D46] text-white hover:bg-[#725736] transition-all duration-300 flex items-center justify-center gap-2"
+              >
+                <Send className="w-4 h-4 text-[#FDF2F5]" />
+                <span>Order on Telegram</span>
+              </a>
+            </div>
 
             <div className="text-center pt-0.5">
               <span className="text-[10px] font-sans-luxury text-[#9E8B75]">
-                Direct to 09055334786 • Fast Delivery in CU
+                Ordering happens on WhatsApp ({BRAND_CONFIG.phoneDisplay}) or Telegram ({BRAND_CONFIG.telegramHandle}) • Fast Delivery in CU
               </span>
             </div>
           </div>

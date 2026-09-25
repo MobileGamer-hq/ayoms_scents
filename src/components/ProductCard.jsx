@@ -1,5 +1,5 @@
 import React from 'react';
-import { MessageCircle, ExternalLink } from 'lucide-react';
+import { MessageCircle, Send, ExternalLink } from 'lucide-react';
 import { buildWhatsAppOrderUrl } from '../utils/whatsapp';
 import { getProductImage, handleImageError } from '../utils/productImages';
 import { BRAND_CONFIG } from '../data/perfumesData';
@@ -88,37 +88,55 @@ export default function ProductCard({ perfume, onSelectPerfume }) {
         </div>
       </div>
 
-      {/* Card Footer: Price & Scent Dossier Action */}
-      <div className="pt-4 border-t border-[#F0DDE2] flex items-center justify-between gap-2 mt-2">
-        <div className="min-w-0 flex-1">
-          <span className="text-[9px] uppercase font-sans-luxury text-[#9E8B75] block">
-            Pricing
+      {/* Card Footer: Price & Order Actions (WhatsApp / Telegram) */}
+      <div className="pt-3.5 border-t border-[#F0DDE2] flex flex-col gap-2 mt-2">
+        <div className="flex items-center justify-between gap-1">
+          <div className="min-w-0">
+            <span className="text-[9px] uppercase font-sans-luxury text-[#9E8B75] block">
+              Pricing
+            </span>
+            <a
+              href={BRAND_CONFIG.telegramChannel}
+              target="_blank"
+              rel="noopener noreferrer"
+              onClick={(e) => e.stopPropagation()}
+              title="View prices on Telegram"
+              className="inline-flex items-center gap-1 text-[11px] font-sans-luxury font-medium text-[#8C6D46] hover:text-[#181512] transition-colors leading-tight group/price"
+            >
+              <span className="underline decoration-[#D4AF37]/50 underline-offset-2">Prices on Telegram</span>
+              <ExternalLink className="w-3 h-3 text-[#C5A880] shrink-0 group-hover/price:translate-x-0.5 transition-transform" />
+            </a>
+          </div>
+
+          <span className="text-[10px] font-sans-luxury text-[#9E8B75] shrink-0">
+            {perfume.volume}
           </span>
-          <a
-            href={BRAND_CONFIG.telegramChannel}
-            target="_blank"
-            rel="noopener noreferrer"
-            onClick={(e) => e.stopPropagation()}
-            title="View prices on Telegram"
-            className="inline-flex items-center gap-1 text-[11px] font-sans-luxury font-medium text-[#8C6D46] hover:text-[#181512] transition-colors leading-tight group/price"
-          >
-            <span className="underline decoration-[#D4AF37]/50 underline-offset-2">Prices available on our Telegram</span>
-            <ExternalLink className="w-3 h-3 text-[#C5A880] shrink-0 group-hover/price:translate-x-0.5 transition-transform" />
-          </a>
         </div>
 
-        <div>
-          {/* Quick WhatsApp Order */}
+        {/* Dual Quick Order Buttons: WhatsApp or Telegram */}
+        <div className="grid grid-cols-2 gap-1.5 pt-0.5">
           <a
             href={buildWhatsAppOrderUrl(perfume.name, perfume.house, perfume.volume)}
             target="_blank"
             rel="noopener noreferrer"
             onClick={(e) => e.stopPropagation()}
             title="Order via WhatsApp"
-            className="inline-flex items-center gap-1.5 px-3.5 py-1.5 rounded-[8px] text-[11px] font-sans-luxury uppercase tracking-wider bg-[#181512] text-white hover:bg-black transition-colors"
+            className="inline-flex items-center justify-center gap-1 py-1.5 px-2 rounded-[7px] text-[10px] font-sans-luxury uppercase tracking-wider bg-[#181512] text-white hover:bg-black transition-colors"
           >
-            <MessageCircle className="w-3.5 h-3.5 text-[#C5A880]" />
-            <span>Order</span>
+            <MessageCircle className="w-3 h-3 text-[#C5A880]" />
+            <span>WhatsApp</span>
+          </a>
+
+          <a
+            href={BRAND_CONFIG.telegramChannel}
+            target="_blank"
+            rel="noopener noreferrer"
+            onClick={(e) => e.stopPropagation()}
+            title="Order on Telegram Channel"
+            className="inline-flex items-center justify-center gap-1 py-1.5 px-2 rounded-[7px] text-[10px] font-sans-luxury uppercase tracking-wider bg-[#FDF2F5] text-[#8C6D46] border border-[#F0DDE2] hover:bg-[#F0DDE2] hover:text-[#181512] transition-colors"
+          >
+            <Send className="w-3 h-3 text-[#8C6D46]" />
+            <span>Telegram</span>
           </a>
         </div>
       </div>
